@@ -2,12 +2,12 @@
 - 👀 I’m interested in programming
 - 🌱 I’m currently learning python,Typescript,vue,react
 
-<details open>
+<!---<details open>
   <summary>📊GitHub Stats</summary>
 
   ![agions github-stats](https://stats.dooboo.io/api/github-stats-advanced?login=agions)
 
-</details>
+</details>-->
 
 <details>
   <summary>💻Tech Stack</summary>
