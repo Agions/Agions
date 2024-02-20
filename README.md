@@ -7,14 +7,18 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=agions" />
 
 </details>
-<!---<details >
+
+
+
+<details >
   <summary>GitHub streak</summary>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=agions" />
-</details>-->
+</details>
 
 <details>
   <summary>Tech Stack</summary>
   
+  ![Vue](https://img.shields.io/badge/vue-%2320232a.svg?style=for-the-badge&logo=vue&logoColor=green)
   ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
   ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
   ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
