@@ -2,15 +2,18 @@
 - 👀 I’m interested in programming
 - 🌱 I’m currently learning python,Typescript,vue,react
 
-<!---<details open>
-  <summary>📊GitHub Stats</summary>
+<details open>
+  <summary>Most used languages</summary>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=agions" />
 
-  ![agions github-stats](https://stats.dooboo.io/api/github-stats-advanced?login=agions)
-
+</details>
+<!---<details >
+  <summary>GitHub streak</summary>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=agions" />
 </details>-->
 
 <details>
-  <summary>💻Tech Stack</summary>
+  <summary>Tech Stack</summary>
   
   ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
   ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
