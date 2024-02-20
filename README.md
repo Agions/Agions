@@ -1,11 +1,11 @@
 - 👋 Hi, I’m @Agions
 - 👀 I’m interested in programming
-- 🌱 I’m currently learning python,Tavascript,vue,react
+- 🌱 I’m currently learning python,Typescript,vue,react
 
 <details open>
   <summary>📊GitHub Stats</summary>
 
-  <a href="https://stats.dooboo.io"><img src="https://stats.dooboo.io/api/github-stats-advanced?login=agions" width="600" /></a>
+  ![agions github-stats](https://stats.dooboo.io/api/github-stats-advanced?login=agions)
 
 </details>
 
