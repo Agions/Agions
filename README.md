@@ -29,9 +29,9 @@
   <tr>
     <td align="center">
       <a href="https://github.com/Agions/mini-app">
-        <b>📱 mini-app</b>
+        <b>📱 WalletWise</b>
       </a>
-      <p>uniapp 小程序项目</p>
+      <p>WalletWise是一款简洁高效的移动记账应用</p>
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
     </td>
     <td align="center">
