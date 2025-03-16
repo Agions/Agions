@@ -36,9 +36,9 @@
     </td>
     <td align="center">
       <a href="https://github.com/Agions/bee-go-blogs">
-        <b>📝 bee-go-blogs</b>
+        <b>📝 FinWise</b>
       </a>
-      <p>Go语言开发项目</p>
+      <p>FinWise（原WalletWise）是一个功能完善的移动记账应用后端API系统，基于Go语言和Beego框架开发，为用户提供全面的个人财务管理解决方案</p>
       <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
     </td>
   </tr>
