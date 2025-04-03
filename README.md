@@ -1,11 +1,5 @@
 # 👨‍💻 Agions 的技术档案
 
-<div align="center">
-  
-![访问量](https://komarev.com/ghpvc/?username=agions&color=blue)
-[![GitHub followers](https://img.shields.io/github/followers/agions?label=关注&style=social)](https://github.com/agions)
-
-</div>
 
 ## 👤 个人简介
 
