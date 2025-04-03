@@ -4,7 +4,7 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Climbing%20Light%20Skin%20Tone.png" alt="Man Climbing Light Skin Tone" width="25" height="25" /> 专业背景
 
 ```yaml
-地点: 杭州 (中国技术创新中心)
+地点: 杭州
 角色: 全栈工程师 | 跨平台应用架构师 | 技术解决方案专家
 专注领域: 多端应用开发、视频处理与AI应用、企业级解决方案
 技术哲学: 优先考虑用户体验、保持可维护性、追求技术创新
