@@ -32,7 +32,6 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Taro](https://img.shields.io/badge/Taro-0000b5?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAh1BMVEUAAAD///////////////////8mJib///////////8mJiaZmZn///+ZmZn///////8mJib////MzMz///8mJiaZmZmZmZn///+ZmZn///8mJib///8mJiaZmZn///+ZmZmZmZmZmZn///////8mJiYmJiYmJiaZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmJh4KlAAAALHRSTlMAAwgBBQIKviPgDPRG59gy2dCfkHpza1tQRDk1MSolIB4J8d7b1cxMS0kxKRWUt9EAAABvSURBVAjXTcjZFoIgAEXRQ5mKiKJSmDnmiPP/39eD7Ld9sZcUjJHySMokHHRn+kIDCwWE0sKPo3oPag89G4F2F71WIZaCK9BQJCNY/mHJCuJ9PO8uZlVICgy8X/ET9V/PSfcM4HxxOGy2EWTZ6g8niwtyF9vXFQAAAABJRU5ErkJggg==&logoColor=white)
 ![Tauri](https://img.shields.io/badge/Tauri-FFC131?style=for-the-badge&logo=Tauri&logoColor=white)
 ![微信小程序](https://img.shields.io/badge/微信小程序-07C160?style=for-the-badge&logo=wechat&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -41,7 +40,7 @@
 
 ## 💻 精品开源项目
 
-### 📹 视频处理与AI应用
+### 📹 视频与AI应用
 
 <table>
   <tr>
@@ -74,13 +73,12 @@
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
     </td>
     <td align="center">
-      <a href="https://github.com/Agions/web-page-detection">
-        <b>🔍 web-page-detection</b>
+      <a href="https://github.com/Agions/id-scanner-lib">
+        <b>🔎 id-scanner-lib</b>
       </a>
-      <p>Chrome浏览器扩展，可检测当前网页使用的技术栈并通过连接本地部署的Ollama模型提供AI聊天功能</p>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/Chrome-扩展开发-4285F4?style=flat-square&logo=google-chrome&logoColor=white" />
-      <img src="https://img.shields.io/badge/Ollama-AI集成-FF6F00?style=flat-square&logo=artificial-intelligence&logoColor=white" />
+      <p>纯前端实现的TypeScript身份证&二维码识别库，无需后端支持，所有处理在浏览器端完成</p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/Web_API-图像处理-E34F26?style=flat-square&logo=html5&logoColor=white" />
     </td>
   </tr>
 </table>
@@ -110,39 +108,20 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/Agions/taro-flex-table">
-        <b>📋 taro-flex-table</b>
-      </a>
-      <p>灵活的多端表格组件，基于Taro.js，支持微信、支付宝、百度、字节跳动、QQ、京东小程序以及H5环境</p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/组件库-UI框架-41CD52?style=flat-square" />
-    </td>
-    <td align="center">
-      <a href="https://github.com/Agions/id-scanner-lib">
-        <b>🔎 id-scanner-lib</b>
-      </a>
-      <p>纯前端实现的TypeScript身份证&二维码识别库，无需后端支持，所有处理在浏览器端完成</p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/Web_API-图像处理-E34F26?style=flat-square&logo=html5&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Agions/gantt-chart-component">
-        <b>📅 gantt-chart-component</b>
-      </a>
-      <p>同时支持React和Vue的甘特图组件，可用于项目管理和任务进度展示</p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vue.js&logoColor=white" />
-    </td>
-    <td align="center">
       <a href="https://github.com/Agions/utils">
         <b>🔧 utils</b>
       </a>
       <p>现代化的TypeScript工具库，包含200+精心设计的实用函数，涵盖日期处理、字符串操作、数组处理等常见开发需求</p>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/工具库-代码复用-339933?style=flat-square&logo=npm&logoColor=white" />
+    </td>
+    <td align="center">
+      <a href="https://github.com/Agions/xfyun-sdk">
+        <b>🔊 xfyun-sdk</b>
+      </a>
+      <p>基于科大讯飞语音识别 WebAPI 的 JavaScript/TypeScript SDK，提供了简单易用的接口，方便开发者在 Web 应用中集成语音识别功能</p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/Web_API-语音识别-E34F26?style=flat-square&logo=html5&logoColor=white" />
     </td>
   </tr>
 </table>
@@ -185,16 +164,6 @@
       <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
       <img src="https://img.shields.io/badge/Beego-后端框架-00ADD8?style=flat-square&logo=go&logoColor=white" />
       <img src="https://img.shields.io/badge/RESTful-API设计-FF6F00?style=flat-square&logo=fastapi&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <a href="https://github.com/Agions/Harmony-finance">
-        <b>🔄 HarmonyFinance</b>
-      </a>
-      <p>基于鸿蒙HarmonyOS的智能财务管理应用，帮助用户轻松管理个人财务，追踪收支情况，分析消费习惯，设定预算目标</p>
-      <img src="https://img.shields.io/badge/HarmonyOS-应用开发-FF0000?style=flat-square&logo=huawei&logoColor=white" />
-      <img src="https://img.shields.io/badge/跨终端-设备协同-161616?style=flat-square&logo=huawei&logoColor=white" />
     </td>
   </tr>
 </table>
