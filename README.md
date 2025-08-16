@@ -55,7 +55,7 @@
     </td>
     <td align="center">
       <a href="https://github.com/Agions/video-ocr">
-        <b>📹 video-ocr</b>
+        <b>📹 VisionSub</b>
       </a>
       <p>高效视频硬字幕提取工具，采用先进OCR技术，支持多语言识别，可从视频中精准提取字幕并输出为SRT格式，支持批量处理</p>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -104,24 +104,6 @@
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/ECharts-数据可视化-AA344D?style=flat-square" />
       <img src="https://img.shields.io/badge/小程序-多端适配-07C160?style=flat-square&logo=wechat&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Agions/utils">
-        <b>🔧 utils</b>
-      </a>
-      <p>现代化的TypeScript工具库，包含200+精心设计的实用函数，涵盖日期处理、字符串操作、数组处理等常见开发需求</p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/工具库-代码复用-339933?style=flat-square&logo=npm&logoColor=white" />
-    </td>
-    <td align="center">
-      <a href="https://github.com/Agions/xfyun-sdk">
-        <b>🔊 xfyun-sdk</b>
-      </a>
-      <p>基于科大讯飞语音识别 WebAPI 的 JavaScript/TypeScript SDK，提供了简单易用的接口，方便开发者在 Web 应用中集成语音识别功能</p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/Web_API-语音识别-E34F26?style=flat-square&logo=html5&logoColor=white" />
     </td>
   </tr>
 </table>
@@ -201,7 +183,7 @@
 <div align="center">
   
 [![GitHub](https://img.shields.io/badge/GitHub-Agions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Agions)
-[![Email](https://img.shields.io/badge/Email-联系我-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:1051736049@qq.com)
+[![Email](https://img.shields.io/badge/Email-联系我-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:agions@qq.com)
 
 </div>
 
@@ -210,6 +192,6 @@
 <div align="center">
   
   <p>✨ 感谢访问我的技术档案，期待与您探讨技术，共同进步 ✨</p>
-  <p><i>最后更新: 2025年4月</i></p>
+  <p><i>最后更新: 2025年8月</i></p>
   
 </div>
