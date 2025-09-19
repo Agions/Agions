@@ -45,8 +45,8 @@
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/Agions/VideoEpicCreator">
-        <b>🎬 VideoEpicCreator</b>
+      <a href="https://github.com/Agions/CineAIStudio">
+        <b>🎬 CineAIStudio</b>
       </a>
       <p>基于Python和PyQt6开发的智能视频混剪工具，整合多种AI大模型实现自动字幕识别、智能混剪、特效添加等功能，并与剪映等主流剪辑软件深度集成</p>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
