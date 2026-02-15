@@ -41,7 +41,7 @@
 
 ## 💻 精品开源项目
 
-### 🌟 高 Star 项目 (Star ≥ 10)
+### 🌟 高 Star 项目
 
 | 项目 | Star | 描述 |
 |------|------|------|
@@ -55,12 +55,12 @@
 ## 📊 GitHub 统计
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=agions&show_icons=true&theme=tokyonight" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=agions&theme=tokyonight" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=agions&show_icons=true&theme=tokyonight&rank_icon=github&bg_color=0D1117" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=agions&theme=tokyonight&date_format=%5BY%5D%20n%2Fd%2Fy" width="49%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=agions&layout=compact&theme=tokyonight" width="50%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=agions&layout=compact&theme=tokyonight&bg_color=0D1117&hide_border=true" width="50%" />
 </div>
 
 ## 🏆 开源贡献成就
