@@ -52,51 +52,6 @@
 
 ---
 
-### 📹 视频与 AI 应用
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Agions/CineFlow">
-        <b>🎬 CineFlow</b>
-      </a>
-      <p>基于 Python 和 PyQt6 开发的智能视频混剪工具，整合多种 AI 大模型实现自动字幕识别、智能混剪、特效添加等功能，与剪映等主流剪辑软件深度集成</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white" />
-      <img src="https://img.shields.io/badge/AI-大模型集成-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-    </td>
-    <td align="center">
-      <a href="https://github.com/Agions/VisionSub">
-        <b>📹 VisionSub</b>
-      </a>
-      <p>高效视频硬字幕提取工具，采用先进 OCR 技术，支持多语言识别，可从视频中精准提取字幕并输出为 SRT 格式，支持批量处理</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/OCR-图像识别-FF6F00?style=flat-square&logo=opencv&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Agions/blazecut">
-        <b>✂️ blazecut</b>
-      </a>
-      <p>基于 Tauri + React + TypeScript 开发的跨平台桌面应用，帮助创作者快速生成短视频剧本和剪辑方案，提升创作效率</p>
-      <img src="https://img.shields.io/badge/Tauri-FFC131?style=flat-square&logo=tauri&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-    </td>
-    <td align="center">
-      <a href="https://github.com/Agions/taskflow-ai">
-        <b>🤖 taskflow-ai</b>
-      </a>
-      <p>智能任务流管理系统，支持多种 AI 模型集成，自动规划和执行复杂任务序列</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/AI-任务规划-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-    </td>
-  </tr>
-</table>
-
----
-
 ## 📊 GitHub 统计
 
 <div align="center">
