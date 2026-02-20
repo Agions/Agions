@@ -1,6 +1,5 @@
 # 👨‍💻 Agions 的技术档案
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=agions&show_icons=true&theme=tokyonight)](https://github.com/Agions)
 
 ## 👤 个人简介
 
