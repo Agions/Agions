@@ -44,8 +44,8 @@
 
 | 项目 | Star | 描述 |
 |------|------|------|
-| **[CineFlow](https://github.com/Agions/CineFlow)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/cine-flow?style=social) | 智能视频混剪工具，集成多种AI大模型实现自动字幕、智能混剪、特效添加等功能 |
-| **[ClipFlow](https://github.com/Agions/clip-flow)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/clip-flow?style=social) | 基于 Tauri + React + TypeScript 的跨平台桌面应用，快速生成短视频剧本和剪辑方案 |
+| **[ClipFlowCut](https://github.com/Agions/ClipFlowCut)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/ClipFlowCut?style=social) | 智能视频混剪工具，集成多种AI大模型实现自动字幕、智能混剪、特效添加等功能 |
+| **[ClipFlow](https://github.com/Agions/ClipFlow)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/ClipFlow?style=social) | 基于 Tauri + React + TypeScript 的跨平台桌面应用，快速生成短视频剧本和剪辑方案 |
 | **[taskflow-ai](https://github.com/Agions/taskflow-ai)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/taskflow-ai?style=social) | AI 任务流管理系统，智能规划和执行复杂任务 |
 | **[VisionSub](https://github.com/Agions/VisionSub)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/VisionSub?style=social) | 高效视频硬字幕提取工具，采用先进 OCR 技术，支持多语言识别和批量处理 |
 
