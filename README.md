@@ -110,7 +110,6 @@
 | 项目 | 描述 | 技术栈 |
 |------|------|--------|
 | **[taro-bluetooth-print](https://github.com/Agions/taro-bluetooth-print)** | Taro 蓝牙打印库，支持多平台小程序 | TypeScript / 蓝牙 |
-| **[taro-plugin-statement](https://github.com/Agions/taro-plugin-statement)** | Taro 生态下的对账插件 | TypeScript |
 
 ---
 
