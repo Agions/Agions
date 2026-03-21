@@ -2,21 +2,40 @@
 
 <div align="center">
 
+<h2>你好，我是 Agions 👋</h2>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/📍-杭州-blue?style=flat-square">
+<img src="https://img.shields.io/badge/💼-全栈开发-green?style=flat-square">
+<img src="https://img.shields.io/badge/🔥-开源贡献者-red?style=flat-square">
+
+</p>
+
+<p>
+
+🔭 多年全栈开发经验，专注跨平台应用与系统架构设计<br/>
+🌱 持续探索 AI、音视频处理、自动化等前沿技术<br/>
+📝 热爱开源，作品涵盖视频处理、AI 任务流等多个领域<br/>
+🚢 擅长 Tauri、React Native、Node.js、Python、Go 等技术栈
+
+</p>
+
 ### 🔥 关注微信公众号：程序员Agions
 
-<img src="https://raw.githubusercontent.com/Agions/Agions/main/assets/wechat-qrcode.png" width="180" alt="微信公众号二维码">
+<img src="https://raw.githubusercontent.com/Agions/Agions/main/assets/wechat-qrcode.png" width="160" alt="微信公众号二维码">
 
 *扫码关注，获取技术干货与最新项目动态*
 
----
-
 </div>
+
+---
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Agions-181717?style=flat-square&logo=github)](https://github.com/Agions)
-[![Email](https://img.shields.io/badge/Email-agions@qq.com-D14836?style=flat-square&logo=gmail)](mailto:agions@qq.com)
-[![WeChat](https://img.shields.io/badge/微信公众号-程序员Agions-07C160?style=flat-square&logo=wechat)](https://mp.weixin.qq.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Agions-181717?style=for-the-badge&logo=github)](https://github.com/Agions)
+[![Email](https://img.shields.io/badge/Email-agions@qq.com-D14836?style=for-the-badge&logo=gmail)](mailto:agions@qq.com)
+[![WeChat](https://img.shields.io/badge/微信公众号-程序员Agions-07C160?style=for-the-badge&logo=wechat)](https://mp.weixin.qq.com)
 
 </div>
 
