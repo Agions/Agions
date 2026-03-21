@@ -102,15 +102,9 @@
 
 <p align="center">
 
-![Agions GitHub Stats](https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn&count_private=true)
+<img src="https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn&count_private=true" alt="GitHub Stats" />
 
-</p>
-
-<p align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn&hide=jupyter notebook)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Agions&theme=tokyonight&date_format=%5BY%5D%20n%2Fj&curr streak num=59&curr streak label=天&moring streak num=30&moring streak label=天)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn" alt="Top Languages" />
 
 </p>
 
