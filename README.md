@@ -1,38 +1,26 @@
-# 👨‍💻 Agions 的技术档案
+# 👨‍💻 Agions
 
 <div align="center">
 
 ### 🔥 关注微信公众号：程序员Agions
 
-<img src="https://raw.githubusercontent.com/Agions/Agions/main/assets/wechat-qrcode.png" width="200" alt="微信公众号二维码">
+<img src="https://raw.githubusercontent.com/Agions/Agions/main/assets/wechat-qrcode.png" width="180" alt="微信公众号二维码">
 
 *扫码关注，获取技术干货与最新项目动态*
 
+---
+
 </div>
-
-## 👤 个人简介
-
-- 📍 位于**杭州**，专注于全栈开发与跨平台应用
-- 🔭 热衷于探索前沿技术及其实际应用
-- 🌱 持续学习 AI、Python、TypeScript、React、Vue 等技术生态
-- 💼 拥有多年开发经验，擅长跨平台应用构建与系统架构设计
-
-## ⚡ 技术栈
 
 <div align="center">
 
-![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-FFC131?style=for-the-badge&logo=Tauri&logoColor=white)
-![微信小程序](https://img.shields.io/badge/微信小程序-07C160?style=for-the-badge&logo=wechat&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+[![GitHub](https://img.shields.io/badge/GitHub-Agions-181717?style=flat-square&logo=github)](https://github.com/Agions)
+[![Email](https://img.shields.io/badge/Email-agions@qq.com-D14836?style=flat-square&logo=gmail)](mailto:agions@qq.com)
+[![WeChat](https://img.shields.io/badge/微信公众号-程序员Agions-07C160?style=flat-square&logo=wechat)](https://mp.weixin.qq.com)
 
 </div>
+
+---
 
 ## 💻 精品开源项目
 
@@ -42,23 +30,23 @@
 <td width="50%">
 <h3><a href="https://github.com/Agions/ClipFlowCut">ClipFlowCut</a></h3>
 <p>智能视频混剪工具，集成多种AI大模型实现自动字幕、智能混剪、特效添加等功能</p>
-<p>
 
 ![Stars](https://img.shields.io/github/stars/Agions/ClipFlowCut?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square)
 
-</p>
 </td>
 
 <td width="50%">
 <h3><a href="https://github.com/Agions/ClipFlow">ClipFlow</a></h3>
 <p>基于 Tauri + React + TypeScript 的跨平台桌面应用，快速生成短视频剧本和剪辑方案</p>
-<p>
 
 ![Stars](https://img.shields.io/github/stars/Agions/ClipFlow?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square)
+![Tauri](https://img.shields.io/badge/Tauri-FFC131?style=flat-square)
 
-</p>
 </td>
 
 </tr>
@@ -67,62 +55,67 @@
 <td width="50%">
 <h3><a href="https://github.com/Agions/taskflow-ai">taskflow-ai</a></h3>
 <p>AI 任务流管理系统，智能规划和执行复杂任务</p>
-<p>
 
 ![Stars](https://img.shields.io/github/stars/Agions/taskflow-ai?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square)
 
-</p>
 </td>
 
 <td width="50%">
 <h3><a href="https://github.com/Agions/VisionSub">VisionSub</a></h3>
 <p>高效视频硬字幕提取工具，采用先进 OCR 技术，支持多语言识别和批量处理</p>
-<p>
 
 ![Stars](https://img.shields.io/github/stars/Agions/VisionSub?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)
+![OCR](https://img.shields.io/badge/OCR-FF6F00?style=flat-square)
 
-</p>
-</td>
-
-</tr>
-<tr>
-
-<td width="50%">
-<h3><a href="https://github.com/Agions/taro-bluetooth-print">taro-bluetooth-print</a></h3>
-<p>Taro 蓝牙打印库，支持多平台小程序</p>
-<p>
-
-![Stars](https://img.shields.io/github/stars/Agions/taro-bluetooth-print?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-
-</p>
 </td>
 
 </tr>
 </table>
 
+---
+
 ## 📊 GitHub 统计
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn)
+| <img src="https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn&count_private=true" width="420" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn&hide=jupyter notebook" width="320" /> |
+|:---:|:---:|
+| **总览** | **主要语言** |
 
 </div>
 
-## 📫 联系方式
+<div align="center">
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Agions&theme=tokyonight&date_format=%5BY%5D%20n%2Fj&curr streak num=59&curr streak label=天&moring streak num=30&moring streak label=天)
+
+</div>
+
+---
+
+## 🛠️ 技术栈
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Agions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Agions)
-[![Email](https://img.shields.io/badge/Email-agions@qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:agions@qq.com)
+| 分类 | 技术 |
+|:---:|:---|
+| 🖥️ **前端** | React, Vue, Taro, Vite |
+| 📱 **移动端** | React Native, 微信/支付宝小程序 |
+| ⚙️ **后端** | Node.js, Go, Python, FastAPI |
+| 🐳 **DevOps** | Docker, CI/CD, GitHub Actions |
+| 🎬 **音视频** | FFmpeg, OCR, 深度学习 |
+| 🌐 **跨平台** | Tauri, Electron, React Native |
 
 </div>
 
 ---
 
 <div align="center">
-  <p>✨ 感谢访问，期待与您探讨技术，共同进步 ✨</p>
+
+📍 **杭州** · 💼 **全栈开发** · 🔭 **技术探索**
+
 </div>
