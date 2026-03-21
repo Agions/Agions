@@ -100,19 +100,19 @@
 
 ## 📊 GitHub 统计
 
-<div align="center">
+<p align="center">
 
-| <img src="https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn&count_private=true" width="420" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn&hide=jupyter notebook" width="320" /> |
-|:---:|:---:|
-| **总览** | **主要语言** |
+![Agions GitHub Stats](https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn&count_private=true)
 
-</div>
+</p>
 
-<div align="center">
+<p align="center">
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn&hide=jupyter notebook)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Agions&theme=tokyonight&date_format=%5BY%5D%20n%2Fj&curr streak num=59&curr streak label=天&moring streak num=30&moring streak label=天)
 
-</div>
+</p>
 
 ---
 
