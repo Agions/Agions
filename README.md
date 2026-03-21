@@ -4,7 +4,7 @@
 
 ### 🔥 关注微信公众号：程序员Agions
 
-![WeChat QR Code](https://raw.githubusercontent.com/Agions/Agions/main/assets/wechat-qrcode.png)
+<img src="https://raw.githubusercontent.com/Agions/Agions/main/assets/wechat-qrcode.png" width="200" alt="微信公众号二维码">
 
 *扫码关注，获取技术干货与最新项目动态*
 
