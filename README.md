@@ -8,8 +8,6 @@
 
 *扫码关注，获取技术干货与最新项目动态*
 
----
-
 </div>
 
 ## 👤 个人简介
@@ -18,7 +16,6 @@
 - 🔭 热衷于探索前沿技术及其实际应用
 - 🌱 持续学习 AI、Python、TypeScript、React、Vue 等技术生态
 - 💼 拥有多年开发经验，擅长跨平台应用构建与系统架构设计
-- 📝 关注公众号 **程序员Agions**，获取更多技术分享
 
 ## ⚡ 技术栈
 
@@ -37,20 +34,7 @@
 
 </div>
 
-## 🔥 核心技术能力
-
-| 领域 | 技术 |
-|------|------|
-| 🖥️ **前端** | React / Vue / Taro / Vite |
-| 📱 **移动端** | React Native / 微信小程序 / 支付宝小程序 |
-| ⚙️ **后端** | Node.js / Go / Python / FastAPI |
-| 🐳 **DevOps** | Docker / CI/CD / GitHub Actions |
-| 🎬 **数据处理** | 视频处理 / OCR / 深度学习 |
-| 🌐 **跨平台** | Tauri / Electron / React Native |
-
 ## 💻 精品开源项目
-
-### 🌟 高 Star 项目
 
 <table>
 <tr>
@@ -103,26 +87,21 @@
 </td>
 
 </tr>
+<tr>
+
+<td width="50%">
+<h3><a href="https://github.com/Agions/taro-bluetooth-print">taro-bluetooth-print</a></h3>
+<p>Taro 蓝牙打印库，支持多平台小程序</p>
+<p>
+
+![Stars](https://img.shields.io/github/stars/Agions/taro-bluetooth-print?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+</p>
+</td>
+
+</tr>
 </table>
-
-### 📦 其他项目
-
-| 项目 | 描述 | 技术栈 |
-|------|------|--------|
-| **[taro-bluetooth-print](https://github.com/Agions/taro-bluetooth-print)** | Taro 蓝牙打印库，支持多平台小程序 | TypeScript / 蓝牙 |
-
----
-
-## 🏆 开源贡献成就
-
-<div align="center">
-
-| 成就 | 描述 |
-|------|------|
-| 🦈 **Pull Shark** | GitHub 活跃贡献者 |
-| ❄️ **Arctic Code Vault** | 北极代码库贡献者 |
-
-</div>
 
 ## 📊 GitHub 统计
 
@@ -139,7 +118,6 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Agions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Agions)
 [![Email](https://img.shields.io/badge/Email-agions@qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:agions@qq.com)
-[![微信公众号](https://img.shields.io/badge/微信公众号-程序员Agions-07C160?style=for-the-badge&logo=wechat&logoColor=white)](#)
 
 </div>
 
@@ -147,5 +125,4 @@
 
 <div align="center">
   <p>✨ 感谢访问，期待与您探讨技术，共同进步 ✨</p>
-  <p><i>最后更新: 2026年3月</i></p>
 </div>
