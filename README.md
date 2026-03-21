@@ -1,25 +1,24 @@
 # 👨‍💻 Agions 的技术档案
 
+<div align="center">
+
+### 🔥 关注微信公众号：程序员Agions
+
+![WeChat QR Code](https://raw.githubusercontent.com/Agions/Agions/main/assets/wechat-qrcode.png)
+
+*扫码关注，获取技术干货与最新项目动态*
+
+---
+
+</div>
 
 ## 👤 个人简介
 
-- 📍 位于**杭州**，专注于全栈开发
+- 📍 位于**杭州**，专注于全栈开发与跨平台应用
 - 🔭 热衷于探索前沿技术及其实际应用
-- 🌱 持续学习 Python、TypeScript、React、Vue 等技术生态
+- 🌱 持续学习 AI、Python、TypeScript、React、Vue 等技术生态
 - 💼 拥有多年开发经验，擅长跨平台应用构建与系统架构设计
-
-## 🔥 核心技术能力
-
-<div align="center">
-
-![前端](https://img.shields.io/badge/前端-React/Vue/Taro-61DAFB?style=flat-square&logo=react)
-![移动端](https://img.shields.io/badge/移动端-ReactNative/小程序-61DAFB?style=flat-square&logo=react)
-![后端](https://img.shields.io/badge/后端-Node.js/Go/Python-339933?style=flat-square&logo=node.js)
-![DevOps](https://img.shields.io/badge/DevOps-Docker/CI/CD-2496ED?style=flat-square&logo=docker)
-![数据处理](https://img.shields.io/badge/数据处理-视频处理/OCR-FF6F00?style=flat-square&logo=tensorflow)
-![多端适配](https://img.shields.io/badge/多端适配-跨平台解决方案-4285F4?style=flat-square&logo=google-chrome)
-
-</div>
+- 📝 关注公众号 **程序员Agions**，获取更多技术分享
 
 ## ⚡ 技术栈
 
@@ -38,40 +37,101 @@
 
 </div>
 
+## 🔥 核心技术能力
+
+| 领域 | 技术 |
+|------|------|
+| 🖥️ **前端** | React / Vue / Taro / Vite |
+| 📱 **移动端** | React Native / 微信小程序 / 支付宝小程序 |
+| ⚙️ **后端** | Node.js / Go / Python / FastAPI |
+| 🐳 **DevOps** | Docker / CI/CD / GitHub Actions |
+| 🎬 **数据处理** | 视频处理 / OCR / 深度学习 |
+| 🌐 **跨平台** | Tauri / Electron / React Native |
+
 ## 💻 精品开源项目
 
 ### 🌟 高 Star 项目
 
-| 项目 | Star | 描述 |
-|------|------|------|
-| **[ClipFlowCut](https://github.com/Agions/ClipFlowCut)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/ClipFlowCut?style=social) | 智能视频混剪工具，集成多种AI大模型实现自动字幕、智能混剪、特效添加等功能 |
-| **[ClipFlow](https://github.com/Agions/ClipFlow)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/ClipFlow?style=social) | 基于 Tauri + React + TypeScript 的跨平台桌面应用，快速生成短视频剧本和剪辑方案 |
-| **[taskflow-ai](https://github.com/Agions/taskflow-ai)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/taskflow-ai?style=social) | AI 任务流管理系统，智能规划和执行复杂任务 |
-| **[VisionSub](https://github.com/Agions/VisionSub)** | ![GitHub Repo stars](https://img.shields.io/github/stars/Agions/VisionSub?style=social) | 高效视频硬字幕提取工具，采用先进 OCR 技术，支持多语言识别和批量处理 |
+<table>
+<tr>
+
+<td width="50%">
+<h3><a href="https://github.com/Agions/ClipFlowCut">ClipFlowCut</a></h3>
+<p>智能视频混剪工具，集成多种AI大模型实现自动字幕、智能混剪、特效添加等功能</p>
+<p>
+
+![Stars](https://img.shields.io/github/stars/Agions/ClipFlowCut?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+</p>
+</td>
+
+<td width="50%">
+<h3><a href="https://github.com/Agions/ClipFlow">ClipFlow</a></h3>
+<p>基于 Tauri + React + TypeScript 的跨平台桌面应用，快速生成短视频剧本和剪辑方案</p>
+<p>
+
+![Stars](https://img.shields.io/github/stars/Agions/ClipFlow?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+</p>
+</td>
+
+</tr>
+<tr>
+
+<td width="50%">
+<h3><a href="https://github.com/Agions/taskflow-ai">taskflow-ai</a></h3>
+<p>AI 任务流管理系统，智能规划和执行复杂任务</p>
+<p>
+
+![Stars](https://img.shields.io/github/stars/Agions/taskflow-ai?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+</p>
+</td>
+
+<td width="50%">
+<h3><a href="https://github.com/Agions/VisionSub">VisionSub</a></h3>
+<p>高效视频硬字幕提取工具，采用先进 OCR 技术，支持多语言识别和批量处理</p>
+<p>
+
+![Stars](https://img.shields.io/github/stars/Agions/VisionSub?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+</p>
+</td>
+
+</tr>
+</table>
+
+### 📦 其他项目
+
+| 项目 | 描述 | 技术栈 |
+|------|------|--------|
+| **[taro-bluetooth-print](https://github.com/Agions/taro-bluetooth-print)** | Taro 蓝牙打印库，支持多平台小程序 | TypeScript / 蓝牙 |
+| **[taro-plugin-statement](https://github.com/Agions/taro-plugin-statement)** | Taro 生态下的对账插件 | TypeScript |
 
 ---
-
-## 📊 GitHub 统计
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=agions&theme=tokyonight&date_format=%5BY%5D%20n%2Fd%2Fy" width="49%" />
-</div>
 
 ## 🏆 开源贡献成就
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img width="60" src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" />
-        <br>Pull Shark
-      </td>
-      <td align="center">
-        <img width="60" src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" />
-        <br>Arctic Code Vault Contributor
-      </td>
-    </tr>
-  </table>
+
+| 成就 | 描述 |
+|------|------|
+| 🦈 **Pull Shark** | GitHub 活跃贡献者 |
+| ❄️ **Arctic Code Vault** | 北极代码库贡献者 |
+
+</div>
+
+## 📊 GitHub 统计
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn)
+
 </div>
 
 ## 📫 联系方式
@@ -80,6 +140,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Agions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Agions)
 [![Email](https://img.shields.io/badge/Email-agions@qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:agions@qq.com)
+[![微信公众号](https://img.shields.io/badge/微信公众号-程序员Agions-07C160?style=for-the-badge&logo=wechat&logoColor=white)](#)
 
 </div>
 
@@ -87,5 +148,5 @@
 
 <div align="center">
   <p>✨ 感谢访问，期待与您探讨技术，共同进步 ✨</p>
-  <p><i>最后更新: 2026年2月</i></p>
+  <p><i>最后更新: 2026年3月</i></p>
 </div>
