@@ -100,13 +100,20 @@
 
 ## 📊 GitHub 统计
 
-<p align="center">
+<table align="center">
+<tr align="center">
+<td width="50%">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn&count_private=true" alt="GitHub Stats" />
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn&count_private=true)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn" alt="Top Languages" />
+</td>
+<td width="50%">
 
-</p>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn)
+
+</td>
+</tr>
+</table>
 
 ---
 
