@@ -23,22 +23,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-
-| Repositories | Total Stars | Followers | Contributions |
-|:---:|:---:|:---:|:---:|
-| 12 | 383 | 21 | 1656 |
-
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&theme=github_dark_dimmed&bg_color=0a0e17&title_color=0A84FF&icon_color=4D9BFF&text_color=C9D1D9&layout=compact&langs_count=8&hide_border=true" width="50%"/>
-</p>
-
----
-
 ## 🏆 Trophy
 
 <p align="center">
