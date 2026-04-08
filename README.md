@@ -8,6 +8,7 @@
   <a href="https://github.com/Agions"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="28"/></a>
   <a href="mailto:agions@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28"/></a>
   <a href="https://twitter.com/agions"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" height="28"/></a>
+  <a href="assets/wechat-qrcode.png"><img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white" height="28"/></a>
 </p>
 
 ---
@@ -103,3 +104,10 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Agions&style=for-the-badge&color=0A84FF&label=Profile+Views" alt="Profile Views"/>
 </p>
+
+---
+
+<div align="center">
+  <img src="assets/wechat-qrcode.png" width="120" alt="WeChat QR Code" style="border-radius:8px;"/>
+  <p style="font-size:12px; color:#6B7280; margin-top:6px;">微信公众号 · WeChat</p>
+</div>
