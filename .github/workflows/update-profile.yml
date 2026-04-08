@@ -1,0 +1,20 @@
+name: Update Profile
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update timestamp
+        run: |
+          date_str=$(date '+%Y-%m-%d %H:%M')
+          echo "Profile updated at: $date_str"
