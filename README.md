@@ -88,19 +88,6 @@
 
 ---
 
-## 📊 GitHub 统计
-
-<p align="center">
-
-[![Profile Views](https://komarev.com/ghprofile/views-count/?username=Agions&color=0A84FF&style=flat-square&label=Views)](https://github.com/Agions)
-[![Repos](https://img.shields.io/badge/Repositories-12-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Agions?tab=repositories)
-[![Followers](https://img.shields.io/badge/Followers-21-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Agions?tab=followers)
-[![Stars](https://img.shields.io/badge/Stars-341-FFC107?style=flat-square&logo=star&logoColor=white)](https://github.com/Agions?tab=stars)
-
-</p>
-
----
-
 ## 🛠️ 技术栈
 
 <div align="center">
