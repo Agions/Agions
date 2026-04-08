@@ -1,141 +1,73 @@
-# 👨‍💻 Agions
+# Agions
 
 <div align="center">
 
-<h2>你好，我是 Agions 👋</h2>
+### Building tools that make video creation smarter.
+
+Full-stack developer based in **Hangzhou, China**. Focused on cross-platform desktop apps, AI-powered video tools, and developer automation.
+
+[Projects](#-featured-projects) · [Skills](#-tech-stack) · [Contact](#-get-in-touch)
+
+</div>
+
+---
+
+## ✦ Featured Projects
+
+| Project | Description | Stack | Stars |
+|:---|:---|:---|:---:|
+| **[Narrafiilm](https://github.com/Agions/Narrafiilm)** | AI first-person video narrator. Upload video, generate voiceover narration from the protagonist's perspective | Python · PyQt6 | ★ 270 |
+| **[CutDeck](https://github.com/Agions/CutDeck)** | Open-source AI video clipper. Long video → short viral clips. Multi-format (9:16/1:1/16:9), Whisper subtitles, Rust rendering | TypeScript · Tauri | ★ 41 |
+| **[HardSubX](https://github.com/Agions/HardSubX)** | Professional hard subtitle extraction with OCR. Frame-accurate SRT/VTT/ASS output. PaddleOCR + Tesseract.js | Vue 3 · Rust · Tauri | ★ 14 |
+| **[ManGaAI](https://github.com/Agions/ManGaAI)** | AI manga-to-video platform. Transform scripts into dynamic manga-style videos | TypeScript | ★ 18 |
+| **[taskflow-ai](https://github.com/Agions/taskflow-ai)** | AI-driven PRD parsing and task orchestration for dev teams | TypeScript · FastAPI | ★ 12 |
+| **[id-scanner-lib](https://github.com/Agions/id-scanner-lib)** | Pure-browser ID card & QR code scanner. No backend required | TypeScript | ★ 8 |
+| **[taro-bluetooth-print](https://github.com/Agions/taro-bluetooth-print)** | Lightweight Bluetooth printing library for Taro. Multi-platform (WeChat/Alipay/QQ/H5/RN) | TypeScript | ★ 0 |
+
+---
+
+## ✦ Tech Stack
+
+**Desktop & Cross-Platform**
+`Tauri` `Electron` `React Native` `Vue 3`
+
+**Frontend**
+`TypeScript` `React` `Vite` `SCSS` `Pinia`
+
+**Backend & APIs**
+`Node.js` `Python` `Go` `FastAPI` `Rust`
+
+**AI & Media**
+`FFmpeg` `Whisper` `PaddleOCR` `Tesseract.js` `PyTorch`
+
+**DevOps**
+`Docker` `GitHub Actions` `CI/CD`
+
+---
+
+## ✦ GitHub Stats
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/📍-杭州-blue?style=flat-square">
-<img src="https://img.shields.io/badge/💼-全栈开发-green?style=flat-square">
-<img src="https://img.shields.io/badge/🔥-开源贡献者-red?style=flat-square">
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Agions&theme=radical&show_icons=true&count_private=true)](https://github.com/Agions)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=radical)](https://github.com/Agions)
 
 </p>
 
-<p>
+---
 
-🔭 多年全栈开发经验，专注跨平台应用与系统架构设计<br/>
-🌱 持续探索 AI、音视频处理、自动化等前沿技术<br/>
-📝 热爱开源，作品涵盖视频处理、AI 任务流等多个领域<br/>
-🚢 擅长 Tauri、React Native、Node.js、Python、Go 等技术栈
+## ✦ Get in Touch
+
+<p align="center">
+
+[![Email](https://img.shields.io/badge/agions@qq.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:agions@qq.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Agions-181717?style=flat&logo=github&logoColor=white)](https://github.com/Agions)
+[![X/Twitter](https://img.shields.io/badge/X/Twitter-000000?style=flat&logo=twitter&logoColor=white)](https://twitter.com/agions)
 
 </p>
 
-### 🔥 关注微信公众号：程序员Agions
+<p align="center">
 
-<img src="https://raw.githubusercontent.com/Agions/Agions/main/assets/wechat-qrcode.png" width="160" alt="微信公众号二维码">
+📍 Hangzhou, China
 
-*扫码关注，获取技术干货与最新项目动态*
-
-</div>
-
----
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Agions-181717?style=for-the-badge&logo=github)](https://github.com/Agions)
-[![Email](https://img.shields.io/badge/Email-agions@qq.com-D14836?style=for-the-badge&logo=gmail)](mailto:agions@qq.com)
-[![WeChat](https://img.shields.io/badge/微信公众号-程序员Agions-07C160?style=for-the-badge&logo=wechat)](https://mp.weixin.qq.com)
-
-</div>
-
----
-
-## 💻 精品开源项目
-
-<table>
-<tr>
-
-<td width="50%">
-<h3><a href="https://github.com/Agions/ClipFlowCut">ClipFlowCut</a></h3>
-<p>智能视频混剪工具，集成多种AI大模型实现自动字幕、智能混剪、特效添加等功能</p>
-
-![Stars](https://img.shields.io/github/stars/Agions/ClipFlowCut?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)
-![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square)
-
-</td>
-
-<td width="50%">
-<h3><a href="https://github.com/Agions/ClipFlow">ClipFlow</a></h3>
-<p>基于 Tauri + React + TypeScript 的跨平台桌面应用，快速生成短视频剧本和剪辑方案</p>
-
-![Stars](https://img.shields.io/github/stars/Agions/ClipFlow?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square)
-![Tauri](https://img.shields.io/badge/Tauri-FFC131?style=flat-square)
-
-</td>
-
-</tr>
-<tr>
-
-<td width="50%">
-<h3><a href="https://github.com/Agions/taskflow-ai">taskflow-ai</a></h3>
-<p>AI 任务流管理系统，智能规划和执行复杂任务</p>
-
-![Stars](https://img.shields.io/github/stars/Agions/taskflow-ai?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square)
-
-</td>
-
-<td width="50%">
-<h3><a href="https://github.com/Agions/VisionSub">VisionSub</a></h3>
-<p>高效视频硬字幕提取工具，采用先进 OCR 技术，支持多语言识别和批量处理</p>
-
-![Stars](https://img.shields.io/github/stars/Agions/VisionSub?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)
-![OCR](https://img.shields.io/badge/OCR-FF6F00?style=flat-square)
-
-</td>
-
-</tr>
-</table>
-
----
-
-## 📊 GitHub 统计
-
-<table align="center">
-<tr align="center">
-<td width="50%">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=tokyonight&locale=cn&count_private=true)
-
-</td>
-<td width="50%">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=tokyonight&locale=cn)
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ 技术栈
-
-<div align="center">
-
-| 分类 | 技术 |
-|:---:|:---|
-| 🖥️ **前端** | React, Vue, Taro, Vite |
-| 📱 **移动端** | React Native, 微信/支付宝小程序 |
-| ⚙️ **后端** | Node.js, Go, Python, FastAPI |
-| 🐳 **DevOps** | Docker, CI/CD, GitHub Actions |
-| 🎬 **音视频** | FFmpeg, OCR, 深度学习 |
-| 🌐 **跨平台** | Tauri, Electron, React Native |
-
-</div>
-
----
-
-<div align="center">
-
-📍 **杭州** · 💼 **全栈开发** · 🔭 **技术探索**
-
-</div>
+</p>
