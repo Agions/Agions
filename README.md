@@ -17,19 +17,19 @@
 
 **专注跨平台桌面应用与 AI 音视频工具的全栈开发者**
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=16&duration=2800&pause=800&color=0A84FF&vCenter=true&width=420&lines=跨平台桌面应用 · AI 音视频工具 · 开源全栈开发者" alt="Typing effect"/>
-</p>
+**技术栈：** Tauri · Rust · Python · TypeScript · Vue 3 · React · FFmpeg · Whisper
+
+**所在地：** Hangzhou, China
 
 ---
 
-## 📊 Stats
+## 📊 GitHub Stats
 
 <p align="center">
 
-| | |
-|:---:|:---:|
-| <img src="https://github-readme-stats.vercel.app/api?username=Agions&theme=github_dark_dimmed&hide_border=true&rank_icon=github&bg_color=0a0e17&title_color=0A84FF&icon_color=4D9BFF&text_color=C9D1D9" width="340"/> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=Agions&theme=github-dark-dimmed&background=0a0e17&border=1a2235&stroke=0A84FF&ring=0A84FF&fire=FFC107&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=streak&sideLabels=C9D1D9&dates=C9D1D9&type=svg" width="340"/> |
+| Repositories | Total Stars | Followers | Contributions |
+|:---:|:---:|:---:|:---:|
+| 12 | 383 | 21 | 1656 |
 
 </p>
 
@@ -49,21 +49,33 @@
 
 ## 🚀 Projects
 
-<p align="center">
+**Narrafiilm** · AI 第一人称视频解说生成器
+`PyQt6` `Whisper` `FFmpeg` `Python`
+⭐ 57 · [View →](https://github.com/Agions/Narrafiilm)
 
-| | | |
-|:---:|:---|:---|
-| <img src="https://img.shields.io/github/stars/Agions/Narrafiilm?style=flat-square&color=FFC107" valign="middle"/> | **[Narrafiilm](https://github.com/Agions/Narrafiilm)** | AI 第一人称视频解说生成器 · PyQt6 · Whisper · FFmpeg |
+---
 
-| <img src="https://img.shields.io/github/stars/Agions/CutDeck?style=flat-square&color=FFC107" valign="middle"/> | **[CutDeck](https://github.com/Agions/CutDeck)** | 开源 AI 视频剪辑工具 · Tauri · Rust · Vue 3 · 多格式导出 |
+**CutDeck** · 开源 AI 视频剪辑工具
+`Tauri` `Rust` `Vue 3` `Vue 3` `TypeScript`
+⭐ 28 · [View →](https://github.com/Agions/CutDeck)
 
-| <img src="https://img.shields.io/github/stars/Agions/ManGaAI?style=flat-square&color=FFC107" valign="middle"/> | **[ManGaAI](https://github.com/Agions/ManGaAI)** | AI 漫剧视频创作平台 · 小说→动态漫剧自动转换 |
+---
 
-| <img src="https://img.shields.io/github/stars/Agions/HardSubX?style=flat-square&color=FFC107" valign="middle"/> | **[HardSubX](https://github.com/Agions/HardSubX)** | 专业硬字幕提取工具 · 多 OCR 引擎 · 9 种导出格式 |
+**ManGaAI** · AI 漫剧视频创作平台
+`Taro` `React` `Python` `Whisper`
+⭐ 8 · [View →](https://github.com/Agions/ManGaAI)
 
-| <img src="https://img.shields.io/github/stars/Agions/taro-bluetooth-print?style=flat-square&color=FFC107" valign="middle"/> | **[taro-bluetooth-print](https://github.com/Agions/taro-bluetooth-print)** | 微信小程序蓝牙打印 SDK · Taro · TypeScript |
+---
 
-</p>
+**HardSubX** · 专业硬字幕提取工具
+`Tauri` `Rust` `Vue 3` `TypeScript` `PaddleOCR`
+⭐ 128 · [View →](https://github.com/Agions/HardSubX)
+
+---
+
+**taro-bluetooth-print** · 微信小程序蓝牙打印 SDK
+`Taro` `TypeScript` `微信小程序` `蓝牙 BLE`
+⭐ 162 · [View →](https://github.com/Agions/taro-bluetooth-print)
 
 ---
 
@@ -84,12 +96,6 @@
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" height="30"/>
 
 </p>
-
----
-
-## 📈 Activity Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Agions&bg_color=0a0e17&color=0A84FF&line=0A84FF&point=4D9BFF&area_color=0A84FF&area=true&height=200&hide_border=true" alt="Activity Graph"/>
 
 ---
 
