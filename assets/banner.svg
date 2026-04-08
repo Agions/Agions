@@ -1,80 +1,175 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" role="img" aria-label="Agions Banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-label="Agions — Full-Stack Developer">
   <title>Agions — Full-Stack Developer</title>
-  <desc>Professional developer banner for GitHub profile</desc>
+  <desc>Professional animated banner for GitHub profile</desc>
 
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="40%" stop-color="#161B22"/>
+      <stop offset="50%" stop-color="#161B22"/>
       <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="blueLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0A84FF" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#0A84FF" stop-opacity="0.4"/>
-      <stop offset="70%" stop-color="#00D4AA" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#0A84FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0A84FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4AA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00D4AA" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#00D4AA" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="glowBlue" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#4D9BFF"/>
-      <stop offset="100%" stop-color="#0A84FF"/>
-    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="avatarClip">
+      <circle cx="110" cy="110" r="50"/>
+    </clipPath>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="200" fill="url(#bg)"/>
+  <rect width="900" height="220" fill="url(#bg)" rx="12"/>
 
-  <!-- Subtle grid pattern -->
-  <g stroke="#0A84FF" stroke-opacity="0.06" stroke-width="1">
-    <line x1="0" y1="50" x2="900" y2="50"/>
-    <line x1="0" y1="100" x2="900" y2="100"/>
-    <line x1="0" y1="150" x2="900" y2="150"/>
-    <line x1="150" y1="0" x2="150" y2="200"/>
-    <line x1="300" y1="0" x2="300" y2="200"/>
-    <line x1="450" y1="0" x2="450" y2="200"/>
-    <line x1="600" y1="0" x2="600" y2="200"/>
-    <line x1="750" y1="0" x2="750" y2="200"/>
+  <!-- Subtle grid -->
+  <g stroke="#0A84FF" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="55" x2="900" y2="55"/>
+    <line x1="0" y1="110" x2="900" y2="110"/>
+    <line x1="0" y1="165" x2="900" y2="165"/>
+    <line x1="200" y1="0" x2="200" y2="220"/>
+    <line x1="400" y1="0" x2="400" y2="220"/>
+    <line x1="600" y1="0" x2="600" y2="220"/>
+    <line x1="800" y1="0" x2="800" y2="220"/>
   </g>
 
-  <!-- Horizontal accent line -->
-  <rect x="60" y="90" width="240" height="2" rx="1" fill="url(#lineGrad)"/>
-  <rect x="600" y="108" width="240" height="2" rx="1" fill="url(#lineGrad)"/>
+  <!-- Ambient glow orb left -->
+  <circle cx="50" cy="110" r="80" fill="#0A84FF" opacity="0.04">
+    <animate attributeName="opacity" values="0.04;0.08;0.04" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Ambient glow orb right -->
+  <circle cx="850" cy="110" r="80" fill="#00D4AA" opacity="0.04">
+    <animate attributeName="opacity" values="0.04;0.07;0.04" dur="5s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- Dot accents -->
-  <circle cx="50" cy="91" r="3" fill="#0A84FF" opacity="0.7"/>
-  <circle cx="850" cy="109" r="3" fill="#00D4AA" opacity="0.7"/>
+  <!-- Animated horizontal lines -->
+  <rect x="200" y="76" width="180" height="1.5" rx="0.75" fill="url(#blueLine)">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="200;250;200" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="520" y="144" width="180" height="1.5" rx="0.75" fill="url(#cyanLine)">
+    <animate attributeName="opacity" values="0;1;0" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Left: Main name -->
-  <text x="60" y="72"
-        font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif"
-        font-size="52" font-weight="700" letter-spacing="-1"
+  <!-- Avatar ring (outer glow) -->
+  <circle cx="110" cy="110" r="54" fill="none" stroke="#0A84FF" stroke-width="1.5" opacity="0.3">
+    <animate attributeName="r" values="54;56;54" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Avatar ring (inner) -->
+  <circle cx="110" cy="110" r="50" fill="none" stroke="#0A84FF" stroke-width="2"/>
+  <!-- Avatar initials -->
+  <text x="110" y="118"
+        font-family="'Inter','Segoe UI',Arial,sans-serif"
+        font-size="28" font-weight="700" fill="#FFFFFF"
+        text-anchor="middle" clip-path="url(#avatarClip)">AG</text>
+
+  <!-- Animated dot at top of avatar -->
+  <circle cx="110" cy="57" r="3" fill="#0A84FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <line x1="110" y1="60" x2="110" y2="70" stroke="#0A84FF" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Name -->
+  <text x="195" y="88"
+        font-family="'Inter','Segoe UI',Arial,sans-serif"
+        font-size="48" font-weight="700" letter-spacing="-0.5"
         fill="#FFFFFF">Agions</text>
 
-  <!-- Left: Role -->
-  <text x="60" y="130"
-        font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif"
-        font-size="15" font-weight="400" letter-spacing="4"
-        fill="#4D9BFF" opacity="0.95">FULL-STACK DEVELOPER</text>
+  <!-- Blinking cursor -->
+  <rect x="195" y="96" width="2" height="22" rx="1" fill="#0A84FF" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.2s" begin="1s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Left: Location + focus -->
-  <text x="60" y="160"
-        font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif"
-        font-size="13"
-        fill="#7C8CA1">Hangzhou, China · Video Tools · AI · Cross-Platform Apps</text>
+  <!-- Animated underline accent -->
+  <rect x="195" y="104" width="0" height="2" rx="1" fill="#0A84FF">
+    <animate attributeName="width" values="0;160;160" dur="1s" begin="0.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/>
+  </rect>
 
-  <!-- Right: Stats boxes -->
-  <!-- Projects box -->
-  <rect x="650" y="50" width="90" height="50" rx="8" fill="#0A84FF" fill-opacity="0.12"/>
-  <rect x="650" y="50" width="90" height="50" rx="8" fill="none" stroke="#0A84FF" stroke-opacity="0.3"/>
-  <text x="695" y="73" font-family="'Inter',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">12</text>
-  <text x="695" y="90" font-family="'Inter',Arial,sans-serif" font-size="10" fill="#4D9BFF" text-anchor="middle" letter-spacing="1">REPOS</text>
+  <!-- Role label -->
+  <text x="195" y="128"
+        font-family="'Inter','Segoe UI',Arial,sans-serif"
+        font-size="12" font-weight="600" letter-spacing="4"
+        fill="#0A84FF">FULL-STACK DEVELOPER</text>
+
+  <!-- Subtitle with fade-in -->
+  <text x="195" y="152"
+        font-family="'Inter','Segoe UI',Arial,sans-serif"
+        font-size="13.5" fill="#7C8CA1" opacity="0">
+    <animate attributeName="opacity" values="0;0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
+    Hangzhou · Cross-Platform Apps · AI Video Tools · OSS
+  </text>
+
+  <!-- Stats boxes -->
+  <!-- Repos box -->
+  <rect x="580" y="62" width="72" height="46" rx="8"
+        fill="#0A84FF" fill-opacity="0.08"
+        stroke="#0A84FF" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="616" y="86" font-family="'Inter',Arial,sans-serif"
+        font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">12</text>
+  <text x="616" y="101" font-family="'Inter',Arial,sans-serif"
+        font-size="9.5" font-weight="600" fill="#4D9BFF" text-anchor="middle" letter-spacing="1.5">REPOS</text>
 
   <!-- Stars box -->
-  <rect x="750" y="50" width="90" height="50" rx="8" fill="#FFC107" fill-opacity="0.1"/>
-  <rect x="750" y="50" width="90" height="50" rx="8" fill="none" stroke="#FFC107" stroke-opacity="0.3"/>
-  <text x="795" y="73" font-family="'Inter',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">341</text>
-  <text x="795" y="90" font-family="'Inter',Arial,sans-serif" font-size="10" fill="#FFC107" text-anchor="middle" letter-spacing="1">STARS</text>
+  <rect x="662" y="62" width="72" height="46" rx="8"
+        fill="#FFC107" fill-opacity="0.08"
+        stroke="#FFC107" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="698" y="86" font-family="'Inter',Arial,sans-serif"
+        font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">341</text>
+  <text x="698" y="101" font-family="'Inter',Arial,sans-serif"
+        font-size="9.5" font-weight="600" fill="#FFC107" text-anchor="middle" letter-spacing="1.5">STARS</text>
 
-  <!-- Bottom bar: tech tags -->
-  <rect x="0" y="190" width="900" height="10" fill="url(#lineGrad)" opacity="0.5"/>
+  <!-- Followers box -->
+  <rect x="744" y="62" width="72" height="46" rx="8"
+        fill="#30D158" fill-opacity="0.08"
+        stroke="#30D158" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="780" y="86" font-family="'Inter',Arial,sans-serif"
+        font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">21</text>
+  <text x="780" y="101" font-family="'Inter',Arial,sans-serif"
+        font-size="9.5" font-weight="600" fill="#30D158" text-anchor="middle" letter-spacing="1.5">FOLLOW</text>
+
+  <!-- Animated scanning line in bottom area -->
+  <rect x="0" y="165" width="4" height="55" rx="2" fill="#0A84FF" opacity="0.4">
+    <animate attributeName="x" values="0;896;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.1;0.4;0.4" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom tech label strip -->
+  <rect x="0" y="200" width="900" height="20" fill="url(#bg)" rx="0 0 12 12"/>
+  <rect x="0" y="200" width="900" height="20" rx="0 0 12 12" fill="none" stroke="#0A84FF" stroke-opacity="0.15" stroke-width="0"/>
+  <text x="450" y="214" font-family="'Inter',Arial,sans-serif"
+        font-size="9.5" font-weight="500" letter-spacing="3"
+        fill="#4D9BFF" text-anchor="middle" opacity="0.5">
+    Tauri · Rust · Python · TypeScript · Vue 3 · AI
+  </text>
+
+  <!-- Corner decorations -->
+  <circle cx="16" cy="16" r="2" fill="#0A84FF" opacity="0.4">
+    <animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="884" cy="16" r="2" fill="#00D4AA" opacity="0.4">
+    <animate attributeName="r" values="2;3;2" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="16" cy="204" r="2" fill="#0A84FF" opacity="0.4">
+    <animate attributeName="r" values="2;3;2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="884" cy="204" r="2" fill="#00D4AA" opacity="0.4">
+    <animate attributeName="r" values="2;3;2" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
 
 </svg>
