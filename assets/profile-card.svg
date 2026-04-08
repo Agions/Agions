@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" role="img" aria-label="Agions Profile Badge">
+  <title>Agions — Full-Stack Developer</title>
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="280" height="80" rx="12" fill="url(#bg2)"/>
+  <!-- Name -->
+  <text x="70" y="34" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Agions</text>
+  <!-- Role -->
+  <text x="70" y="52" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="600" letter-spacing="2.5" fill="#4D9BFF">FULL-STACK DEVELOPER</text>
+  <!-- Divider -->
+  <rect x="70" y="60" width="80" height="1.5" rx="0.75" fill="#0A84FF" opacity="0.4"/>
+  <!-- Location -->
+  <text x="70" y="74" font-family="Inter,Arial,sans-serif" font-size="10" fill="#7C8CA1">Hangzhou, China</text>
+  <!-- Stats -->
+  <text x="220" y="32" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">12</text>
+  <text x="220" y="46" font-family="Inter,Arial,sans-serif" font-size="8" font-weight="600" letter-spacing="1" fill="#4D9BFF" text-anchor="middle">REPOS</text>
+  <text x="255" y="32" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#FFC107" text-anchor="middle">341</text>
+  <text x="255" y="46" font-family="Inter,Arial,sans-serif" font-size="8" font-weight="600" letter-spacing="1" fill="#FFC107" text-anchor="middle">STARS</text>
+  <!-- Separator line -->
+  <rect x="200" y="16" width="1" height="48" rx="0.5" fill="#21262D"/>
+  <!-- Avatar initials -->
+  <circle cx="35" cy="40" r="20" fill="#0A84FF" opacity="0.15"/>
+  <circle cx="35" cy="40" r="16" fill="none" stroke="#0A84FF" stroke-width="1" opacity="0.5"/>
+  <text x="35" y="45" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">AG</text>
+</svg>
