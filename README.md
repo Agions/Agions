@@ -11,55 +11,12 @@
 
 ## Featured Projects
 
-> Click any project to expand · All projects are open-source under MIT License
-
-<!-- Narrafiilm -->
-<a href="https://github.com/Agions/Narrafiilm" style="text-decoration:none">
-<div style="background:#0D1117;border:1px solid #21262D;border-radius:12px;padding:18px 20px;margin-bottom:12px;transition:border-color 0.2s">
-<p style="margin:0 0 4px;font-size:15px;font-weight:600;color:#FFFFFF">Narrafiilm <img src="https://img.shields.io/github/stars/Agions/Narrafiilm?style=flat-square&color=FFC107&logo=star&logoColor=FFC107" style="vertical-align:middle;margin-left:6px"/></p>
-<p style="margin:0 0 10px;font-size:13px;color:#7C8CA1">AI 第一人称视频解说生成器 · 上传视频，AI 代入主角视角，一键生成配音解说</p>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#4D9BFF;margin-right:6px">Python</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#41CD52;margin-right:6px">PyQt6</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#00D4AA;margin-right:6px">Whisper</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#4D9BFF">FFmpeg</span>
-</div>
-</a>
-
-<!-- CutDeck -->
-<a href="https://github.com/Agions/CutDeck" style="text-decoration:none">
-<div style="background:#0D1117;border:1px solid #21262D;border-radius:12px;padding:18px 20px;margin-bottom:12px;transition:border-color 0.2s">
-<p style="margin:0 0 4px;font-size:15px;font-weight:600;color:#FFFFFF">CutDeck <img src="https://img.shields.io/github/stars/Agions/CutDeck?style=flat-square&color=FFC107&logo=star&logoColor=FFC107" style="vertical-align:middle;margin-left:6px"/></p>
-<p style="margin:0 0 10px;font-size:13px;color:#7C8CA1">开源 AI 视频剪辑工具 · 长视频拆条爆款短片，9:16/1:1/16:9 多格式，Whisper 字幕，Rust 渲染</p>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#3178C6;margin-right:6px">TypeScript</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#FFC131;margin-right:6px">Tauri</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#F05032;margin-right:6px">Rust</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#4FC08D;margin-right:6px">Vue 3</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#00D4AA">Whisper</span>
-</div>
-</a>
-
-<!-- ManGaAI -->
-<a href="https://github.com/Agions/ManGaAI" style="text-decoration:none">
-<div style="background:#0D1117;border:1px solid #21262D;border-radius:12px;padding:18px 20px;margin-bottom:12px;transition:border-color 0.2s">
-<p style="margin:0 0 4px;font-size:15px;font-weight:600;color:#FFFFFF">ManGaAI <img src="https://img.shields.io/github/stars/Agions/ManGaAI?style=flat-square&color=FFC107&logo=star&logoColor=FFC107" style="vertical-align:middle;margin-left:6px"/></p>
-<p style="margin:0 0 10px;font-size:13px;color:#7C8CA1">AI 漫剧视频创作平台 · 将小说/剧本自动转化为高质量动态漫剧视频</p>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#3178C6;margin-right:6px">TypeScript</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#61DAFB;margin-right:6px">React</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#00D4AA">AI</span>
-</div>
-</a>
-
-<!-- HardSubX -->
-<a href="https://github.com/Agions/HardSubX" style="text-decoration:none">
-<div style="background:#0D1117;border:1px solid #21262D;border-radius:12px;padding:18px 20px;margin-bottom:12px;transition:border-color 0.2s">
-<p style="margin:0 0 4px;font-size:15px;font-weight:600;color:#FFFFFF">HardSubX <img src="https://img.shields.io/github/stars/Agions/HardSubX?style=flat-square&color=FFC107&logo=star&logoColor=FFC107" style="vertical-align:middle;margin-left:6px"/></p>
-<p style="margin:0 0 10px;font-size:13px;color:#7C8CA1">专业硬字幕提取工具 · 帧级映射，PaddleOCR + Tesseract.js，支持 SRT/VTT/ASS 等 9 种格式</p>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#4FC08D;margin-right:6px">Vue 3</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#F05032;margin-right:6px">Rust</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#FFC131;margin-right:6px">Tauri</span>
-<span style="background:#161B22;border-radius:20px;padding:3px 10px;font-size:11px;color:#3178C6">TypeScript</span>
-</div>
-</a>
+|  | Project | Description | Stack | Stars |
+|:---:|:---|:---|:---|:---:|
+| <img src="https://img.shields.io/github/stars/Agions/Narrafiilm?style=flat-square&color=FFC107&logo=star&logoColor=FFC107" valign="middle"/> | **[Narrafiilm](https://github.com/Agions/Narrafiilm)** | AI 第一人称视频解说生成器。上传视频，AI 代入主角视角，一键生成配音解说 | Python · PyQt6 · Whisper · FFmpeg | 270 |
+| <img src="https://img.shields.io/github/stars/Agions/CutDeck?style=flat-square&color=FFC107&logo=star&logoColor=FFC107" valign="middle"/> | **[CutDeck](https://github.com/Agions/CutDeck)** | 开源 AI 视频剪辑工具。长视频拆条爆款短片，9:16/1:1/16:9 多格式，Whisper 本地字幕，Rust 渲染管线 | TypeScript · Tauri · Rust · Vue 3 | 41 |
+| <img src="https://img.shields.io/github/stars/Agions/ManGaAI?style=flat-square&color=FFC107&logo=star&logoColor=FFC107" valign="middle"/> | **[ManGaAI](https://github.com/Agions/ManGaAI)** | AI 漫剧视频创作平台。将小说/剧本自动转化为高质量动态漫剧视频 | TypeScript · React · AI | 18 |
+| <img src="https://img.shields.io/github/stars/Agions/HardSubX?style=flat-square&color=FFC107&logo=star&logoColor=FFC107" valign="middle"/> | **[HardSubX](https://github.com/Agions/HardSubX)** | 专业硬字幕提取工具。帧级字幕映射，PaddleOCR + Tesseract.js，SRT/VTT/ASS 等 9 种格式 | Vue 3 · Rust · Tauri · TypeScript | 14 |
 
 ---
 
