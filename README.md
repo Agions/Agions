@@ -23,14 +23,6 @@
 
 ---
 
-## 🏆 Trophy
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Agions&theme=monokai&title_color=0A84FF&icon_color=4D9BFF&text_color=C9D1D9&bg_color=0a0e17&border_color=1a2235&column=-1&margin-w=12&margin-h=12" alt="Trophy"/>
-</p>
-
----
-
 ## 🚀 Projects
 
 **Narrafiilm** · AI 第一人称视频解说生成器
