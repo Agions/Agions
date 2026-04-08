@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" role="img" aria-label="Agions Banner">
+  <title>Agions — Full-Stack Developer</title>
+  <desc>Professional developer banner for GitHub profile</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="40%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A84FF" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#0A84FF" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#00D4AA" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00D4AA" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glowBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4D9BFF"/>
+      <stop offset="100%" stop-color="#0A84FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g stroke="#0A84FF" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="50" x2="900" y2="50"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="150" y1="0" x2="150" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="450" y1="0" x2="450" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="750" y1="0" x2="750" y2="200"/>
+  </g>
+
+  <!-- Horizontal accent line -->
+  <rect x="60" y="90" width="240" height="2" rx="1" fill="url(#lineGrad)"/>
+  <rect x="600" y="108" width="240" height="2" rx="1" fill="url(#lineGrad)"/>
+
+  <!-- Dot accents -->
+  <circle cx="50" cy="91" r="3" fill="#0A84FF" opacity="0.7"/>
+  <circle cx="850" cy="109" r="3" fill="#00D4AA" opacity="0.7"/>
+
+  <!-- Left: Main name -->
+  <text x="60" y="72"
+        font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="52" font-weight="700" letter-spacing="-1"
+        fill="#FFFFFF">Agions</text>
+
+  <!-- Left: Role -->
+  <text x="60" y="130"
+        font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="15" font-weight="400" letter-spacing="4"
+        fill="#4D9BFF" opacity="0.95">FULL-STACK DEVELOPER</text>
+
+  <!-- Left: Location + focus -->
+  <text x="60" y="160"
+        font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="13"
+        fill="#7C8CA1">Hangzhou, China · Video Tools · AI · Cross-Platform Apps</text>
+
+  <!-- Right: Stats boxes -->
+  <!-- Projects box -->
+  <rect x="650" y="50" width="90" height="50" rx="8" fill="#0A84FF" fill-opacity="0.12"/>
+  <rect x="650" y="50" width="90" height="50" rx="8" fill="none" stroke="#0A84FF" stroke-opacity="0.3"/>
+  <text x="695" y="73" font-family="'Inter',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">12</text>
+  <text x="695" y="90" font-family="'Inter',Arial,sans-serif" font-size="10" fill="#4D9BFF" text-anchor="middle" letter-spacing="1">REPOS</text>
+
+  <!-- Stars box -->
+  <rect x="750" y="50" width="90" height="50" rx="8" fill="#FFC107" fill-opacity="0.1"/>
+  <rect x="750" y="50" width="90" height="50" rx="8" fill="none" stroke="#FFC107" stroke-opacity="0.3"/>
+  <text x="795" y="73" font-family="'Inter',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">341</text>
+  <text x="795" y="90" font-family="'Inter',Arial,sans-serif" font-size="10" fill="#FFC107" text-anchor="middle" letter-spacing="1">STARS</text>
+
+  <!-- Bottom bar: tech tags -->
+  <rect x="0" y="190" width="900" height="10" fill="url(#lineGrad)" opacity="0.5"/>
+
+</svg>
