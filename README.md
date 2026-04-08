@@ -63,17 +63,6 @@
 <tr>
 
 <td width="50%">
-<h3><a href="https://github.com/Agions/HardSubX">HardSubX</a></h3>
-<p>专业视频硬字幕提取工具，帧级别字幕映射，支持 SRT/VTT/ASS 多格式导出，PaddleOCR + Tesseract.js 双重引擎</p>
-
-![Stars](https://img.shields.io/github/stars/Agions/HardSubX?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square)
-
-</td>
-
-<td width="50%">
 <h3><a href="https://github.com/Agions/ManGaAI">ManGaAI</a></h3>
 <p>AI 漫剧视频智能创作平台，将小说/剧本自动转化为高质量动态漫剧视频</p>
 
@@ -83,27 +72,14 @@
 
 </td>
 
-</tr>
-<tr>
-
 <td width="50%">
-<h3><a href="https://github.com/Agions/taskflow-ai">taskflow-ai</a></h3>
-<p>AI 驱动的 PRD 文档解析与任务管理助手，智能规划复杂开发任务</p>
+<h3><a href="https://github.com/Agions/HardSubX">HardSubX</a></h3>
+<p>专业视频硬字幕提取工具，帧级别字幕映射，支持 SRT/VTT/ASS 多格式导出，PaddleOCR + Tesseract.js 双重引擎</p>
 
-![Stars](https://img.shields.io/github/stars/Agions/taskflow-ai?style=flat-square)
+![Stars](https://img.shields.io/github/stars/Agions/HardSubX?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square)
-
-</td>
-
-<td width="50%">
-<h3><a href="https://github.com/Agions/id-scanner-lib">id-scanner-lib</a></h3>
-<p>纯前端 TypeScript 身份证 & 二维码识别库，无需后端，所有处理在浏览器端完成</p>
-
-![Stars](https://img.shields.io/github/stars/Agions/id-scanner-lib?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square)
 
 </td>
 
