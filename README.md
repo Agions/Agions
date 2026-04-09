@@ -21,6 +21,19 @@
 
 ---
 
+## Stats
+
+<p align="center">
+
+| | |
+|:---:|:---:|
+| <img src="https://img.shields.io/github/followers/Agions?style=for-the-badge&logo=github&label=Followers&color=0A84FF" height="28" alt="Followers"/> | <img src="https://img.shields.io/github/followers/Agions?style=for-the-badge&logo=github&label=Following&color=30D158" height="28" alt="Following"/> |
+| <img src="https://img.shields.io/github/repos/Agions?style=for-the-badge&logo=github&label=Public+Repos&color=FFC107" height="28" alt="Repos"/> | <img src="https://img.shields.io/github/stars/Agions?style=for-the-badge&logo=github&label=Total+Stars&color=BF5AF2" height="28" alt="Total Stars"/> |
+
+</p>
+
+---
+
 ## Projects
 
 | Project | Description | Stack | Stars |
