@@ -2,19 +2,34 @@ name: Update Profile
 
 on:
   schedule:
-    - cron: '0 8 * * *'
-    - cron: '0 20 * * *'
+    - cron: '0 */6 * * *'  # Every 6 hours
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  generate-snake:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Update timestamp
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Agions
+          svg_path: output/snake.svg
+          lfs: true
+
+      - name: Push snake
         run: |
-          date_str=$(date '+%Y-%m-%d %H:%M')
-          echo "Profile updated at: $date_str"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/snake.svg
+          git commit -m "docs: auto-generate contribution snake"
+          git push
