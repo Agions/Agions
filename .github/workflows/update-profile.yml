@@ -15,25 +15,23 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate GitHub Contribution Snake
-        uses: Platane/snk@v3
-        id: snake
+        uses: Platane/snk/svg-only@v3
         with:
+          github_user_name: Agions
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          svg_path: assets/snake.svg
+          outputs: |
+            output/snake.svg
 
       - name: Push snake animation
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/snake.svg
+          git add output/snake.svg
           git diff --staged --quiet || git commit -m "docs: auto-update snake animation [skip ci]"
           git push
 
       - name: Update README
         run: |
-          SNAKE_URL="https://raw.githubusercontent.com/${{ github.repository }}/output/snake.svg"
-          
-          # Use Python to update README
           python3 << 'EOF'
           import re
 
@@ -42,13 +40,15 @@ jobs:
           with open("README.md", "r", encoding="utf-8") as f:
             content = f.read()
           
-          # Replace old snake SVG or add new one
-          snake_block = f'\n<p align="center">\n  <img src="{snake_url}" alt="GitHub Contribution Snake"/>\n</p>\n'
-          
           # Remove existing snake block if any
-          content = re.sub(r'\n<p align="center">\s*<img src="https://raw\.githubusercontent\.com/[^/]+/[^/]+/output/snake\.svg"[^>]*>\s*</p>\n?', '\n', content)
+          content = re.sub(
+            r'\n<p align="center">\s*<img src="https://raw\.githubusercontent\.com/[^/]+/[^/]+/output/snake\.svg"[^>]*>\s*</p>\n?',
+            '\n',
+            content
+          )
           
           # Append snake at the end
+          snake_block = f'\n<p align="center">\n  <img src="{snake_url}" alt="GitHub Contribution Snake"/>\n</p>\n'
           content = content.rstrip() + '\n' + snake_block
           
           with open("README.md", "w", encoding="utf-8") as f:
