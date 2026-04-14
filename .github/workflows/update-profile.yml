@@ -1,35 +1,64 @@
-name: Update Profile
+name: Update Profile README
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write
 
 jobs:
-  generate-snake:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          lfs: true
 
-      - name: Generate contribution snake
+      - name: Generate GitHub Contribution Snake
         uses: Platane/snk@v3
+        id: snake
         with:
-          github_user_name: Agions
-          svg_path: output/snake.svg
-          lfs: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          svg_path: assets/snake.svg
 
-      - name: Push snake
+      - name: Push snake animation
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/snake.svg
-          git commit -m "docs: auto-generate contribution snake"
+          git add assets/snake.svg
+          git diff --staged --quiet || git commit -m "docs: auto-update snake animation [skip ci]"
+          git push
+
+      - name: Update README
+        run: |
+          SNAKE_URL="https://raw.githubusercontent.com/${{ github.repository }}/output/snake.svg"
+          
+          # Use Python to update README
+          python3 << 'EOF'
+          import re
+
+          snake_url = "https://raw.githubusercontent.com/Agions/Agions/output/snake.svg"
+          
+          with open("README.md", "r", encoding="utf-8") as f:
+            content = f.read()
+          
+          # Replace old snake SVG or add new one
+          snake_block = f'\n<p align="center">\n  <img src="{snake_url}" alt="GitHub Contribution Snake"/>\n</p>\n'
+          
+          # Remove existing snake block if any
+          content = re.sub(r'\n<p align="center">\s*<img src="https://raw\.githubusercontent\.com/[^/]+/[^/]+/output/snake\.svg"[^>]*>\s*</p>\n?', '\n', content)
+          
+          # Append snake at the end
+          content = content.rstrip() + '\n' + snake_block
+          
+          with open("README.md", "w", encoding="utf-8") as f:
+            f.write(content)
+          EOF
+
+      - name: Commit and push README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "docs: auto-update snake animation in README [skip ci]"
           git push
