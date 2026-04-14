@@ -86,3 +86,6 @@
   <img src="https://raw.githubusercontent.com/Agions/Agions/main/output/snake.svg" alt="GitHub Contribution Snake"/>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Agions/Agions/output/snake.svg" alt="GitHub Contribution Snake"/>
+</p>
