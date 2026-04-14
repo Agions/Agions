@@ -82,9 +82,6 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&duration=3000&pause=500&color=30D158&center=true&width=400&lines=Building+the+future+of+video+tools;Open+source+%E2%9C%A8+AI+powered" alt="Typing Animation"/>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Agions/Agions/output/snake.svg" alt="GitHub Contribution Snake" class="snake-animation"/>
-</p>
 
 <!-- CSS Animations -->
 <style>
@@ -144,3 +141,7 @@
     filter: brightness(1.1);
   }
 </style>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Agions/Agions/output/snake.svg" alt="GitHub Contribution Snake"/>
+</p>
