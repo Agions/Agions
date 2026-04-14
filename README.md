@@ -41,7 +41,7 @@
 
 | | | | |
 |:---:|:---:|:---:|:---:|
-| ![Followers](https://img.shields.io/github/followers/Agions?style=for-the-badge&logo=github&label=Followers&color=0A84FF) | ![Repos](https://img.shields.io/github/repos/Agions?style=for-the-badge&logo=github&label=Public+Repos&color=FFC107) | ![Stars](https://img.shields.io/github/stars/Agions?style=for-the-badge&logo=github&label=Total+Stars&color=BF5AF2) | ![Contributions](https://img.shields.io/github/contributions/Agions?style=for-the-badge&logo=github&label=Contributions&color=30D158) |
+| ![Followers](https://img.shields.io/github/followers/Agions?style=for-the-badge&logo=github&label=Followers&color=0A84FF) | ![Repos](https://img.shields.io/badge/Public_Repos-4?style=for-the-badge&logo=github&label=Repos&color=FFC107) | ![Stars](https://img.shields.io/github/stars/Agions?style=for-the-badge&logo=github&label=Total+Stars&color=BF5AF2) | ![Contributions](https://img.shields.io/github/contributions/Agions?style=for-the-badge&logo=github&label=Contributions&color=30D158) |
 
 </p>
 
@@ -63,21 +63,84 @@
 
 ---
 
+## 🎨 Profile Card
+
 <p align="center">
-  <img src="assets/profile-card.svg" width="260" alt="Profile Card"/>
+  <img src="assets/profile-card.svg" width="260" alt="Profile Card" class="float-animation"/>
 </p>
 
 <div id="wechat" align="center">
-  <img src="assets/wechat-qrcode.png" width="100" alt="WeChat QR Code" style="border-radius:8px;"/>
+  <img src="assets/wechat-qrcode.png" width="100" alt="WeChat QR Code" style="border-radius:8px;" class="pulse-animation"/>
   <p style="font-size:12px; color:#6B7280; margin-top:6px;">微信公众号</p>
 </div>
 
 ---
+
+## ✨ GitHub Activity
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&duration=3000&pause=500&color=30D158&center=true&width=400&lines=Building+the+future+of+video+tools;Open+source+%E2%9C%A8+AI+powered" alt="Typing Animation"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Agions/Agions/output/snake.svg" alt="GitHub Contribution Snake"/>
+  <img src="https://raw.githubusercontent.com/Agions/Agions/output/snake.svg" alt="GitHub Contribution Snake" class="snake-animation"/>
 </p>
+
+<!-- CSS Animations -->
+<style>
+  /* Floating animation for profile card */
+  .float-animation {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  /* Pulse animation for QR code */
+  .pulse-animation {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 5px rgba(59, 130, 246, 0.3); }
+    50% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.6); }
+  }
+
+  /* Snake animation */
+  .snake-animation {
+    max-width: 100%;
+    animation: snake-fade-in 1.5s ease-out;
+  }
+
+  @keyframes snake-fade-in {
+    0% { opacity: 0; transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+
+  /* Gradient text animation */
+  .gradient-text {
+    background: linear-gradient(90deg, #0A84FF, #30D158, #BF5AF2, #FF9F0A, #0A84FF);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-shift 4s linear infinite;
+  }
+
+  @keyframes gradient-shift {
+    0% { background-position: 0% center; }
+    100% { background-position: 200% center; }
+  }
+
+  /* Badge hover effect */
+  img[height="28"] {
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+
+  img[height="28"]:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+</style>
