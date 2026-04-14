@@ -66,11 +66,11 @@
 ## 🎨 Profile Card
 
 <p align="center">
-  <img src="assets/profile-card.svg" width="260" alt="Profile Card" class="float-animation"/>
+  <img src="assets/profile-card.svg" width="260" alt="Profile Card"/>
 </p>
 
 <div id="wechat" align="center">
-  <img src="assets/wechat-qrcode.png" width="100" alt="WeChat QR Code" style="border-radius:8px;" class="pulse-animation"/>
+  <img src="assets/wechat-qrcode.png" width="100" alt="WeChat QR Code" style="border-radius:8px;"/>
   <p style="font-size:12px; color:#6B7280; margin-top:6px;">微信公众号</p>
 </div>
 
@@ -82,63 +82,6 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&duration=3000&pause=500&color=30D158&center=true&width=400&lines=Building+the+future+of+video+tools;Open+source+%E2%9C%A8+AI+powered" alt="Typing Animation"/>
 </p>
 
-
-<!-- CSS Animations -->
-<style>
-  /* Floating animation for profile card */
-  .float-animation {
-    animation: float 3s ease-in-out infinite;
-  }
-
-  @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-  }
-
-  /* Pulse animation for QR code */
-  .pulse-animation {
-    animation: pulse-glow 2s ease-in-out infinite;
-  }
-
-  @keyframes pulse-glow {
-    0%, 100% { box-shadow: 0 0 5px rgba(59, 130, 246, 0.3); }
-    50% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.6); }
-  }
-
-  /* Snake animation */
-  .snake-animation {
-    max-width: 100%;
-    animation: snake-fade-in 1.5s ease-out;
-  }
-
-  @keyframes snake-fade-in {
-    0% { opacity: 0; transform: scale(0.95); }
-    100% { opacity: 1; transform: scale(1); }
-  }
-
-  /* Gradient text animation */
-  .gradient-text {
-    background: linear-gradient(90deg, #0A84FF, #30D158, #BF5AF2, #FF9F0A, #0A84FF);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: gradient-shift 4s linear infinite;
-  }
-
-  @keyframes gradient-shift {
-    0% { background-position: 0% center; }
-    100% { background-position: 200% center; }
-  }
-
-  /* Badge hover effect */
-  img[height="28"] {
-    transition: transform 0.2s ease, filter 0.2s ease;
-  }
-
-  img[height="28"]:hover {
-    transform: scale(1.1);
-    filter: brightness(1.1);
-  }
-</style>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Agions/Agions/output/snake.svg" alt="GitHub Contribution Snake"/>
+</p>
