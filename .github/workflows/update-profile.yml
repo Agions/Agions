@@ -35,14 +35,14 @@ jobs:
           python3 << 'EOF'
           import re
 
-          snake_url = "https://raw.githubusercontent.com/Agions/Agions/output/snake.svg"
+          snake_url = "https://raw.githubusercontent.com/Agions/Agions/main/output/snake.svg"
           
           with open("README.md", "r", encoding="utf-8") as f:
             content = f.read()
           
           # Remove existing snake block if any
           content = re.sub(
-            r'\n<p align="center">\s*<img src="https://raw\.githubusercontent\.com/[^/]+/[^/]+/output/snake\.svg"[^>]*>\s*</p>\n?',
+            r'\n<p align="center">\s*<img src="https://raw\.githubusercontent\.com/[^/]+/[^/]+/main/output/snake\.svg"[^>]*>\s*</p>\n?',
             '\n',
             content
           )
