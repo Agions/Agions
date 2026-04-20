@@ -26,10 +26,10 @@
 
 | | |
 |:---:|:---:|
-| **[HardSubX](https://github.com/Agions/HardSubX)** | 🎬 专业硬字幕提取工具 · Tauri + Rust + Vue 3 + PaddleOCR |
+| **[SubLens](https://github.com/Agions/SubLens)** | 🎬 专业硬字幕提取工具 · Tauri + Rust + Vue 3 + PaddleOCR |
 | **[CutDeck](https://github.com/Agions/CutDeck)** | ✂️ 开源 AI 视频剪辑工具 · Tauri + React + TypeScript |
-| **[Narrafiilm](https://github.com/Agions/Narrafiilm)** | 🎙️ AI 第一人称视频解说生成器 · Python + Whisper + FFmpeg |
-| **[ManGaAI](https://github.com/Agions/ManGaAI)** | 📽️ AI 漫剧视频创作平台 · Taro + React + Python |
+| **[Voxplore](https://github.com/Agions/Voxplore)** | 🎙️ AI 第一人称视频解说生成器 · Python + Whisper + FFmpeg |
+| **[PlotCraft](https://github.com/Agions/PlotCraft)** | 📽️ AI 漫剧视频创作平台 · Taro + React  |
 
 </p>
 
