@@ -29,7 +29,7 @@
 | **[SubLens](https://github.com/Agions/SubLens)** | 🎬 专业硬字幕提取工具 · Tauri + Rust + Vue 3 + PaddleOCR |
 | **[CutDeck](https://github.com/Agions/CutDeck)** | ✂️ 开源 AI 视频剪辑工具 · Tauri + React + TypeScript |
 | **[Voxplore](https://github.com/Agions/Voxplore)** | 🎙️ AI 第一人称视频解说生成器 · Python + Whisper + FFmpeg |
-| **[PlotCraft](https://github.com/Agions/PlotCraft)** | 📽️ AI 漫剧视频创作平台 · Taro + React  |
+| **[PanelFlow](https://github.com/Agions/PanelFlow)** | 📽️ AI 漫剧视频创作平台 · Taro + React  |
 
 </p>
 
