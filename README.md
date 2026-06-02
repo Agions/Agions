@@ -1,3 +1,4 @@
+<!-- section:banner -->
 <p align="center">
   <img src="assets/banner.svg" width="100%" alt="Agions — Full-Stack Developer & Video Tools Architect" />
 </p>
@@ -6,9 +7,11 @@
   <a href="https://github.com/Agions"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" height="30" alt="GitHub"/></a>
   <a href="mailto:agions@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" alt="Email"/></a>
 </p>
+<!-- end:banner -->
 
 ---
 
+<!-- section:about -->
 ## 👨‍💻 About Me
 
 > **全栈开发者 · 视频工具架构师 · 开源布道者**
@@ -19,9 +22,11 @@
 <p align="center">
   <img src="assets/profile-card.svg" width="250" alt="Profile Card" style="border-radius:12px;" />
 </p>
+<!-- end:about -->
 
 ---
 
+<!-- section:projects -->
 ## 🚀 Featured Projects
 
 <!-- SubLens -->
@@ -80,20 +85,23 @@
 <summary><b>📽️ PanelFlow</b> — AI 漫剧视频创作平台</summary>
 <br/>
 <p align="left">
-  <img src="https://img.shields.io/github/stars/Agions/PanelFlow?style=flat&logo=github&label=Stars&color=BF5AF2" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Agions/PanelFlow?style=flat&logo=github&label=Forks&color=0A84FF" alt="Forks"/>
-  <img src="https://img.shields.io/github/license/Agions/PanelFlow?style=flat&label=License&color=30D158" alt="License"/>
+  <img src="https://img.shields.io/github/stars/Agions/panel-flow?style=flat&logo=github&label=Stars&color=BF5AF2" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Agions/panel-flow?style=flat&logo=github&label=Forks&color=0A84FF" alt="Forks"/>
+  <img src="https://img.shields.io/github/license/Agions/panel-flow?style=flat&label=License&color=30D158" alt="License"/>
   <br/>
   <b>Taro · React · Node.js · FFmpeg · AI Painting</b>
   <br/>
   漫画转视频全自动管线，AI 生成分镜动画与配音，支持多端预览发布。
   <br/>
-  <a href="https://github.com/Agions/PanelFlow"><code>查看源码 →</code></a>
+  <a href="https://github.com/Agions/panel-flow"><code>查看源码 →</code></a>
 </p>
 </details>
 
+<!-- end:projects -->
+
 ---
 
+<!-- section:tech-stack -->
 ## 🛠️ Architecture & Tech Stack
 
 <table>
@@ -114,7 +122,7 @@
     <td>
       <code>TypeScript</code> · <code>React</code> · <code>Taro</code> · <code>NestJS</code> · <code>MongoDB</code>
     </td>
-    <td>PanelFlow</td>
+    <td>panel-flow</td>
   </tr>
   <tr>
     <td align="center"><b>🧠 AI/ML</b></td>
@@ -131,9 +139,11 @@
     <td>All Projects</td>
   </tr>
 </table>
+<!-- end:tech-stack -->
 
 ---
 
+<!-- section:activity -->
 ## 📈 Contribution Activity
 
 <p align="center">
@@ -145,9 +155,11 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Agions/Agions/main/output/snake.svg" alt="Contribution Snake" />
 </p>
+<!-- end:activity -->
 
 ---
 
+<!-- section:contact -->
 ## 📬 Let's Connect
 
 <p align="center">
@@ -160,6 +172,7 @@
   <br/>
   <sub>微信公众号</sub>
 </p>
+<!-- end:contact -->
 
 ---
 

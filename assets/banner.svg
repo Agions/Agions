@@ -131,34 +131,34 @@
     <animate attributeName="width" values="0;60" dur="0.8s" begin="1.1s" fill="freeze"/>
   </rect>
 
-  <!-- Stats row 2 — top repos -->
+  <!-- Stats row 2 — featured projects -->
   <text x="540" y="130" text-anchor="middle"
         font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-        font-size="22" font-weight="800" fill="#FFFFFF">162</text>
+        font-size="22" font-weight="800" fill="#FFFFFF">295</text>
   <text x="540" y="144" text-anchor="middle"
         font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-        font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#FF6B6B">taro-bluetooth-print</text>
+        font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#30D158">scene-fab</text>
 
   <text x="630" y="130" text-anchor="middle"
         font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-        font-size="22" font-weight="800" fill="#FFFFFF">128</text>
+        font-size="22" font-weight="800" fill="#FFFFFF">84</text>
   <text x="630" y="144" text-anchor="middle"
         font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-        font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#FF6B6B">HardSubX</text>
+        font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#0A84FF">story-fab</text>
 
   <text x="720" y="130" text-anchor="middle"
         font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-        font-size="22" font-weight="800" fill="#FFFFFF">57</text>
+        font-size="22" font-weight="800" fill="#FFFFFF">23</text>
   <text x="720" y="144" text-anchor="middle"
         font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-        font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#FF6B6B">Narrafiilm</text>
+        font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#FFC107">panel-flow</text>
 
   <text x="810" y="130" text-anchor="middle"
         font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-        font-size="22" font-weight="800" fill="#FFFFFF">28</text>
+        font-size="22" font-weight="800" fill="#FFFFFF">15</text>
   <text x="810" y="144" text-anchor="middle"
         font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-        font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#FF6B6B">CutDeck</text>
+        font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#BF5AF2">SubLens</text>
 
   <!-- Tech ticker -->
   <rect x="40" y="184" width="820" height="0.8" rx="0.4" fill="#1a2235"/>
