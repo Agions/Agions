@@ -114,7 +114,7 @@
     <td>
       <code>TypeScript</code> · <code>React</code> · <code>Taro</code> · <code>NestJS</code> · <code>MongoDB</code>
     </td>
-    <td>PanelFlow · TaroViz</td>
+    <td>PanelFlow</td>
   </tr>
   <tr>
     <td align="center"><b>🧠 AI/ML</b></td>
