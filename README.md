@@ -16,8 +16,9 @@
 
 > **全栈开发者**
 >
-> Rust + TypeScript + Python，专注跨平台桌面应用和视频处理工具。
-> 把日常开发中遇到的问题做成开源项目，SubLens / story-fab / scene-fab 都是这么来的。
+> 聚焦跨平台桌面应用与视频处理工具链的开源开发。
+> 技术栈以 Rust、TypeScript、Python 为核心，覆盖 Tauri 桌面端、AI 推理与全栈工程化。
+> 代表性项目：SubLens（字幕提取）、story-fab（AI 视频剪辑）、scene-fab（AI 解说生成）。
 
 <p align="center">
   <img src="assets/profile-card.svg" width="250" alt="Profile Card" style="border-radius:12px;" />
