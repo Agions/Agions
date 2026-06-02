@@ -137,12 +137,17 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" height="170"/>
+  <img src="https://img.shields.io/github/followers/Agions?style=for-the-badge&logo=github&label=Followers&color=0A84FF" alt="Followers"/>
+  <img src="https://img.shields.io/badge/Public%20Repos-12?style=for-the-badge&logo=github&label=Repos&color=FFC107" alt="Repos"/>
+  <img src="https://img.shields.io/github/stars/Agions?style=for-the-badge&logo=github&label=Stars&color=BF5AF2" alt="Stars"/>
+  <img src="https://img.shields.io/github/last-commit/Agions/Agions?style=for-the-badge&logo=github&label=Last%20Commit&color=30D158" alt="Last Commit"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Agions&theme=algolia&no-frame=true&row=2&column=4&margin-w=6&margin-h=6" alt="GitHub Trophies" width="90%"/>
+  <img src="https://img.shields.io/github/commit-activity/m/Agions/Agions?style=flat&logo=github&label=Monthly%20Commits&color=30D158" alt="Monthly Commits"/>
+  <img src="https://img.shields.io/github/created-at/Agions/Agions?style=flat&logo=github&label=Joined&color=0A84FF" alt="Joined"/>
+  <img src="https://img.shields.io/github/languages/count/Agions/Agions?style=flat&logo=github&label=Languages&color=BF5AF2" alt="Languages"/>
+  <img src="https://img.shields.io/github/commit-activity/y/Agions/Agions?style=flat&logo=github&label=Yearly%20Commits&color=FFC107" alt="Yearly Commits"/>
 </p>
 
 ---
@@ -150,7 +155,9 @@
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Agions&theme=github-dark&hide_border=true&bg_color=0d1117&color=fff&line=0A84FF&point=30D158&area=true&area_color=0A84FF" alt="Contribution Graph" width="100%"/>
+  <img src="https://img.shields.io/github/contributors/Agions/Agions?style=for-the-badge&logo=github&label=Contributors&color=0A84FF" alt="Contributors"/>
+  <img src="https://img.shields.io/github/commit-activity/t/Agions/Agions?style=for-the-badge&logo=github&label=Total%20Commits&color=30D158" alt="Total Commits"/>
+  <img src="https://img.shields.io/github/repo-size/Agions/Agions?style=for-the-badge&logo=github&label=Repo%20Size&color=FFC107" alt="Repo Size"/>
 </p>
 
 <p align="center">
