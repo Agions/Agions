@@ -5,7 +5,6 @@
 <p align="center">
   <a href="https://github.com/Agions"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" height="30" alt="GitHub"/></a>
   <a href="mailto:agions@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" alt="Email"/></a>
-  <a href="https://gitee.com/Agions"><img src="https://img.shields.io/badge/Gitee-C71D23?style=for-the-badge&logo=gitee&logoColor=white" height="30" alt="Gitee"/></a>
 </p>
 
 ---
@@ -38,9 +37,7 @@
   <br/>
   高性能桌面端字幕提取引擎，支持批量处理、多语言识别、SRT/ASS/VTT 多格式导出。
   <br/>
-  <a href="https://github.com/Agions/SubLens"><code>GitHub →</code></a>
-  &nbsp;·&nbsp;
-  <a href="https://gitee.com/Agions/SubRip"><code>Gitee 镜像</code></a>
+  <a href="https://github.com/Agions/SubLens"><code>查看源码 →</code></a>
 </p>
 </details>
 
@@ -58,8 +55,6 @@
   智能视频剪辑平台，融合 AI 字幕分析、场景分割与自动化剪辑管线。
   <br/>
   <a href="https://github.com/Agions/story-fab"><code>查看源码 →</code></a>
-  &nbsp;·&nbsp;
-  <a href="https://gitee.com/Agions/story-fab"><code>Gitee 镜像</code></a>
 </p>
 </details>
 
@@ -77,8 +72,6 @@
   端到端视频解说自动生成管线：语音识别 → 剧本生成 → 语音合成 → 视频渲染。
   <br/>
   <a href="https://github.com/Agions/scene-fab"><code>查看源码 →</code></a>
-  &nbsp;·&nbsp;
-  <a href="https://gitee.com/Agions/scene-fab"><code>Gitee 镜像</code></a>
 </p>
 </details>
 
@@ -96,8 +89,6 @@
   漫画转视频全自动管线，AI 生成分镜动画与配音，支持多端预览发布。
   <br/>
   <a href="https://github.com/Agions/PanelFlow"><code>查看源码 →</code></a>
-  &nbsp;·&nbsp;
-  <a href="https://gitee.com/Agions/PanelFlow"><code>Gitee 镜像</code></a>
 </p>
 </details>
 
@@ -123,7 +114,7 @@
     <td>
       <code>TypeScript</code> · <code>React</code> · <code>Taro</code> · <code>NestJS</code> · <code>MongoDB</code>
     </td>
-    <td>PanelFlow · TimeSync · TaroViz</td>
+    <td>PanelFlow · TaroViz</td>
   </tr>
   <tr>
     <td align="center"><b>🧠 AI/ML</b></td>
@@ -131,13 +122,6 @@
       <code>Python</code> · <code>PyTorch</code> · <code>Whisper</code> · <code>TTS</code> · <code>PaddleOCR</code>
     </td>
     <td>scene-fab · SubRip</td>
-  </tr>
-  <tr>
-    <td align="center"><b>📱 Mobile</b></td>
-    <td>
-      <code>Flutter</code> · <code>Dart</code> · <code>ArkTS</code> · <code>uni-app</code>
-    </td>
-    <td>PetVerse · LedgerWise</td>
   </tr>
   <tr>
     <td align="center"><b>🔧 Tools</b></td>
@@ -180,7 +164,6 @@
 <p align="center">
   <a href="https://github.com/Agions"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub" height="30"/></a>
   <a href="mailto:agions@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="30"/></a>
-  <a href="https://gitee.com/Agions"><img src="https://img.shields.io/badge/Gitee-C71D23?style=for-the-badge&logo=gitee&logoColor=white" alt="Gitee" height="30"/></a>
 </p>
 
 <p align="center">
