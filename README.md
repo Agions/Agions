@@ -1,11 +1,20 @@
 <!-- section:banner -->
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Agions — Full-Stack Developer & Video Tools Architect" />
+  <img src="https://img.shields.io/badge/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20Agions-Full--Stack%20Developer-0A84FF?style=for-the-badge&logo=github" alt="Agions"/>
+  <img src="https://img.shields.io/badge/%F0%9F%93%8D%20Location-Hangzhou%2C%20China-4D9BFF?style=for-the-badge" alt="Location"/>
+  <img src="https://img.shields.io/badge/%F0%9F%94%91%20Since-2017-30D158?style=for-the-badge" alt="Since"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/Agions"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" height="30" alt="GitHub"/></a>
   <a href="mailto:agions@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" alt="Email"/></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/Agions?style=for-the-badge&logo=github&label=Followers&color=0A84FF" alt="Followers"/>
+  <img src="https://img.shields.io/badge/Public%20Repos-12?style=for-the-badge&logo=github&label=Repos&color=FFC107" alt="Repos"/>
+  <img src="https://img.shields.io/github/stars/Agions?style=for-the-badge&logo=github&label=Stars&color=BF5AF2" alt="Stars"/>
+  <img src="https://img.shields.io/github/last-commit/Agions/Agions?style=for-the-badge&logo=github&label=Last%20Commit&color=30D158" alt="Last Commit"/>
 </p>
 <!-- end:banner -->
 
@@ -20,7 +29,14 @@
 > 热衷于用 Rust + Tauri 构建高性能原生体验，用 TypeScript 打通全栈链路，用 Python + Whisper/FFmpeg 解锁视频创作新范式。
 
 <p align="center">
-  <img src="assets/profile-card.svg" width="250" alt="Profile Card" style="border-radius:12px;" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white" alt="Vue"/>
+  <img src="https://img.shields.io/badge/Tauri-FFC131?style=flat&logo=tauri&logoColor=black" alt="Tauri"/>
+  <img src="https://img.shields.io/badge/FFmpeg-00D4AA?style=flat&logo=ffmpeg&logoColor=white" alt="FFmpeg"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
 </p>
 <!-- end:about -->
 
