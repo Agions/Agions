@@ -24,9 +24,9 @@
 
 ## 🚀 Featured Projects
 
-<!-- SubRip / SubLens -->
+<!-- SubLens -->
 <details open>
-<summary><b>🎬 SubRip</b> — 专业硬字幕提取工具</summary>
+<summary><b>🔍 SubLens</b> — 专业硬字幕提取工具</summary>
 <br/>
 <p align="left">
   <img src="https://img.shields.io/github/stars/Agions/SubLens?style=flat&logo=github&label=Stars&color=BF5AF2" alt="Stars"/>
@@ -107,7 +107,7 @@
     <td>
       <code>Tauri</code> · <code>Rust</code> · <code>Vue 3</code> · <code>React</code>
     </td>
-    <td>SubRip · story-fab</td>
+    <td>SubLens · story-fab</td>
   </tr>
   <tr>
     <td align="center"><b>🌐 Web</b></td>
@@ -121,7 +121,7 @@
     <td>
       <code>Python</code> · <code>PyTorch</code> · <code>Whisper</code> · <code>TTS</code> · <code>PaddleOCR</code>
     </td>
-    <td>scene-fab · SubRip</td>
+    <td>scene-fab · SubLens</td>
   </tr>
   <tr>
     <td align="center"><b>🔧 Tools</b></td>
