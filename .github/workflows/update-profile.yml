@@ -2,7 +2,7 @@ name: Update Profile
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -30,17 +30,39 @@ jobs:
           git diff --staged --quiet || git commit -m "docs: auto-update snake animation [skip ci]"
           git push
 
-  update-readme:
+  verify-readme:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    needs: generate-snake
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update README assets (placeholder for future automation)
+      - name: Validate section markers
         run: |
-          echo "Profile README assets are static and version-controlled."
-          echo "README.md is a hand-crafted professional profile — updates are manual."
+          SECTIONS="banner about projects tech-stack activity contact"
+          MISSING=0
+          for section in $SECTIONS; do
+            if grep -q "<!-- section:${section} -->" README.md; then
+              echo "✅ section:${section} found"
+            else
+              echo "❌ section:${section} MISSING"
+              MISSING=$((MISSING+1))
+            fi
+          done
+          exit $MISSING
+
+      - name: Verify featured projects in README
+        run: |
+          PROJECTS="SubLens story-fab scene-fab panel-flow"
+          MISSING=0
+          for proj in $PROJECTS; do
+            if grep -q "$proj" README.md; then
+              echo "✅ $proj referenced in README"
+            else
+              echo "❌ $proj NOT found in README"
+              MISSING=$((MISSING+1))
+            fi
+          done
+          exit $MISSING
 
       - name: Verify snake reference in README
         run: |
@@ -55,3 +77,107 @@ jobs:
             git diff --staged --quiet || git commit -m "docs: restore snake reference in README [skip ci]"
             git push
           fi
+
+  check-badges:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify all shields.io badges are reachable
+        run: |
+          BADGES=$(grep -oP 'https://img\.shields\.io[^"'"'"' )]+' README.md | sort -u)
+          FAILED=0
+          TOTAL=0
+          for url in $BADGES; do
+            TOTAL=$((TOTAL+1))
+            status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url" 2>/dev/null)
+            if [ "$status" != "200" ]; then
+              echo "❌ $url → $status"
+              FAILED=$((FAILED+1))
+            else
+              echo "✅ $url → 200"
+            fi
+          done
+          echo "---"
+          echo "Badges checked: $TOTAL | Failed: $FAILED"
+          exit $FAILED
+
+  check-svg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate SVG files
+        run: |
+          FAILED=0
+          for f in assets/*.svg; do
+            if head -1 "$f" | grep -q '<svg'; then
+              size=$(wc -c < "$f")
+              echo "✅ $f ($size bytes) — valid SVG header"
+              # Check for basic SVG structural elements
+              if grep -q '</svg>' "$f"; then
+                echo "   └ closing tag OK"
+              else
+                echo "   └ ⚠️  missing </svg> closing tag"
+                FAILED=$((FAILED+1))
+              fi
+            else
+              echo "❌ $f — invalid SVG (no <svg> header)"
+              FAILED=$((FAILED+1))
+            fi
+          done
+          exit $FAILED
+
+      - name: Check SVG file sizes
+        run: |
+          for f in assets/*.svg; do
+            size=$(wc -c < "$f")
+            if [ "$size" -gt 15000 ]; then
+              echo "⚠️  $f is over 15KB ($size bytes) — consider optimizing"
+            fi
+          done
+
+  check-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify GitHub project links
+        run: |
+          PROJECTS="SubLens story-fab scene-fab panel-flow"
+          FAILED=0
+          for proj in $PROJECTS; do
+            url="https://github.com/Agions/${proj}"
+            status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url" 2>/dev/null)
+            if [ "$status" = "200" ] || [ "$status" = "301" ]; then
+              echo "✅ $url → $status"
+            else
+              echo "❌ $url → $status"
+              FAILED=$((FAILED+1))
+            fi
+          done
+          exit $FAILED
+
+      - name: Check README size
+        run: |
+          SIZE=$(wc -c < README.md)
+          echo "README.md: $SIZE bytes"
+          if [ "$SIZE" -gt 10000 ]; then
+            echo "⚠️  README over 10KB — consider splitting or optimizing"
+          fi
+
+  format-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Check formatting
+        run: |
+          npm install -g prettier 2>/dev/null
+          prettier --check README.md assets/*.svg .prettierrc .devcontainer/devcontainer.json .github/workflows/*.yml 2>&1 || echo "⚠️  prettier check found formatting issues"
