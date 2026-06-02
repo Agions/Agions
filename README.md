@@ -14,10 +14,10 @@
 <!-- section:about -->
 ## 👨‍💻 About Me
 
-> **全栈开发者 · 视频工具架构师 · 开源布道者**
+> **全栈开发者**
 >
-> 深耕跨平台桌面应用、AI 音视频处理、端侧推理与全栈工程化。
-> 热衷于用 Rust + Tauri 构建高性能原生体验，用 TypeScript 打通全栈链路，用 Python + Whisper/FFmpeg 解锁视频创作新范式。
+> Rust + TypeScript + Python，专注跨平台桌面应用和视频处理工具。
+> 把日常开发中遇到的问题做成开源项目，SubLens / story-fab / scene-fab 都是这么来的。
 
 <p align="center">
   <img src="assets/profile-card.svg" width="250" alt="Profile Card" style="border-radius:12px;" />
