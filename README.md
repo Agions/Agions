@@ -25,19 +25,22 @@
 
 ## 🚀 Featured Projects
 
-<!-- SubRip -->
+<!-- SubRip / SubLens -->
 <details open>
 <summary><b>🎬 SubRip</b> — 专业硬字幕提取工具</summary>
 <br/>
 <p align="left">
-  <img src="https://img.shields.io/badge/Gitee-C71D23?style=flat&logo=gitee&label=Stars&color=BF5AF2" alt="Stars"/>
-  <img src="https://img.shields.io/badge/Gitee-C71D23?style=flat&logo=gitee&label=Forks&color=0A84FF" alt="Forks"/>
+  <img src="https://img.shields.io/github/stars/Agions/SubLens?style=flat&logo=github&label=Stars&color=BF5AF2" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Agions/SubLens?style=flat&logo=github&label=Forks&color=0A84FF" alt="Forks"/>
+  <img src="https://img.shields.io/github/license/Agions/SubLens?style=flat&label=License&color=30D158" alt="License"/>
   <br/>
   <b>Tauri · Rust · Vue 3 · TypeScript · PaddleOCR</b>
   <br/>
   高性能桌面端字幕提取引擎，支持批量处理、多语言识别、SRT/ASS/VTT 多格式导出。
   <br/>
-  <a href="https://gitee.com/Agions/SubRip"><code>查看源码 →</code></a>
+  <a href="https://github.com/Agions/SubLens"><code>GitHub →</code></a>
+  &nbsp;·&nbsp;
+  <a href="https://gitee.com/Agions/SubRip"><code>Gitee 镜像</code></a>
 </p>
 </details>
 
