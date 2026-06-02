@@ -1,5 +1,9 @@
 <!-- section:banner -->
 <p align="center">
+  <img src="https://github.com/Agions.png?size=140" width="120" height="120" alt="Agions Avatar" style="border-radius:50%"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20Agions-Full--Stack%20Developer-0A84FF?style=for-the-badge&logo=github" alt="Agions"/>
   <img src="https://img.shields.io/badge/%F0%9F%93%8D%20Location-Hangzhou%2C%20China-4D9BFF?style=for-the-badge" alt="Location"/>
   <img src="https://img.shields.io/badge/%F0%9F%94%91%20Since-2017-30D158?style=for-the-badge" alt="Since"/>
