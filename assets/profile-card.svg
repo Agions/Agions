@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" role="img" aria-label="Agions Professional Profile Card">
+  <title>Agions Profile Card</title>
+  <desc>Professional developer profile card with avatar, stats, and contact info</desc>
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="100%" stop-color="#30D158"/>
+    </linearGradient>
+    <linearGradient id="accentPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BF5AF2"/>
+      <stop offset="100%" stop-color="#0A84FF"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="avatarClip">
+      <circle cx="200" cy="75" r="38"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="0" y="0" width="400" height="520" rx="16" fill="url(#cardBg)"/>
+  <rect x="0.5" y="0.5" width="399" height="519" rx="15.5" fill="none" stroke="#30363d" stroke-width="0.5"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="400" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Avatar -->
+  <g>
+    <circle cx="200" cy="75" r="46" fill="#0A84FF" opacity="0.08"/>
+    <circle cx="200" cy="75" r="38" fill="#0A84FF" opacity="0.12"/>
+    <circle cx="200" cy="75" r="38" fill="none" stroke="#0A84FF" stroke-width="1.5" opacity="0.4"/>
+    <text x="200" y="85" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+          font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" filter="url(#glow)">AG</text>
+  </g>
+
+  <!-- Name & Title -->
+  <text x="200" y="130" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="24" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="-0.5">Agions</text>
+  <rect x="120" y="140" width="160" height="20" rx="4" fill="#0A84FF" opacity="0.1"/>
+  <text x="200" y="154" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="10" font-weight="700" fill="#0A84FF" text-anchor="middle" letter-spacing="2.5">FULL-STACK DEVELOPER</text>
+
+  <!-- Location -->
+  <text x="200" y="178" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="12" fill="#8B949E" text-anchor="middle">📍 Hangzhou, China</text>
+
+  <!-- Divider -->
+  <rect x="40" y="195" width="320" height="0.5" rx="0.25" fill="#30363d"/>
+
+  <!-- Section: About -->
+  <text x="200" y="222" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="13" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="1">ABOUT</text>
+  <text x="45" y="245" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="11" fill="#8B949E">
+    <tspan x="45" dy="0">Building cross-platform desktop tools &amp;</tspan>
+    <tspan x="45" dy="16">AI-powered video applications. Open-source</tspan>
+    <tspan x="45" dy="16">enthusiast crafting tools for creators.</tspan>
+  </text>
+
+  <!-- Divider 2 -->
+  <rect x="40" y="305" width="320" height="0.5" rx="0.25" fill="#30363d"/>
+
+  <!-- Stats Row -->
+  <rect x="40" y="320" width="320" height="80" rx="8" fill="#161b22"/>
+  <rect x="40.5" y="320.5" width="319" height="79" rx="7.5" fill="none" stroke="#30363d" stroke-width="0.5"/>
+
+  <!-- Stats 3-column layout -->
+  <text x="93" y="350" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">12</text>
+  <text x="93" y="365" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="8" font-weight="700" fill="#0A84FF" text-anchor="middle" letter-spacing="1.5">REPOS</text>
+
+  <rect x="160" y="322" width="0.5" height="76" fill="#30363d"/>
+  <text x="200" y="350" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">25</text>
+  <text x="200" y="365" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="8" font-weight="700" fill="#30D158" text-anchor="middle" letter-spacing="1.5">FOLLOWERS</text>
+
+  <rect x="240" y="322" width="0.5" height="76" fill="#30363d"/>
+  <text x="280" y="350" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">383</text>
+  <text x="280" y="365" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="8" font-weight="700" fill="#FFC107" text-anchor="middle" letter-spacing="1.5">STARS</text>
+
+  <!-- Tech Tags -->
+  <rect x="40" y="415" width="320" height="90" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="0.5"/>
+
+  <g transform="translate(55,430)">
+    <rect x="0" y="0" width="80" height="20" rx="4" fill="#0A84FF" fill-opacity="0.12"/>
+    <text x="40" y="13" font-family="'Inter',Arial,sans-serif" font-size="9" font-weight="600"
+          fill="#0A84FF" text-anchor="middle">Rust</text>
+  </g>
+  <g transform="translate(145,430)">
+    <rect x="0" y="0" width="80" height="20" rx="4" fill="#3178C6" fill-opacity="0.12"/>
+    <text x="40" y="13" font-family="'Inter',Arial,sans-serif" font-size="9" font-weight="600"
+          fill="#3178C6" text-anchor="middle">TypeScript</text>
+  </g>
+  <g transform="translate(235,430)">
+    <rect x="0" y="0" width="80" height="20" rx="4" fill="#3776AB" fill-opacity="0.12"/>
+    <text x="40" y="13" font-family="'Inter',Arial,sans-serif" font-size="9" font-weight="600"
+          fill="#3776AB" text-anchor="middle">Python</text>
+  </g>
+  <g transform="translate(55,458)">
+    <rect x="0" y="0" width="80" height="20" rx="4" fill="#61DAFB" fill-opacity="0.12"/>
+    <text x="40" y="13" font-family="'Inter',Arial,sans-serif" font-size="9" font-weight="600"
+          fill="#61DAFB" text-anchor="middle">React</text>
+  </g>
+  <g transform="translate(145,458)">
+    <rect x="0" y="0" width="80" height="20" rx="4" fill="#00D4AA" fill-opacity="0.12"/>
+    <text x="40" y="13" font-family="'Inter',Arial,sans-serif" font-size="9" font-weight="600"
+          fill="#00D4AA" text-anchor="middle">FFmpeg</text>
+  </g>
+  <g transform="translate(235,458)">
+    <rect x="0" y="0" width="80" height="20" rx="4" fill="#FFC131" fill-opacity="0.12"/>
+    <text x="40" y="13" font-family="'Inter',Arial,sans-serif" font-size="9" font-weight="600"
+          fill="#FFC131" text-anchor="middle">Tauri</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="200" y="510" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="8" fill="#484F58" text-anchor="middle" letter-spacing="1">AGIONS @ GITHUB</text>
+</svg>
