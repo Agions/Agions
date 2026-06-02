@@ -134,24 +134,6 @@
 
 ---
 
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/Agions?style=for-the-badge&logo=github&label=Followers&color=0A84FF" alt="Followers"/>
-  <img src="https://img.shields.io/badge/Public%20Repos-12?style=for-the-badge&logo=github&label=Repos&color=FFC107" alt="Repos"/>
-  <img src="https://img.shields.io/github/stars/Agions?style=for-the-badge&logo=github&label=Stars&color=BF5AF2" alt="Stars"/>
-  <img src="https://img.shields.io/github/last-commit/Agions/Agions?style=for-the-badge&logo=github&label=Last%20Commit&color=30D158" alt="Last Commit"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/commit-activity/m/Agions/Agions?style=flat&logo=github&label=Monthly%20Commits&color=30D158" alt="Monthly Commits"/>
-  <img src="https://img.shields.io/github/created-at/Agions/Agions?style=flat&logo=github&label=Joined&color=0A84FF" alt="Joined"/>
-  <img src="https://img.shields.io/github/languages/count/Agions/Agions?style=flat&logo=github&label=Languages&color=BF5AF2" alt="Languages"/>
-  <img src="https://img.shields.io/github/commit-activity/y/Agions/Agions?style=flat&logo=github&label=Yearly%20Commits&color=FFC107" alt="Yearly Commits"/>
-</p>
-
----
-
 ## 📈 Contribution Activity
 
 <p align="center">
