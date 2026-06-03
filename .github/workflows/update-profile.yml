@@ -38,7 +38,7 @@ jobs:
 
       - name: Validate section markers
         run: |
-          SECTIONS="banner about ecosystem projects tech-stack game analytics activity contact footer"
+          SECTIONS="banner about ecosystem projects tech-stack game activity contact footer"
           MISSING=0
           for section in $SECTIONS; do
             if grep -q "<!-- section:${section} -->" README.md; then
@@ -114,15 +114,6 @@ jobs:
           echo "---"
           echo "Badges checked: $TOTAL | Failed: $FAILED"
           exit $FAILED
-
-      - name: Check github-readme-stats accessibility
-        run: |
-          echo "Checking github-readme-stats availability..."
-          status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "https://github-readme-stats.vercel.app/api?username=Agions" 2>/dev/null || echo "000")
-          echo "github-readme-stats → $status"
-          if [ "$status" = "000" ] || [ "$status" = "502" ]; then
-            echo "⚠️  github-readme-stats may be unreachable from some regions"
-          fi
 
   check-svg:
     runs-on: ubuntu-latest

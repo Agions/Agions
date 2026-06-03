@@ -1,9 +1,6 @@
 <!-- section:banner -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg" />
-    <img src="assets/banner.svg" width="100%" alt="Agions — Full-Stack Developer & Video Tools Architect" />
-  </picture>
+  <img src="assets/banner.svg" width="100%" alt="Agions — Full-Stack Developer & Video Tools Architect" />
 </p>
 
 <p align="center">
@@ -175,10 +172,6 @@ flowchart LR
 
 ---
 
-<!-- end:projects -->
-
----
-
 <!-- section:tech-stack -->
 ## 🛠️ Tech Radar
 
@@ -207,37 +200,13 @@ flowchart LR
 ## 🎮 Developer Runner
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/runner-game.svg" />
-    <img src="assets/runner-game.svg" width="100%" alt="Agions Developer Runner Game" />
-  </picture>
+  <img src="assets/runner-game.svg" width="100%" alt="Agions Developer Runner Game" />
 </p>
 
 <p align="center">
   <sub>⚡ 开发者跑酷 · 收集 ⭐、躲避 🐛bug · 看看你能跑多远！</sub>
 </p>
 <!-- end:game -->
-
----
-
-<!-- section:analytics -->
-## 📈 GitHub Analytics
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=0A84FF&icon_color=30D158&text_color=e6edf3&ring_color=0A84FF&include_all_commits=true&custom_title=Agions·GitHub+Stats" />
-    <img src="https://github-readme-stats.vercel.app/api?username=Agions&show_icons=true&count_private=true&hide_border=true&bg_color=ffffff&title_color=0A84FF&icon_color=30D158&text_color=333333&ring_color=0A84FF&include_all_commits=true&custom_title=Agions·GitHub+Stats" height="180" alt="GitHub Stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&hide_border=true&bg_color=0d1117&title_color=0A84FF&text_color=e6edf3&langs_count=6" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Agions&layout=compact&hide_border=true&bg_color=ffffff&title_color=0A84FF&text_color=333333&langs_count=6" height="180" alt="Top Languages" />
-  </picture>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Agions&theme=onedark&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="GitHub Trophies" />
-</p>
-<!-- end:analytics -->
 
 ---
 
