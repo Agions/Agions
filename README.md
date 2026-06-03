@@ -43,8 +43,6 @@
 flowchart LR
     subgraph Capture["📡 采集层"]
         SubLens["🔍 SubLens<br/>硬字幕提取"]
-        A["🎙️ xfyun-sdk<br/>语音识别"]
-        B["🔤 paddle-ocr.js<br/>OCR 引擎"]
     end
 
     subgraph Edit["✂️ 编辑层"]
@@ -53,19 +51,10 @@ flowchart LR
         frameforge["🎬 frame-forge<br/>AI 视频创作"]
     end
 
-    subgraph Infra["⚡ 基础设施层"]
-        synerix["⚡ synerix<br/>AI 编程终端"]
-        taskflow["🔧 taskflow-ai<br/>MCP 工作流引擎"]
-        taroviz["📊 TaroViz<br/>多端图表"]
-        orva["🎨 orva-ui<br/>跨平台 UI"]
-    end
-
     Capture --> Edit
-    Edit --> Infra
     
     style Capture fill:#0d1420,stroke:#0A84FF,color:#e6edf3
     style Edit fill:#0d1420,stroke:#30D158,color:#e6edf3
-    style Infra fill:#0d1420,stroke:#BF5AF2,color:#e6edf3
 ```
 
 <table>
@@ -77,9 +66,7 @@ flowchart LR
   <tr>
     <td align="center"><b>📡 Capture</b><br/><sub>内容采集</sub></td>
     <td>
-      <a href="https://github.com/Agions/SubLens"><code>SubLens</code></a> ·
-      <a href="https://github.com/Agions/xfyun-sdk"><code>xfyun-sdk</code></a> ·
-      <a href="https://github.com/Agions/paddle-ocr.js"><code>paddle-ocr.js</code></a>
+      <a href="https://github.com/Agions/SubLens"><code>SubLens</code></a>
     </td>
     <td>
       <img src="https://img.shields.io/badge/Tauri-FFC131?logo=tauri&logoColor=black" height="20" alt="Tauri" />
@@ -99,21 +86,6 @@ flowchart LR
       <img src="https://img.shields.io/badge/FFmpeg-00D4AA?logo=ffmpeg&logoColor=black" height="20" alt="FFmpeg" />
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" height="20" alt="PyTorch" />
       <img src="https://img.shields.io/badge/Whisper-FF6F00?logo=openai&logoColor=white" height="20" alt="Whisper" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>⚡ Infra</b><br/><sub>基础设施</sub></td>
-    <td>
-      <a href="https://github.com/Agions/synerix"><code>synerix</code></a> ·
-      <a href="https://github.com/Agions/taskflow-ai"><code>taskflow-ai</code></a> ·
-      <a href="https://github.com/Agions/TaroViz"><code>TaroViz</code></a> ·
-      <a href="https://github.com/Agions/orva-ui"><code>orva-ui</code></a>
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/Rust-E8A838?logo=rust&logoColor=black" height="20" alt="Rust" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="20" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/Taro-5EBAFF?logo=taro&logoColor=white" height="20" alt="Taro" />
-      <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white" height="20" alt="NestJS" />
     </td>
   </tr>
 </table>
@@ -203,64 +175,7 @@ flowchart LR
 
 ---
 
-<!-- section:libraries -->
-## 📦 Developer Libraries
-
-<p align="center">
-  <i>支撑上层应用的开源基础设施库</i>
-</p>
-
-<table>
-  <tr>
-    <th align="center" width="25%">Library</th>
-    <th align="center" width="20%">Stars</th>
-    <th align="center" width="30%">Description</th>
-    <th align="center" width="25%">Tech Stack</th>
-  </tr>
-  <tr>
-    <td><b>⚡ synerix</b></td>
-    <td><img src="https://img.shields.io/github/stars/Agions/synerix?style=flat&label=&color=FFC107" alt="stars"/></td>
-    <td>高性能 AI 编程终端 · 多智能体协作 + TUI + 沙箱</td>
-    <td><code>Rust</code> <code>Ratatui</code> <code>MCP</code></td>
-  </tr>
-  <tr>
-    <td><b>🔧 taskflow-ai</b></td>
-    <td><img src="https://img.shields.io/github/stars/Agions/taskflow-ai?style=flat&label=&color=FFC107" alt="stars"/></td>
-    <td>Pure MCP Server for Claude Desktop, Cursor & Windsurf</td>
-    <td><code>TypeScript</code> <code>MCP</code></td>
-  </tr>
-  <tr>
-    <td><b>📊 TaroViz</b></td>
-    <td><img src="https://img.shields.io/github/stars/Agions/TaroViz?style=flat&label=&color=FFC107" alt="stars"/></td>
-    <td>多端图表组件库，Taro + ECharts，支持小程序和 H5</td>
-    <td><code>TypeScript</code> <code>Taro</code> <code>ECharts</code></td>
-  </tr>
-  <tr>
-    <td><b>🎨 orva-ui</b></td>
-    <td><img src="https://img.shields.io/github/stars/Agions/orva-ui?style=flat&label=&color=FFC107" alt="stars"/></td>
-    <td>React/Taro 跨平台 UI 组件库，90+ 组件</td>
-    <td><code>TypeScript</code> <code>React</code> <code>Taro</code></td>
-  </tr>
-  <tr>
-    <td><b>🖨️ taro-bluetooth-print</b></td>
-    <td><img src="https://img.shields.io/github/stars/Agions/taro-bluetooth-print?style=flat&label=&color=FFC107" alt="stars"/></td>
-    <td>Taro 蓝牙打印库，支持 ESC/POS、TSPL、ZPL、CPCL</td>
-    <td><code>TypeScript</code> <code>Taro</code></td>
-  </tr>
-  <tr>
-    <td><b>🎙️ xfyun-sdk</b></td>
-    <td><img src="https://img.shields.io/github/stars/Agions/xfyun-sdk?style=flat&label=&color=FFC107" alt="stars"/></td>
-    <td>科大讯飞语音识别 WebAPI 的 JS/TS SDK</td>
-    <td><code>TypeScript</code></td>
-  </tr>
-  <tr>
-    <td><b>🔤 paddle-ocr.js</b></td>
-    <td><img src="https://img.shields.io/github/stars/Agions/paddle-ocr.js?style=flat&label=&color=FFC107" alt="stars"/></td>
-    <td>飞桨 PaddleOCR 的 JS 封装，浏览器和 Node.js</td>
-    <td><code>TypeScript</code></td>
-  </tr>
-</table>
-<!-- end:libraries -->
+<!-- end:projects -->
 
 ---
 
@@ -281,11 +196,27 @@ flowchart LR
 | Category | Technologies | Powered Projects |
 |----------|-------------|-----------------|
 | 🖥️ **Desktop** | Tauri · Rust · Vue 3 · React · PyQt6 | SubLens · story-fab · scene-fab |
-| 🌐 **Web / Mini-App** | TypeScript · React · Taro · NestJS · MongoDB | TaroViz · orva-ui · taro-bluetooth-print |
-| 🧠 **AI / ML** | Python · PyTorch · Whisper · TTS · PaddleOCR | scene-fab · SubLens · paddle-ocr.js |
-| 🔧 **Dev Tools** | Rust · Ratatui · MCP · Node.js · FFmpeg · Docker | synerix · taskflow-ai · xfyun-sdk |
-| 🚀 **CI / DX** | GitHub Actions · Prettier · ESLint · Stylelint | All Projects |
+| 🧠 **AI / ML** | Python · PyTorch · Whisper · TTS · PaddleOCR | scene-fab · SubLens |
+| 🎬 **Video** | FFmpeg · Computer Vision · LLM · Text-to-Video | story-fab · frame-forge · scene-fab |
+| 🔧 **Dev Tools** | TypeScript · Node.js · GitHub Actions | All Projects |
 <!-- end:tech-stack -->
+
+---
+
+<!-- section:game -->
+## 🎮 Developer Runner
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/runner-game.svg" />
+    <img src="assets/runner-game.svg" width="100%" alt="Agions Developer Runner Game" />
+  </picture>
+</p>
+
+<p align="center">
+  <sub>⚡ 开发者跑酷 · 收集 ⭐、躲避 🐛bug · 看看你能跑多远！</sub>
+</p>
+<!-- end:game -->
 
 ---
 

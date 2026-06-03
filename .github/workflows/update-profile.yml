@@ -38,7 +38,7 @@ jobs:
 
       - name: Validate section markers
         run: |
-          SECTIONS="banner about ecosystem projects libraries tech-stack analytics activity contact footer"
+          SECTIONS="banner about ecosystem projects tech-stack game analytics activity contact footer"
           MISSING=0
           for section in $SECTIONS; do
             if grep -q "<!-- section:${section} -->" README.md; then
@@ -52,7 +52,7 @@ jobs:
 
       - name: Verify featured projects in README
         run: |
-          PROJECTS="scene-fab story-fab frame-forge SubLens synerix taskflow-ai TaroViz orva-ui taro-bluetooth-print xfyun-sdk paddle-ocr.js"
+          PROJECTS="scene-fab story-fab frame-forge SubLens"
           MISSING=0
           for proj in $PROJECTS; do
             if grep -q "$proj" README.md; then
@@ -66,7 +66,7 @@ jobs:
 
       - name: Verify ecosystem layer references
         run: |
-          LAYERS="SubLens xfyun-sdk paddle-ocr.js story-fab scene-fab frame-forge synerix taskflow-ai TaroViz orva-ui"
+          LAYERS="SubLens story-fab scene-fab frame-forge"
           MISSING=0
           for layer in $LAYERS; do
             if grep -q "ecosystem" README.md && grep -q "$layer" README.md; then
@@ -173,7 +173,7 @@ jobs:
 
       - name: Verify GitHub project links
         run: |
-          PROJECTS="scene-fab story-fab frame-forge SubLens synerix taskflow-ai TaroViz orva-ui taro-bluetooth-print xfyun-sdk paddle-ocr.js Agions"
+          PROJECTS="scene-fab story-fab frame-forge SubLens Agions"
           FAILED=0
           for proj in $PROJECTS; do
             url="https://github.com/Agions/${proj}"
