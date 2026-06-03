@@ -38,7 +38,7 @@ jobs:
 
       - name: Validate section markers
         run: |
-          SECTIONS="banner about ecosystem projects tech-stack game activity contact footer"
+          SECTIONS="banner about projects tech-stack game activity contact footer"
           MISSING=0
           for section in $SECTIONS; do
             if grep -q "<!-- section:${section} -->" README.md; then
@@ -63,18 +63,6 @@ jobs:
             fi
           done
           exit $MISSING
-
-      - name: Verify ecosystem layer references
-        run: |
-          LAYERS="SubLens story-fab scene-fab frame-forge"
-          MISSING=0
-          for layer in $LAYERS; do
-            if grep -q "ecosystem" README.md && grep -q "$layer" README.md; then
-              echo "✅ $layer in ecosystem"
-            else
-              echo "⚠️  $layer not in ecosystem section"
-            fi
-          done
 
       - name: Verify snake reference in README
         run: |
