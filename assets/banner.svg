@@ -223,7 +223,7 @@
     </rect>
   </g>
 
-  <!-- Stats row 2 — featured projects (corrected: scene-fab, story-fab, frame-forge, SubLens) -->
+  <!-- Stats row 2 — featured projects (corrected: scene-fab, story-fab, frame-fab, SubLens) -->
   <g>
     <text x="540" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
@@ -254,7 +254,7 @@
           font-size="22" font-weight="800" fill="#FFFFFF">23</text>
     <text x="720" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#FFC107">frame-forge</text>
+          font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#FFC107">frame-fab</text>
       <circle cx="703" cy="137" r="2.5" fill="#FFC107">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
       </circle>
