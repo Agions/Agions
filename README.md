@@ -76,7 +76,7 @@
 
 <!-- frame-forge -->
 <details open>
-<summary><b>🎬 frame-forge</b> — AI 视频创作工作室 <sub><b>⭐ 23</b></sub></summary>
+<summary><b>🎬 frame-forge</b> — AI 漫剧创作工具 <sub><b>⭐ 23</b></sub></summary>
 <br/>
 <p align="left">
   <img src="https://img.shields.io/github/stars/Agions/frame-forge?style=flat&logo=github&label=Stars&color=30D158" alt="Stars"/>
@@ -84,10 +84,10 @@
   <img src="https://img.shields.io/github/license/Agions/frame-forge?style=flat&label=License&color=BF5AF2" alt="License"/>
   <img src="https://img.shields.io/github/last-commit/Agions/frame-forge?style=flat&label=Updated&color=FFC107" alt="Last Commit"/>
   <br/>
-  <b>TypeScript · AI · LLM · Computer Vision · Text-to-Video</b>
+  <b>TypeScript · AI · LLM · Computer Vision · Manga Generation</b>
   <br/>
-  🏆 <b>23 stars</b> · 🍴 <b>10 forks</b> · AI-Driven Video Creation Studio.
-  多模型协同生成视频内容，支持脚本生成、语音合成、自动渲染输出。
+  🏆 <b>23 stars</b> · 🍴 <b>10 forks</b> · AI-Powered Manga & Comic Creation Tool.
+  多模型协同生成漫画分镜，支持脚本生成、角色设计、自动渲染输出。
   <br/>
   <a href="https://github.com/Agions/frame-forge"><code>📂 查看源码 →</code></a>
 </p>
@@ -133,7 +133,7 @@
 |----------|-------------|-----------------|
 | 🖥️ **Desktop** | Tauri · Rust · Vue 3 · React · PyQt6 | SubLens · story-fab · scene-fab |
 | 🧠 **AI / ML** | Python · PyTorch · Whisper · TTS · PaddleOCR | scene-fab · SubLens |
-| 🎬 **Video** | FFmpeg · Computer Vision · LLM · Text-to-Video | story-fab · frame-forge · scene-fab |
+| 🎬 **Video / Manga** | FFmpeg · Computer Vision · LLM · Manga Generation | story-fab · frame-forge · scene-fab |
 | 🔧 **Dev Tools** | TypeScript · Node.js · GitHub Actions | All Projects |
 <!-- end:tech-stack -->
 
