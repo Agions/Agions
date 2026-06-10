@@ -93,22 +93,22 @@
 </p>
 </details>
 
-<!-- SubLens -->
+<!-- CaptionFab -->
 <details open>
-<summary><b>🔍 SubLens</b> — 专业硬字幕提取工具 <sub><b>⭐ 15</b></sub></summary>
+<summary><b>🔍 CaptionFab</b> — 专业硬字幕提取工具 <sub><b>⭐ 15</b></sub></summary>
 <br/>
 <p align="left">
-  <img src="https://img.shields.io/github/stars/Agions/SubLens?style=flat&logo=github&label=Stars&color=30D158" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Agions/SubLens?style=flat&logo=github&label=Forks&color=0A84FF" alt="Forks"/>
-  <img src="https://img.shields.io/github/license/Agions/SubLens?style=flat&label=License&color=BF5AF2" alt="License"/>
-  <img src="https://img.shields.io/github/last-commit/Agions/SubLens?style=flat&label=Updated&color=FFC107" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/stars/Agions/CaptionFab?style=flat&logo=github&label=Stars&color=30D158" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Agions/CaptionFab?style=flat&logo=github&label=Forks&color=0A84FF" alt="Forks"/>
+  <img src="https://img.shields.io/github/license/Agions/CaptionFab?style=flat&label=License&color=BF5AF2" alt="License"/>
+  <img src="https://img.shields.io/github/last-commit/Agions/CaptionFab?style=flat&label=Updated&color=FFC107" alt="Last Commit"/>
   <br/>
   <b>Tauri · Rust · Vue 3 · TypeScript · PaddleOCR</b>
   <br/>
   🏆 <b>15 stars</b> · 🍴 <b>3 forks</b> · 高性能桌面端字幕提取引擎。
   支持批量处理、多语言识别（中/英/日/韩）、SRT/ASS/VTT 多格式导出。
   <br/>
-  <a href="https://github.com/Agions/SubLens"><code>📂 查看源码 →</code></a>
+  <a href="https://github.com/Agions/CaptionFab"><code>📂 查看源码 →</code></a>
 </p>
 </details>
 <!-- end:projects -->
@@ -131,8 +131,8 @@
 
 | Category | Technologies | Powered Projects |
 |----------|-------------|-----------------|
-| 🖥️ **Desktop** | Tauri · Rust · Vue 3 · React · PyQt6 | SubLens · story-fab · scene-fab |
-| 🧠 **AI / ML** | Python · PyTorch · Whisper · TTS · PaddleOCR | scene-fab · SubLens |
+| 🖥️ **Desktop** | Tauri · Rust · Vue 3 · React · PyQt6 | CaptionFab · story-fab · scene-fab |
+| 🧠 **AI / ML** | Python · PyTorch · Whisper · TTS · PaddleOCR | scene-fab · CaptionFab |
 | 🎬 **Video / Manga** | FFmpeg · Computer Vision · LLM · Manga Generation | story-fab · frame-fab · scene-fab |
 | 🔧 **Dev Tools** | TypeScript · Node.js · GitHub Actions | All Projects |
 <!-- end:tech-stack -->
