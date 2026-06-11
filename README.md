@@ -4,12 +4,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Agions"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" height="30" alt="GitHub"/></a>
-  <a href="mailto:agions@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" alt="Email"/></a>
+  <a href="https://github.com/Agions"><img src="https://img.shields.io/badge/%F0%9F%92%A4%20GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="mailto:agions@qq.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7%20Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/badge/%E2%9C%85%20Open%20Source-30D158?style=flat-square" alt="Open Source"/></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Agions&label=Profile%20Views&color=0A84FF&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Agions&label=%F0%9F%91%A3%20Profile%20Views&color=0A84FF&style=flat-square" alt="Profile Views" />
 </p>
 <!-- end:banner -->
 
@@ -41,8 +42,8 @@
 <summary><b>🎙️ scene-fab</b> — AI 影视解说创作工具 <sub><b>⭐ 295 · #1 by stars</b></sub></summary>
 <br/>
 <p align="left">
-  <img src="https://img.shields.io/github/stars/Agions/scene-fab?style=flat&logo=github&label=Stars&color=30D158" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Agions/scene-fab?style=flat&logo=github&label=Forks&color=0A84FF" alt="Forks"/>
+  <img src="https://img.shields.io/github/stars/Agions/scene-fab?style=flat-squarestyle=flat&logo=github&label=Stars&color=30D158color=30D158style=flat&logo=github&label=Stars&color=30D158label=%E2%AD%90%20Stars" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Agions/scene-fab?style=flat-squarestyle=flat&logo=github&label=Forks&color=0A84FFcolor=0A84FFstyle=flat&logo=github&label=Forks&color=0A84FFlabel=%F0%9F%93%A1%20Forks" alt="Forks"/>
   <img src="https://img.shields.io/github/license/Agions/scene-fab?style=flat&label=License&color=BF5AF2" alt="License"/>
   <img src="https://img.shields.io/github/last-commit/Agions/scene-fab?style=flat&label=Updated&color=FFC107" alt="Last Commit"/>
   <br/>
@@ -60,8 +61,8 @@
 <summary><b>✂️ story-fab</b> — AI 视频剪辑工作站 <sub><b>⭐ 85</b></sub></summary>
 <br/>
 <p align="left">
-  <img src="https://img.shields.io/github/stars/Agions/story-fab?style=flat&logo=github&label=Stars&color=30D158" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Agions/story-fab?style=flat&logo=github&label=Forks&color=0A84FF" alt="Forks"/>
+  <img src="https://img.shields.io/github/stars/Agions/story-fab?style=flat-squarestyle=flat&logo=github&label=Stars&color=30D158color=30D158style=flat&logo=github&label=Stars&color=30D158label=%E2%AD%90%20Stars" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Agions/story-fab?style=flat-squarestyle=flat&logo=github&label=Forks&color=0A84FFcolor=0A84FFstyle=flat&logo=github&label=Forks&color=0A84FFlabel=%F0%9F%93%A1%20Forks" alt="Forks"/>
   <img src="https://img.shields.io/github/license/Agions/story-fab?style=flat&label=License&color=BF5AF2" alt="License"/>
   <img src="https://img.shields.io/github/last-commit/Agions/story-fab?style=flat&label=Updated&color=FFC107" alt="Last Commit"/>
   <br/>
@@ -79,8 +80,8 @@
 <summary><b>🎬 frame-fab</b> — AI 漫剧创作工具 <sub><b>⭐ 23</b></sub></summary>
 <br/>
 <p align="left">
-  <img src="https://img.shields.io/github/stars/Agions/frame-fab?style=flat&logo=github&label=Stars&color=30D158" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Agions/frame-fab?style=flat&logo=github&label=Forks&color=0A84FF" alt="Forks"/>
+  <img src="https://img.shields.io/github/stars/Agions/frame-fab?style=flat-squarestyle=flat&logo=github&label=Stars&color=30D158color=30D158style=flat&logo=github&label=Stars&color=30D158label=%E2%AD%90%20Stars" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Agions/frame-fab?style=flat-squarestyle=flat&logo=github&label=Forks&color=0A84FFcolor=0A84FFstyle=flat&logo=github&label=Forks&color=0A84FFlabel=%F0%9F%93%A1%20Forks" alt="Forks"/>
   <img src="https://img.shields.io/github/license/Agions/frame-fab?style=flat&label=License&color=BF5AF2" alt="License"/>
   <img src="https://img.shields.io/github/last-commit/Agions/frame-fab?style=flat&label=Updated&color=FFC107" alt="Last Commit"/>
   <br/>
@@ -98,8 +99,8 @@
 <summary><b>🔍 CaptionFab</b> — 专业硬字幕提取工具 <sub><b>⭐ 15</b></sub></summary>
 <br/>
 <p align="left">
-  <img src="https://img.shields.io/github/stars/Agions/CaptionFab?style=flat&logo=github&label=Stars&color=30D158" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Agions/CaptionFab?style=flat&logo=github&label=Forks&color=0A84FF" alt="Forks"/>
+  <img src="https://img.shields.io/github/stars/Agions/CaptionFab?style=flat-squarestyle=flat&logo=github&label=Stars&color=30D158color=30D158style=flat&logo=github&label=Stars&color=30D158label=%E2%AD%90%20Stars" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Agions/CaptionFab?style=flat-squarestyle=flat&logo=github&label=Forks&color=0A84FFcolor=0A84FFstyle=flat&logo=github&label=Forks&color=0A84FFlabel=%F0%9F%93%A1%20Forks" alt="Forks"/>
   <img src="https://img.shields.io/github/license/Agions/CaptionFab?style=flat&label=License&color=BF5AF2" alt="License"/>
   <img src="https://img.shields.io/github/last-commit/Agions/CaptionFab?style=flat&label=Updated&color=FFC107" alt="Last Commit"/>
   <br/>
@@ -171,10 +172,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Agions"><img src="https://img.shields.io/github/contributors/Agions/Agions?style=flat&label=Contributors&color=0A84FF" alt="Contributors"/></a>
-  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/last-commit/Agions/Agions?style=flat&label=Last%20Updated&color=30D158" alt="Last Updated"/></a>
-  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/repo-size/Agions/Agions?style=flat&logo=github&label=Repo%20Size&color=FFC107" alt="Repo Size"/></a>
-  <a href="https://github.com/Agions/Agions/commits/main"><img src="https://img.shields.io/github/commit-activity/t/Agions/Agions?style=flat&logo=github&label=Commits&color=BF5AF2" alt="Commit Activity"/></a>
+  <a href="https://github.com/Agions/Agions/stargazers"><img src="https://img.shields.io/github/stars/Agions/Agions?style=flat-square&color=FFC107&label=%E2%AD%90%20Stars" alt="Stars"/></a>
+  <a href="https://github.com/Agions/Agions/network/members"><img src="https://img.shields.io/github/forks/Agions/Agions?style=flat-square&color=30D158&label=%F0%9F%93%A1%20Forks" alt="Forks"/></a>
+  <a href="https://github.com/Agions/Agions/watchers"><img src="https://img.shields.io/github/watchers/Agions/Agions?style=flat-square&color=0A84FF&label=%F0%9F%91%81%20Watchers" alt="Watchers"/></a>
+  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/repo-size/Agions/Agions?style=flat-square&color=BF5AF2&label=%F0%9F%92%BE%20Size" alt="Repo Size"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Agions"><img src="https://img.shields.io/github/contributors/Agions/Agions?style=flat-square&color=0A84FF&label=%F0%9F%91%A5%20Contributors" alt="Contributors"/></a>
+  <a href="https://github.com/Agions/Agions/commits/main"><img src="https://img.shields.io/github/last-commit/Agions/Agions?style=flat-square&color=30D158&label=%F0%9F%94%84%20Last%20Commit" alt="Last Commit"/></a>
+  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/commit-activity/t/Agions/Agions?style=flat-square&color=FFC107&label=%F0%9F%93%8D%20Commits" alt="Commits"/></a>
 </p>
 <!-- end:activity -->
 
@@ -198,7 +205,7 @@
 
 <!-- section:footer -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20and%20%E2%98%95-E8A838?style=flat" alt="Made with ❤️ and ☕"/>
+  <img src="https://img.shields.io/badge/%F0%9F%8C%A8%20Made%20with%20%E2%9D%A4%EF%B8%8F%20and%20%E2%98%95-E8A838?style=flat-square" alt="Made with ❤️ and ☕"/>
 </p>
 
 <p align="center">
