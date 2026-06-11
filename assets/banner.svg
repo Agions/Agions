@@ -223,7 +223,7 @@
     </rect>
   </g>
 
-  <!-- Stats row 2 — featured projects (corrected: scene-fab, story-fab, frame-fab, SubLens) -->
+  <!-- Stats row 2 — featured projects (corrected: scene-fab, story-fab, frame-fab, CaptionFab) -->
   <g>
     <text x="540" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
@@ -266,7 +266,7 @@
           font-size="22" font-weight="800" fill="#FFFFFF">15</text>
     <text x="810" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#BF5AF2">SubLens</text>
+          font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#BF5AF2">CaptionFab</text>
       <circle cx="793" cy="137" r="2.5" fill="#BF5AF2">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
       </circle>
