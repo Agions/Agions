@@ -4,18 +4,7 @@
 
 ---
 
-## 1. 概述
-
-本项目是 **GitHub Profile 展示型仓库**，通过 README.md + 自定义 SVG 资产 + CI 自动化管线，构建自维护的开发者个人主页。
-
-**核心目标：**
-- **零手动维护** — CI 自动验证、自动修复、自动更新
-- **高故障透明度** — 任何异常在 CI 中可见，不进生产
-- **可组合可扩展** — 以 section marker 驱动的模块化内容编排
-
----
-
-## 2. 分层架构
+## 分层总览
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -47,9 +36,11 @@
 └─────────────────────────────────────────────────────┘
 ```
 
-### 2.1 Content Layer — 内容层
+---
 
-基于 HTML 注释标记的模块化 README 编排：
+## Content Layer — 内容层
+
+基于 HTML 注释标记的模块化 README 编排，CI 可逐个独立验证。
 
 | Section | 标记 | 内容 |
 |---------|------|------|
@@ -62,19 +53,23 @@
 | Contact | `<!-- section:contact -->` | 微信二维码 |
 | Footer | `<!-- section:footer -->` | 署名信息 |
 
-**设计原则：** 每个 section 使用 `<!-- section:{name} -->` / `<!-- end:{name} -->` 包裹，CI 可逐个独立验证，未来可拆分为独立模板文件。
+**设计原则：** 每个 section 使用 `<!-- section:{name} -->` / `<!-- end:{name} -->` 包裹，未来可拆分为独立模板文件。
 
-### 2.2 Asset Layer — 资产层
+---
+
+## Asset Layer — 资产层
 
 | 资产 | 类型 | 尺寸 | 生成方式 | 用途 |
 |------|------|------|----------|------|
-| `banner.svg` | 矢量 | 900×200 | 手写 | Profile 首屏 Hero |
-| `profile-card.svg` | 矢量 | ~300px | 手写 | About 区头像卡片 |
-| `runner-game.svg` | 矢量 | 全宽 | 手写 | Game 区互动动画 |
-| `wechat-qrcode.png` | 位图 | 120px | 外部生成 | 联系方式 |
-| `output/snake.svg` | 矢量 | 动态 | CI 自动生成 (Platane/snk) | 贡献蛇动画 |
+| `assets/banner.svg` | 矢量 | 900×200 | 手写 | Profile 首屏 Hero |
+| `assets/profile-card.svg` | 矢量 | ~300px | 手写 | About 区头像卡片 |
+| `assets/runner-game.svg` | 矢量 | 全宽 | 手写 | Game 区互动动画 |
+| `assets/wechat-qrcode.png` | 位图 | 120px | 外部生成 | 联系方式 |
+| `output/snake.svg` | 矢量 | 动态 | CI 自动生成 | 贡献蛇动画 |
 
-### 2.3 Pipeline Layer — 流水线层
+---
+
+## Pipeline Layer — 流水线层
 
 单一 workflow (`update-profile.yml`)，6 个并行 job：
 
@@ -82,53 +77,53 @@
            ┌─────────────────┐
            │  Schedule/Dispatch │
            └────────┬────────┘
-                    │
-           ┌────────▼────────┐
-           │ generate-snake   │ ← Platane/snk 生成贡献蛇
-           └────────┬────────┘
+                    ▼
+           ┌───────────────────┐
+           │  generate-snake    │ ← Platane/snk 生成贡献蛇
+           └────────┬──────────┘
                     │
     ┌───────────────┼───────────────┐
-    │               │               │
-┌───▼──────┐  ┌────▼────┐  ┌──────▼─────┐
-│verify-   │  │check-   │  │check-      │
-│readme    │  │badges   │  │svg         │
-└───┬──────┘  └────┬────┘  └──────┬─────┘
-    │               │               │
-┌───▼──────┐  ┌────▼────┐         │
-│check-    │  │format-  │         │
-│links     │  │check    │         │
-└───┬──────┘  └────┬────┘         │
-    │               │               │
-    └───────────────┼───────────────┘
-                    │
-           ┌────────▼────────┐
-           │ All Must Pass ✓ │
-           └─────────────────┘
+    ▼               ▼               ▼
+┌──────────┐  ┌──────────┐  ┌──────────┐
+│verify-   │  │check-    │  │check-    │
+│readme    │  │badges    │  │svg       │
+└────┬─────┘  └────┬─────┘  └────┬─────┘
+     ▼              ▼             ▼
+┌──────────┐  ┌──────────┐     │
+│check-    │  │format-   │     │
+│links     │  │check     │     │
+└────┬─────┘  └────┬─────┘     │
+     └──────────────┼───────────┘
+                    ▼
+           ┌───────────────────┐
+           │  All Must Pass ✓  │
+           └───────────────────┘
 ```
 
-#### Job 职责矩阵
+### Job 职责矩阵
 
 | Job | 验证内容 | 失败影响 | 修复策略 |
 |-----|---------|---------|---------|
-| `generate-snake` | 生成贡献蛇 SVG | snake 不更新、无 visual 影响 | 自动提交 |
+| `generate-snake` | 生成贡献蛇 SVG | snake 不更新 | 自动提交 |
 | `verify-readme` | 8 个 section marker + 4 个项目名 + snake 引用 | ❌ 阻断 | snake 自动修复 |
 | `check-badges` | 27 个 shields.io 链接可达性 | ❌ 阻断 | 3 次重试 + 2s backoff |
 | `check-svg` | SVG header + closing tag + 文件大小 | ❌ 阻断 | 手动修复 |
 | `check-links` | 5 个项目 URL (200/301) + README 大小 | ❌ 阻断 | 手动修复 |
 | `format-check` | prettier 格式化一致性 | ⚠️ 非阻断 | 手动修复 |
 
-### 2.4 DevX Layer — 开发体验层
+---
+
+## DevX Layer — 开发体验层
 
 | 工具 | 路径 | 目的 |
 |------|------|------|
 | DevContainer | `.devcontainer/devcontainer.json` | 开箱即用的开发环境 |
 | Prettier | `.prettierrc` | 统一的代码格式化 |
-| Architecture Doc | `docs/architecture-overview.html` | 可视化架构建档 |
-| This file | `ARCHITECTURE.md` | 文字架构建档 |
+| Architecture Diagram | `docs/architecture-overview.html` | 可视化 SVG 架构图（浏览器打开） |
 
 ---
 
-## 3. 数据流
+## 数据流
 
 ```
 GitHub API
@@ -140,33 +135,23 @@ Platane/snk ──► output/snake.svg ──► README.md (Activity section)
 shields.io ──► 27 badges ──► README.md (all sections)
     │
     ▼
-GitHub Profile ──► renders README.md ──► Visitor's browser
+GitHub Profile ──► render README.md ──► Visitor's browser
 ```
-
-**关键数据流：**
-1. **贡献数据** → GitHub API → Platane/snk → snake.svg → README
-2. **项目元数据** → shields.io 动态生成 badges（stars, forks, license）
-3. **活动数据** → github-readme-activity-graph → 贡献图表
-4. **Profile PV** → komarev.com → PV counter badge
 
 ---
 
-## 4. 安全与可靠性
+## 安全与可靠性
 
-### 4.1 验证策略
 - **入口验证** — 所有 badge 链接在 CI 中通过 curl 验证可达性
 - **结构性验证** — SVG 文件必须包含有效的 `<svg>` 头 + `</svg>` 闭合
 - **引用完整性** — README 中引用的每个项目名必须实际存在于文档中
 - **URL 可达性** — 所有项目 GitHub 链接返回 200/301
-
-### 4.2 故障恢复
 - **网络抖动** — badge 检查 3 次重试 + 2s backoff
 - **内容漂移** — snake 引用丢失时 CI 自动修复并提交
-- **运行时保护** — workflow timeout: 3-10 min/job，避免资源泄漏
 
 ---
 
-## 5. 演进路线图
+## 演进路线图
 
 ### P0 — 当前状态（已完成）
 - ✅ 基础 README 内容编排
@@ -191,46 +176,22 @@ GitHub Profile ──► renders README.md ──► Visitor's browser
 
 ---
 
-## 6. 技术决策记录（ADR）
+## ADR — 技术决策记录
 
 ### ADR-001: 单文件 README vs 模板引擎
-- **决策**：单文件 README.md + HTML section markers
-- **理由**：避免构建工具链依赖，GitHub 原生渲染无额外开销
-- **代价**：不支持 conditonal rendering，内容冗余
+**决策**：单文件 README.md + HTML section markers
+**理由**：避免构建工具链依赖，GitHub 原生渲染无额外开销
+**代价**：不支持 conditional rendering，内容冗余
 
 ### ADR-002: Schedule-based vs Event-triggered CI
-- **决策**：定时（12h）+ 手动触发
-- **理由**：profile 内容是低频变化，事件触发收益低
-- **代价**：新数据最多延迟 12h 展示
+**决策**：定时（12h）+ 手动触发
+**理由**：profile 内容是低频变化，事件触发收益低
+**代价**：新数据最多延迟 12h 展示
 
 ### ADR-003: shields.io badges vs 本地计算
-- **决策**：使用 shields.io 动态 badges
-- **理由**：零维护、实时数据、无自建服务
-- **代价**：网络依赖，偶尔超时（已用重试缓解）
-
----
-
-## 7. 模块接口
-
-```
-Agions/Agions
-├── README.md              ← 内容入口，section 边界标记
-├── assets/
-│   ├── banner.svg         ← Hero 区域
-│   ├── profile-card.svg   ← 个人卡片
-│   └── runner-game.svg    ← 跑酷动画
-├── output/
-│   └── snake.svg          ← CI 生成
-├── docs/
-│   └── architecture-overview.html  ← 架构可视化
-├── .github/workflows/
-│   └── update-profile.yml ← 自动化管线
-├── .devcontainer/
-│   └── devcontainer.json  ← 开发环境
-├── .prettierrc            ← 格式化配置
-├── ARCHITECTURE.md        ← 本文档
-└── ...
-```
+**决策**：使用 shields.io 动态 badges
+**理由**：零维护、实时数据、无自建服务
+**代价**：网络依赖，偶尔超时（已用重试缓解）
 
 ---
 
