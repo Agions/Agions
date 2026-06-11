@@ -171,8 +171,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Agions"><img src="https://img.shields.io/github/contributors/Agions/Agions?style=flat&logo=github&label=Contributors&color=0A84FF" alt="Contributors"/></a>
-  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/last-commit/Agions/Agions?style=flat&logo=github&label=Last%20Updated&color=30D158" alt="Last Updated"/></a>
+  <a href="https://github.com/Agions"><img src="https://img.shields.io/github/contributors/Agions/Agions?style=flat&label=Contributors&color=0A84FF" alt="Contributors"/></a>
+  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/last-commit/Agions/Agions?style=flat&label=Last%20Updated&color=30D158" alt="Last Updated"/></a>
   <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/repo-size/Agions/Agions?style=flat&logo=github&label=Repo%20Size&color=FFC107" alt="Repo Size"/></a>
   <a href="https://github.com/Agions/Agions/commits/main"><img src="https://img.shields.io/github/commit-activity/t/Agions/Agions?style=flat&logo=github&label=Commits&color=BF5AF2" alt="Commit Activity"/></a>
 </p>
