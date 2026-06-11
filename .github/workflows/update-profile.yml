@@ -91,9 +91,16 @@ jobs:
           TOTAL=0
           for url in $BADGES; do
             TOTAL=$((TOTAL+1))
-            status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url" 2>/dev/null)
+            status=""
+            for attempt in 1 2 3; do
+              status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url" 2>/dev/null)
+              if [ "$status" = "200" ]; then
+                break
+              fi
+              [ "$attempt" -lt 3 ] && sleep 2
+            done
             if [ "$status" != "200" ]; then
-              echo "❌ $url → $status"
+              echo "❌ $url → $status (after 3 attempts)"
               FAILED=$((FAILED+1))
             else
               echo "✅ $url → 200"
