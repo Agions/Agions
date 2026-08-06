@@ -38,14 +38,11 @@
 <!-- vynaro — flagship -->
 <details open>
 <summary>
-  <img src="assets/vynaro-icon.png" width="28" height="28" alt="Vynaro Icon" style="vertical-align: middle; border-radius: 6px;" />
+  <img src="assets/vynaro-icon.png" width="20" height="20" alt="Vynaro Logo" style="vertical-align: middle; border-radius: 4px;" />
   <b>Vynaro (叙影 AI)</b> — 下一代 7 步全自动 AI 影视解说与视频创作工具 <sub><b>⭐ 337 · #1 by stars</b></sub>
 </summary>
 <br/>
 <p align="left">
-  <a href="https://github.com/Agions/vynaro">
-    <img src="assets/vynaro-icon.png" width="64" height="64" alt="Vynaro Icon" style="border-radius: 14px; float: left; margin-right: 14px;" />
-  </a>
   <img src="https://img.shields.io/github/stars/Agions/vynaro?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
   <img src="https://img.shields.io/github/forks/Agions/vynaro?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
   <img src="https://img.shields.io/github/license/Agions/vynaro?style=flat-square&label=License&color=BF5AF2" alt="License"/>
@@ -59,19 +56,14 @@
 </p>
 </details>
 
-<br/>
-
 <!-- mangav -->
 <details open>
 <summary>
-  <img src="assets/mangav-icon.png" width="28" height="28" alt="MangaV Icon" style="vertical-align: middle; border-radius: 6px;" />
+  <img src="assets/mangav-icon.png" width="20" height="20" alt="MangaV Logo" style="vertical-align: middle; border-radius: 4px;" />
   <b>MangaV (漫织 AI)</b> — 端到端 AI 漫剧创作平台 <sub><b>⭐ 70</b></sub>
 </summary>
 <br/>
 <p align="left">
-  <a href="https://github.com/Agions/mangav">
-    <img src="assets/mangav-icon.png" width="64" height="64" alt="MangaV Icon" style="border-radius: 14px; float: left; margin-right: 14px;" />
-  </a>
   <img src="https://img.shields.io/github/stars/Agions/mangav?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
   <img src="https://img.shields.io/github/forks/Agions/mangav?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
   <img src="https://img.shields.io/github/license/Agions/mangav?style=flat-square&label=License&color=BF5AF2" alt="License"/>
@@ -85,19 +77,14 @@
 </p>
 </details>
 
-<br/>
-
 <!-- caption-fab -->
 <details open>
 <summary>
-  <img src="assets/caption-fab-icon.png" width="28" height="28" alt="CaptionFab Icon" style="vertical-align: middle; border-radius: 6px;" />
+  <img src="assets/caption-fab-icon.png" width="20" height="20" alt="CaptionFab Logo" style="vertical-align: middle; border-radius: 4px;" />
   <b>CaptionFab</b> — 专业硬编码字幕提取工具 <sub><b>⭐ 21</b></sub>
 </summary>
 <br/>
 <p align="left">
-  <a href="https://github.com/Agions/caption-fab">
-    <img src="assets/caption-fab-icon.png" width="64" height="64" alt="CaptionFab Icon" style="border-radius: 14px; float: left; margin-right: 14px;" />
-  </a>
   <img src="https://img.shields.io/github/stars/Agions/caption-fab?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
   <img src="https://img.shields.io/github/forks/Agions/caption-fab?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
   <img src="https://img.shields.io/github/license/Agions/caption-fab?style=flat-square&label=License&color=BF5AF2" alt="License"/>
