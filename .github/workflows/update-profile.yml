@@ -52,7 +52,7 @@ jobs:
 
       - name: Verify featured projects in README
         run: |
-          PROJECTS="scene-fab story-fab frame-fab CaptionFab"
+          PROJECTS="vynaro mangav caption-fab"
           MISSING=0
           for proj in $PROJECTS; do
             if grep -q "$proj" README.md; then
@@ -159,7 +159,7 @@ jobs:
 
       - name: Verify GitHub project links
         run: |
-          PROJECTS="scene-fab story-fab frame-fab CaptionFab Agions"
+          PROJECTS="vynaro mangav caption-fab Agions"
           FAILED=0
           for proj in $PROJECTS; do
             url="https://github.com/Agions/${proj}"

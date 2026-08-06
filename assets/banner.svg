@@ -223,51 +223,39 @@
     </rect>
   </g>
 
-  <!-- Stats row 2 — featured projects (corrected: scene-fab, story-fab, frame-fab, CaptionFab) -->
+  <!-- Stats row 2 — featured projects (vynaro, mangav, caption-fab) -->
   <g>
-    <text x="540" y="130" text-anchor="middle"
+    <text x="560" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">295</text>
-    <text x="540" y="144" text-anchor="middle"
+          font-size="22" font-weight="800" fill="#FFFFFF">337</text>
+    <text x="560" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#30D158">scene-fab</text>
-      <circle cx="523" cy="137" r="2.5" fill="#30D158">
+          font-size="8" font-weight="700" letter-spacing="1.5" fill="#30D158">vynaro</text>
+      <circle cx="535" cy="137" r="2.5" fill="#30D158">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
       </circle>
   </g>
 
   <g>
-    <text x="630" y="130" text-anchor="middle"
+    <text x="675" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">85</text>
-    <text x="630" y="144" text-anchor="middle"
+          font-size="22" font-weight="800" fill="#FFFFFF">70</text>
+    <text x="675" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#0A84FF">story-fab</text>
-      <circle cx="613" cy="137" r="2.5" fill="#0A84FF">
+          font-size="8" font-weight="700" letter-spacing="1.5" fill="#0A84FF">mangav</text>
+      <circle cx="650" cy="137" r="2.5" fill="#0A84FF">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
       </circle>
   </g>
 
   <g>
-    <text x="720" y="130" text-anchor="middle"
+    <text x="790" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">23</text>
-    <text x="720" y="144" text-anchor="middle"
+          font-size="22" font-weight="800" fill="#FFFFFF">21</text>
+    <text x="790" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#FFC107">frame-fab</text>
-      <circle cx="703" cy="137" r="2.5" fill="#FFC107">
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-      </circle>
-  </g>
-
-  <g>
-    <text x="810" y="130" text-anchor="middle"
-          font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">15</text>
-    <text x="810" y="144" text-anchor="middle"
-          font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#BF5AF2">CaptionFab</text>
-      <circle cx="793" cy="137" r="2.5" fill="#BF5AF2">
+          font-size="8" font-weight="700" letter-spacing="1.5" fill="#BF5AF2">caption-fab</text>
+      <circle cx="760" cy="137" r="2.5" fill="#BF5AF2">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
       </circle>
   </g>
