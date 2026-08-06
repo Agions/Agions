@@ -150,25 +150,6 @@
 ---
 
 <!-- section:tech-stack -->
-## 🛠️ Tech Radar
-
-<p align="center">
-  <sub>点击 badge 导航到相关项目</sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Agions?tab=repositories&q=&type=&language=rust"><img src="https://img.shields.io/badge/Rust-E8A838?style=for-the-badge&logo=rust&logoColor=black" alt="Rust"/></a>
-  <a href="https://github.com/Agions?tab=repositories&q=&type=&language=typescript"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/></a>
-  <a href="https://github.com/Agions?tab=repositories&q=&type=&language=python"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
-  <a href="https://github.com/Agions?tab=repositories&q=&type=&language=html"><img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/></a>
-</p>
-
-| Category | Technologies | Powered Projects |
-|----------|-------------|-----------------|
-| 🖥️ **Desktop** | Tauri 2.0 · Rust · React 19 · Vue 3 · TypeScript | vynaro · mangav · caption-fab |
-| 🧠 **AI / ML** | Python · PyTorch · Whisper · TTS · PaddleOCR | vynaro · caption-fab · mangav |
-| 🎬 **Video / Manga** | FFmpeg · Computer Vision · LLM · Storyboard AI | vynaro · mangav |
-| 🔧 **Dev Tools** | TypeScript · Rust · Node.js · GitHub Actions | All Projects |
 <!-- end:tech-stack -->
 
 ---
