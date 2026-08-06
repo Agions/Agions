@@ -35,68 +35,116 @@
 <!-- section:projects -->
 ## 🚀 Featured Projects
 
-<!-- vynaro — flagship -->
-<details open>
-<summary>
-  <img src="assets/vynaro-icon.png" width="20" height="20" alt="Vynaro Logo" style="vertical-align: middle; border-radius: 4px;" />
-  <b>Vynaro (叙影 AI)</b> — 下一代 7 步全自动 AI 影视解说与视频创作工具 <sub><b>⭐ 337 · #1 by stars</b></sub>
-</summary>
-<br/>
-<p align="left">
-  <img src="https://img.shields.io/github/stars/Agions/vynaro?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Agions/vynaro?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
-  <img src="https://img.shields.io/github/license/Agions/vynaro?style=flat-square&label=License&color=BF5AF2" alt="License"/>
-  <img src="https://img.shields.io/github/last-commit/Agions/vynaro?style=flat-square&label=Updated&color=FFC107" alt="Last Commit"/>
-  <br/>
-  <b>Tauri 2 · Rust · React 19 · TypeScript · Whisper · FFmpeg · TTS</b>
-  <br/>
-  🏆 <b>337 stars</b> · 🍴 <b>60 forks</b> · 下一代 7 步全自动 AI 影视解说与第一人称视频创作工具。一键生成解说剧本、多角色语音合成、智能对齐字幕与 4K 高清视频渲染。
-  <br/>
-  <a href="https://github.com/Agions/vynaro"><code>📂 查看源码 → https://github.com/Agions/vynaro</code></a>
-</p>
-</details>
+<!-- Card 1: Vynaro -->
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 12px; background-color: #0d1117; margin-bottom: 20px;">
+  <tr>
+    <td style="padding: 18px;">
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h3 style="margin: 0; display: inline-flex; align-items: center;">
+          <img src="assets/vynaro-icon.png" width="20" height="20" alt="Vynaro Logo" style="vertical-align: middle; border-radius: 4px; margin-right: 8px;" />
+          <a href="https://github.com/Agions/vynaro" style="color: #58a6ff; text-decoration: none;">Vynaro (叙影 AI)</a>
+        </h3>
+        <span style="font-size: 12px; color: #8b949e; background: #161b22; padding: 4px 10px; border-radius: 12px; border: 1px solid #30363d;">⭐ 337 · #1 Flagship</span>
+      </div>
+      <p style="margin: 8px 0 12px 0; color: #8b949e; font-size: 13.5px;">
+        下一代 7 步全自动 AI 影视解说与第一人称视频创作工具 (Tauri 2 + Rust + React 19)
+      </p>
+      <div style="margin-bottom: 12px;">
+        <img src="https://img.shields.io/github/stars/Agions/vynaro?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
+        <img src="https://img.shields.io/github/forks/Agions/vynaro?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
+        <img src="https://img.shields.io/github/license/Agions/vynaro?style=flat-square&label=License&color=BF5AF2" alt="License"/>
+        <img src="https://img.shields.io/github/last-commit/Agions/vynaro?style=flat-square&label=Updated&color=FFC107" alt="Last Commit"/>
+      </div>
+      <p style="margin: 0 0 12px 0; font-size: 13px; color: #c9d1d9;">
+        ⚡ <b>端到端视频生成管线</b>：语音识别 → AI 剧本生成 → 多角色语音合成 → 智能对齐字幕 → 4K 视频渲染。
+      </p>
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+        <div>
+          <code style="background: #161b22; color: #79c0ff; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Tauri 2</code>
+          <code style="background: #161b22; color: #e3b341; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Rust</code>
+          <code style="background: #161b22; color: #61dafb; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">React 19</code>
+          <code style="background: #161b22; color: #ff6f00; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Whisper</code>
+          <code style="background: #161b22; color: #00d4aa; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">FFmpeg</code>
+        </div>
+        <a href="https://github.com/Agions/vynaro" style="color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 13px;"><code>📂 查看源码 →</code></a>
+      </div>
+    </td>
+  </tr>
+</table>
 
-<!-- mangav -->
-<details open>
-<summary>
-  <img src="assets/mangav-icon.png" width="20" height="20" alt="MangaV Logo" style="vertical-align: middle; border-radius: 4px;" />
-  <b>MangaV (漫织 AI)</b> — 端到端 AI 漫剧创作平台 <sub><b>⭐ 70</b></sub>
-</summary>
-<br/>
-<p align="left">
-  <img src="https://img.shields.io/github/stars/Agions/mangav?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Agions/mangav?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
-  <img src="https://img.shields.io/github/license/Agions/mangav?style=flat-square&label=License&color=BF5AF2" alt="License"/>
-  <img src="https://img.shields.io/github/last-commit/Agions/mangav?style=flat-square&label=Updated&color=FFC107" alt="Last Commit"/>
-  <br/>
-  <b>TypeScript · Tauri · Rust · AI LLM · Computer Vision · FFmpeg</b>
-  <br/>
-  🏆 <b>70 stars</b> · 🍴 <b>18 forks</b> · 端到端 AI 漫剧创作平台。集成 13 大 AI 大模型、视听多模态与 FFmpeg 硬件加速引擎，输入小说自动生成 4K 精致漫剧分镜与合成视频。
-  <br/>
-  <a href="https://github.com/Agions/mangav"><code>📂 查看源码 → https://github.com/Agions/mangav</code></a>
-</p>
-</details>
+<!-- Card 2: MangaV -->
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 12px; background-color: #0d1117; margin-bottom: 20px;">
+  <tr>
+    <td style="padding: 18px;">
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h3 style="margin: 0; display: inline-flex; align-items: center;">
+          <img src="assets/mangav-icon.png" width="20" height="20" alt="MangaV Logo" style="vertical-align: middle; border-radius: 4px; margin-right: 8px;" />
+          <a href="https://github.com/Agions/mangav" style="color: #58a6ff; text-decoration: none;">MangaV (漫织 AI)</a>
+        </h3>
+        <span style="font-size: 12px; color: #8b949e; background: #161b22; padding: 4px 10px; border-radius: 12px; border: 1px solid #30363d;">⭐ 70 · AI Manga</span>
+      </div>
+      <p style="margin: 8px 0 12px 0; color: #8b949e; font-size: 13.5px;">
+        端到端 AI 漫剧创作平台 (Tauri + Rust + TypeScript + AI Multimodal)
+      </p>
+      <div style="margin-bottom: 12px;">
+        <img src="https://img.shields.io/github/stars/Agions/mangav?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
+        <img src="https://img.shields.io/github/forks/Agions/mangav?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
+        <img src="https://img.shields.io/github/license/Agions/mangav?style=flat-square&label=License&color=BF5AF2" alt="License"/>
+        <img src="https://img.shields.io/github/last-commit/Agions/mangav?style=flat-square&label=Updated&color=FFC107" alt="Last Commit"/>
+      </div>
+      <p style="margin: 0 0 12px 0; font-size: 13px; color: #c9d1d9;">
+        🎨 <b>多模型协同生成</b>：集成 13 大 AI 大模型与 FFmpeg 硬件加速，输入一本小说自动生成 4K 精致漫剧分镜与合成视频。
+      </p>
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+        <div>
+          <code style="background: #161b22; color: #3178c6; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">TypeScript</code>
+          <code style="background: #161b22; color: #ffc131; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Tauri</code>
+          <code style="background: #161b22; color: #e3b341; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Rust</code>
+          <code style="background: #161b22; color: #a371f7; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">LLM</code>
+          <code style="background: #161b22; color: #00d4aa; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Computer Vision</code>
+        </div>
+        <a href="https://github.com/Agions/mangav" style="color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 13px;"><code>📂 查看源码 →</code></a>
+      </div>
+    </td>
+  </tr>
+</table>
 
-<!-- caption-fab -->
-<details open>
-<summary>
-  <img src="assets/caption-fab-icon.png" width="20" height="20" alt="CaptionFab Logo" style="vertical-align: middle; border-radius: 4px;" />
-  <b>CaptionFab</b> — 专业硬编码字幕提取工具 <sub><b>⭐ 21</b></sub>
-</summary>
-<br/>
-<p align="left">
-  <img src="https://img.shields.io/github/stars/Agions/caption-fab?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Agions/caption-fab?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
-  <img src="https://img.shields.io/github/license/Agions/caption-fab?style=flat-square&label=License&color=BF5AF2" alt="License"/>
-  <img src="https://img.shields.io/github/last-commit/Agions/caption-fab?style=flat-square&label=Updated&color=FFC107" alt="Last Commit"/>
-  <br/>
-  <b>Tauri · Rust · Vue 3 · TypeScript · PaddleOCR</b>
-  <br/>
-  🏆 <b>21 stars</b> · 🍴 <b>3 forks</b> · 高性能桌面端硬字幕提取引擎。从视频中精准提取硬字幕，支持批量处理、多语言 OCR 识别（中/英/日/韩）与 SRT/ASS/VTT 多格式导出。
-  <br/>
-  <a href="https://github.com/Agions/caption-fab"><code>📂 查看源码 → https://github.com/Agions/caption-fab</code></a>
-</p>
-</details>
+<!-- Card 3: CaptionFab -->
+<table width="100%" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 12px; background-color: #0d1117; margin-bottom: 20px;">
+  <tr>
+    <td style="padding: 18px;">
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h3 style="margin: 0; display: inline-flex; align-items: center;">
+          <img src="assets/caption-fab-icon.png" width="20" height="20" alt="CaptionFab Logo" style="vertical-align: middle; border-radius: 4px; margin-right: 8px;" />
+          <a href="https://github.com/Agions/caption-fab" style="color: #58a6ff; text-decoration: none;">CaptionFab</a>
+        </h3>
+        <span style="font-size: 12px; color: #8b949e; background: #161b22; padding: 4px 10px; border-radius: 12px; border: 1px solid #30363d;">⭐ 21 · Subtitle OCR</span>
+      </div>
+      <p style="margin: 8px 0 12px 0; color: #8b949e; font-size: 13.5px;">
+        专业硬编码字幕提取工具 (Tauri + Vue 3 + Rust + PaddleOCR)
+      </p>
+      <div style="margin-bottom: 12px;">
+        <img src="https://img.shields.io/github/stars/Agions/caption-fab?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
+        <img src="https://img.shields.io/github/forks/Agions/caption-fab?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
+        <img src="https://img.shields.io/github/license/Agions/caption-fab?style=flat-square&label=License&color=BF5AF2" alt="License"/>
+        <img src="https://img.shields.io/github/last-commit/Agions/caption-fab?style=flat-square&label=Updated&color=FFC107" alt="Last Commit"/>
+      </div>
+      <p style="margin: 0 0 12px 0; font-size: 13px; color: #c9d1d9;">
+        🔍 <b>高性能硬字幕提取</b>：支持批量处理、多语言识别（中/英/日/韩）与 SRT/ASS/VTT 多格式精准导出。
+      </p>
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+        <div>
+          <code style="background: #161b22; color: #ffc131; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Tauri</code>
+          <code style="background: #161b22; color: #e3b341; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Rust</code>
+          <code style="background: #161b22; color: #4fc08d; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Vue 3</code>
+          <code style="background: #161b22; color: #3178c6; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">TypeScript</code>
+          <code style="background: #161b22; color: #f05138; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">PaddleOCR</code>
+        </div>
+        <a href="https://github.com/Agions/caption-fab" style="color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 13px;"><code>📂 查看源码 →</code></a>
+      </div>
+    </td>
+  </tr>
+</table>
 <!-- end:projects -->
 
 ---
