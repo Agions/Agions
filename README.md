@@ -4,13 +4,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Agions"><img src="https://img.shields.io/badge/%F0%9F%92%A4%20GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="mailto:agions@qq.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7%20Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/badge/%E2%9C%85%20Open%20Source-30D158?style=flat-square" alt="Open Source"/></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Agions&label=%F0%9F%91%A3%20Profile%20Views&color=0A84FF&style=flat-square" alt="Profile Views" />
+  <a href="https://github.com/Agions"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="mailto:agions@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/badge/Open%20Source-%E2%9C%93-30D158?style=flat-square" alt="Open Source"/></a>
+  <img src="https://komarev.com/ghpvc/?username=Agions&label=Profile+Views&color=0A84FF&style=flat-square" alt="Profile Views" />
 </p>
 <!-- end:banner -->
 
@@ -19,11 +16,10 @@
 <!-- section:about -->
 ## 👨‍💻 About Me
 
-> **Full-Stack Developer & Audio/Video Architect**
+> **Full-Stack Developer · Desktop & AI Video Toolchain Architect**
 >
-> 聚焦跨平台桌面应用与音视频/AI处理工具链的开源开发。
-> 技术栈以 **Rust**、**TypeScript**、**Python** 为核心，覆盖 Tauri 2.0 桌面端、AI 推理与全栈工程化。
-> 作为 [Agions](https://github.com/Agions) GitHub 账号的维护者，致力于打造从视频采集、AI 漫剧、硬字幕提取到全自动解说创作的下一代开源工具矩阵。
+> 专注跨平台桌面应用与音视频 AI 工具链的开源工程实践。核心技术栈：**Rust · TypeScript · Python**，覆盖 Tauri 2.0 桌面端、AI 推理、TUI 终端工具与全栈工程化。
+> 维护 [Agions](https://github.com/Agions) 账号，致力于打造从 AI 影视解说、漫剧创作、字幕蒸馏提取到本地 AI 编程代理的下一代开源工具矩阵。
 
 <p align="center">
   <img src="assets/profile-card.svg" width="300" alt="Profile Card" style="border-radius:16px;" />
@@ -36,45 +32,44 @@
 ## 🚀 Featured Projects
 
 <!-- Card 1: Vynaro -->
-<table width="100%" style="width: 100%; border-collapse: collapse; margin-bottom: 16px;">
+<table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:14px;">
   <tr>
-    <td width="100%" style="width: 100%; padding: 18px; background-color: #0d1117; border: 1px solid #30363d; border-radius: 12px; vertical-align: top;">
-      <table width="100%" style="width: 100%; border-collapse: collapse;">
+    <td width="100%" style="width:100%; padding:18px 20px; background:#0d1117; border:1px solid #21262d; border-radius:12px; vertical-align:top;">
+      <table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:10px;">
         <tr>
-          <td align="left">
-            <h3 style="margin: 0; padding: 0;">
-              <img src="assets/vynaro-icon.png" width="20" height="20" alt="Vynaro Logo" style="vertical-align: middle; border-radius: 4px; margin-right: 6px;" />
-              <a href="https://github.com/Agions/vynaro" style="color: #58a6ff; text-decoration: none;">Vynaro (叙影 AI)</a>
+          <td>
+            <h3 style="margin:0; font-size:16px;">
+              <img src="assets/vynaro-icon.png" width="20" height="20" alt="" style="vertical-align:middle; border-radius:4px; margin-right:7px;" /><a href="https://github.com/Agions/vynaro" style="color:#58a6ff; text-decoration:none;">Vynaro</a> <span style="color:#8b949e; font-weight:400; font-size:14px;">叙影 AI</span>
             </h3>
           </td>
           <td align="right">
-            <span style="font-size: 12px; color: #8b949e; background: #161b22; padding: 4px 10px; border-radius: 12px; border: 1px solid #30363d;">⭐ 337 · #1 Flagship</span>
+            <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d; white-space:nowrap;">⭐ 337 &nbsp;·&nbsp; #1 Flagship</span>
           </td>
         </tr>
       </table>
-      <p style="margin: 10px 0; color: #8b949e; font-size: 13.5px;">
-        下一代 7 步全自动 AI 影视解说与第一人称视频创作工具 (Tauri 2 + Rust + React 19)
+      <p style="margin:0 0 10px; color:#6e7681; font-size:13px; line-height:1.5;">
+        下一代 7 步全自动 AI 影视解说与第一人称视频创作工具 · Tauri 2 · Rust · React 19
       </p>
-      <p style="margin: 0 0 10px 0;">
-        <img src="https://img.shields.io/github/stars/Agions/vynaro?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
-        <img src="https://img.shields.io/github/forks/Agions/vynaro?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
-        <img src="https://img.shields.io/github/license/Agions/vynaro?style=flat-square&label=License&color=BF5AF2" alt="License"/>
-        <img src="https://img.shields.io/github/last-commit/Agions/vynaro?style=flat-square&label=Updated&color=FFC107" alt="Last Commit"/>
+      <p style="margin:0 0 10px;">
+        <img src="https://img.shields.io/github/stars/Agions/vynaro?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
+        <img src="https://img.shields.io/github/forks/Agions/vynaro?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
+        <img src="https://img.shields.io/github/license/Agions/vynaro?style=flat-square&label=License&color=BF5AF2" alt="License" />
+        <img src="https://img.shields.io/github/last-commit/Agions/vynaro?style=flat-square&label=Updated&color=FFC107" alt="Last Commit" />
       </p>
-      <p style="margin: 0 0 12px 0; font-size: 13px; color: #c9d1d9; line-height: 1.5;">
-        ⚡ <b>端到端自动生成管线</b>：语音识别 → AI 剧本生成 → 多角色语音合成 → 智能字幕对齐 → 4K 高清视频渲染。
+      <p style="margin:0 0 12px; font-size:13px; color:#c9d1d9; line-height:1.6;">
+        ⚡ 语音识别 → AI 剧本生成 → 多角色 TTS 语音合成 → 字幕精准对齐 → 4K 高清视频自动渲染，全流程本地端到端处理，无需上传云端。
       </p>
-      <table width="100%" style="width: 100%; border-collapse: collapse;">
+      <table width="100%" style="width:100%; border-collapse:collapse;">
         <tr>
-          <td align="left">
-            <code style="background: #161b22; color: #79c0ff; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Tauri 2</code>
-            <code style="background: #161b22; color: #e3b341; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Rust</code>
-            <code style="background: #161b22; color: #61dafb; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">React 19</code>
-            <code style="background: #161b22; color: #ff6f00; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Whisper</code>
-            <code style="background: #161b22; color: #00d4aa; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">FFmpeg</code>
+          <td>
+            <code style="background:#161b22; color:#79c0ff; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Tauri 2</code>
+            <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Rust</code>
+            <code style="background:#161b22; color:#61dafb; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">React 19</code>
+            <code style="background:#161b22; color:#ff9500; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Whisper</code>
+            <code style="background:#161b22; color:#00d4aa; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">FFmpeg</code>
           </td>
           <td align="right">
-            <a href="https://github.com/Agions/vynaro" style="color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 13px;"><code>📂 查看源码 →</code></a>
+            <a href="https://github.com/Agions/vynaro" style="color:#58a6ff; font-size:13px; font-weight:500; text-decoration:none;">View Source →</a>
           </td>
         </tr>
       </table>
@@ -83,45 +78,44 @@
 </table>
 
 <!-- Card 2: MangaV -->
-<table width="100%" style="width: 100%; border-collapse: collapse; margin-bottom: 16px;">
+<table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:14px;">
   <tr>
-    <td width="100%" style="width: 100%; padding: 18px; background-color: #0d1117; border: 1px solid #30363d; border-radius: 12px; vertical-align: top;">
-      <table width="100%" style="width: 100%; border-collapse: collapse;">
+    <td width="100%" style="width:100%; padding:18px 20px; background:#0d1117; border:1px solid #21262d; border-radius:12px; vertical-align:top;">
+      <table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:10px;">
         <tr>
-          <td align="left">
-            <h3 style="margin: 0; padding: 0;">
-              <img src="assets/mangav-icon.png" width="20" height="20" alt="MangaV Logo" style="vertical-align: middle; border-radius: 4px; margin-right: 6px;" />
-              <a href="https://github.com/Agions/mangav" style="color: #58a6ff; text-decoration: none;">MangaV (漫织 AI)</a>
+          <td>
+            <h3 style="margin:0; font-size:16px;">
+              <img src="assets/mangav-icon.png" width="20" height="20" alt="" style="vertical-align:middle; border-radius:4px; margin-right:7px;" /><a href="https://github.com/Agions/mangav" style="color:#58a6ff; text-decoration:none;">MangaV</a> <span style="color:#8b949e; font-weight:400; font-size:14px;">漫织 AI</span>
             </h3>
           </td>
           <td align="right">
-            <span style="font-size: 12px; color: #8b949e; background: #161b22; padding: 4px 10px; border-radius: 12px; border: 1px solid #30363d;">⭐ 70 · AI Manga</span>
+            <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d; white-space:nowrap;">⭐ 70 &nbsp;·&nbsp; AI Manga</span>
           </td>
         </tr>
       </table>
-      <p style="margin: 10px 0; color: #8b949e; font-size: 13.5px;">
-        端到端 AI 漫剧与数字绘本自动创作与渲染平台 (Tauri + Rust + AI Multimodal)
+      <p style="margin:0 0 10px; color:#6e7681; font-size:13px; line-height:1.5;">
+        端到端 AI 漫剧与数字绘本自动创作平台 · Tauri · Rust · TypeScript · Multimodal AI
       </p>
-      <p style="margin: 0 0 10px 0;">
-        <img src="https://img.shields.io/github/stars/Agions/mangav?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
-        <img src="https://img.shields.io/github/forks/Agions/mangav?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
-        <img src="https://img.shields.io/github/license/Agions/mangav?style=flat-square&label=License&color=BF5AF2" alt="License"/>
-        <img src="https://img.shields.io/github/last-commit/Agions/mangav?style=flat-square&label=Updated&color=FFC107" alt="Last Commit"/>
+      <p style="margin:0 0 10px;">
+        <img src="https://img.shields.io/github/stars/Agions/mangav?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
+        <img src="https://img.shields.io/github/forks/Agions/mangav?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
+        <img src="https://img.shields.io/github/license/Agions/mangav?style=flat-square&label=License&color=BF5AF2" alt="License" />
+        <img src="https://img.shields.io/github/last-commit/Agions/mangav?style=flat-square&label=Updated&color=FFC107" alt="Last Commit" />
       </p>
-      <p style="margin: 0 0 12px 0; font-size: 13px; color: #c9d1d9; line-height: 1.5;">
-        🎨 <b>多模型协同生成引擎</b>：集成 13 大 AI 大模型与 FFmpeg 硬件加速，输入小说自动生成 4K 精致漫剧与动态分镜。
+      <p style="margin:0 0 12px; font-size:13px; color:#c9d1d9; line-height:1.6;">
+        🎨 集成 13 大 AI 大模型与 FFmpeg 硬件加速引擎，输入小说一键生成 4K 精致漫剧分镜与动态合成视频。
       </p>
-      <table width="100%" style="width: 100%; border-collapse: collapse;">
+      <table width="100%" style="width:100%; border-collapse:collapse;">
         <tr>
-          <td align="left">
-            <code style="background: #161b22; color: #3178c6; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">TypeScript</code>
-            <code style="background: #161b22; color: #ffc131; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Tauri 2</code>
-            <code style="background: #161b22; color: #e3b341; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Rust</code>
-            <code style="background: #161b22; color: #a371f7; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">AI LLM</code>
-            <code style="background: #161b22; color: #00d4aa; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">FFmpeg</code>
+          <td>
+            <code style="background:#161b22; color:#3178c6; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TypeScript</code>
+            <code style="background:#161b22; color:#ffc131; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Tauri 2</code>
+            <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Rust</code>
+            <code style="background:#161b22; color:#a371f7; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">LLM</code>
+            <code style="background:#161b22; color:#00d4aa; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">FFmpeg</code>
           </td>
           <td align="right">
-            <a href="https://github.com/Agions/mangav" style="color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 13px;"><code>📂 查看源码 →</code></a>
+            <a href="https://github.com/Agions/mangav" style="color:#58a6ff; font-size:13px; font-weight:500; text-decoration:none;">View Source →</a>
           </td>
         </tr>
       </table>
@@ -129,46 +123,91 @@
   </tr>
 </table>
 
-<!-- Card 3: CaptionFab -->
-<table width="100%" style="width: 100%; border-collapse: collapse; margin-bottom: 16px;">
+<!-- Card 3: Distill -->
+<table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:14px;">
   <tr>
-    <td width="100%" style="width: 100%; padding: 18px; background-color: #0d1117; border: 1px solid #30363d; border-radius: 12px; vertical-align: top;">
-      <table width="100%" style="width: 100%; border-collapse: collapse;">
+    <td width="100%" style="width:100%; padding:18px 20px; background:#0d1117; border:1px solid #21262d; border-radius:12px; vertical-align:top;">
+      <table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:10px;">
         <tr>
-          <td align="left">
-            <h3 style="margin: 0; padding: 0;">
-              <img src="assets/caption-fab-icon.png" width="20" height="20" alt="CaptionFab Logo" style="vertical-align: middle; border-radius: 4px; margin-right: 6px;" />
-              <a href="https://github.com/Agions/caption-fab" style="color: #58a6ff; text-decoration: none;">CaptionFab</a>
+          <td>
+            <h3 style="margin:0; font-size:16px;">
+              <img src="assets/distill-icon.png" width="20" height="20" alt="" style="vertical-align:middle; border-radius:4px; margin-right:7px;" /><a href="https://github.com/Agions/Distill" style="color:#58a6ff; text-decoration:none;">Distill</a> <span style="color:#8b949e; font-weight:400; font-size:14px;">字幕蒸馏</span>
             </h3>
           </td>
           <td align="right">
-            <span style="font-size: 12px; color: #8b949e; background: #161b22; padding: 4px 10px; border-radius: 12px; border: 1px solid #30363d;">⭐ 21 · Subtitle OCR</span>
+            <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d; white-space:nowrap;">⭐ 21 &nbsp;·&nbsp; Subtitle OCR</span>
           </td>
         </tr>
       </table>
-      <p style="margin: 10px 0; color: #8b949e; font-size: 13.5px;">
-        桌面端高性能硬编码字幕自动识别与精准提取引擎 (Tauri + Vue 3 + Rust + PaddleOCR)
+      <p style="margin:0 0 10px; color:#6e7681; font-size:13px; line-height:1.5;">
+        专业视频硬字幕提取与蒸馏工具，支持离线与云端双模式 · Tauri · Vue 3 · Rust · PaddleOCR
       </p>
-      <p style="margin: 0 0 10px 0;">
-        <img src="https://img.shields.io/github/stars/Agions/caption-fab?style=flat-square&logo=github&label=%E2%AD%90%20Stars&color=30D158" alt="Stars"/>
-        <img src="https://img.shields.io/github/forks/Agions/caption-fab?style=flat-square&logo=github&label=%F0%9F%93%A1%20Forks&color=0A84FF" alt="Forks"/>
-        <img src="https://img.shields.io/github/license/Agions/caption-fab?style=flat-square&label=License&color=BF5AF2" alt="License"/>
-        <img src="https://img.shields.io/github/last-commit/Agions/caption-fab?style=flat-square&label=Updated&color=FFC107" alt="Last Commit"/>
+      <p style="margin:0 0 10px;">
+        <img src="https://img.shields.io/github/stars/Agions/Distill?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
+        <img src="https://img.shields.io/github/forks/Agions/Distill?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
+        <img src="https://img.shields.io/github/license/Agions/Distill?style=flat-square&label=License&color=BF5AF2" alt="License" />
+        <img src="https://img.shields.io/github/last-commit/Agions/Distill?style=flat-square&label=Updated&color=FFC107" alt="Last Commit" />
       </p>
-      <p style="margin: 0 0 12px 0; font-size: 13px; color: #c9d1d9; line-height: 1.5;">
-        🔍 <b>多语言硬字幕提取引擎</b>：支持批量处理、多语言 OCR 识别（中/英/日/韩）与 SRT/ASS/VTT 多格式精准导出。
+      <p style="margin:0 0 12px; font-size:13px; color:#c9d1d9; line-height:1.6;">
+        🔍 高性能桌面端硬字幕精准提取引擎，支持批量处理、多语言 OCR 识别（中/英/日/韩）与 SRT/ASS/VTT 多格式导出。
       </p>
-      <table width="100%" style="width: 100%; border-collapse: collapse;">
+      <table width="100%" style="width:100%; border-collapse:collapse;">
         <tr>
-          <td align="left">
-            <code style="background: #161b22; color: #ffc131; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Tauri</code>
-            <code style="background: #161b22; color: #e3b341; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Rust</code>
-            <code style="background: #161b22; color: #4fc08d; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">Vue 3</code>
-            <code style="background: #161b22; color: #3178c6; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">TypeScript</code>
-            <code style="background: #161b22; color: #f05138; border: 1px solid #30363d; padding: 3px 8px; border-radius: 6px; font-size: 11px;">PaddleOCR</code>
+          <td>
+            <code style="background:#161b22; color:#ffc131; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Tauri</code>
+            <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Rust</code>
+            <code style="background:#161b22; color:#4fc08d; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Vue 3</code>
+            <code style="background:#161b22; color:#3178c6; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TypeScript</code>
+            <code style="background:#161b22; color:#f05138; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">PaddleOCR</code>
           </td>
           <td align="right">
-            <a href="https://github.com/Agions/caption-fab" style="color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 13px;"><code>📂 查看源码 →</code></a>
+            <a href="https://github.com/Agions/Distill" style="color:#58a6ff; font-size:13px; font-weight:500; text-decoration:none;">View Source →</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- Card 4: Vynth -->
+<table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:14px;">
+  <tr>
+    <td width="100%" style="width:100%; padding:18px 20px; background:#0d1117; border:1px solid #21262d; border-radius:12px; vertical-align:top;">
+      <table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:10px;">
+        <tr>
+          <td>
+            <h3 style="margin:0; font-size:16px;">
+              <img src="assets/vynth-icon.png" width="20" height="20" alt="" style="vertical-align:middle; border-radius:4px; margin-right:7px;" /><a href="https://github.com/Agions/vynth" style="color:#58a6ff; text-decoration:none;">Vynth</a> <span style="color:#8b949e; font-weight:400; font-size:14px;">Zeno AI</span>
+            </h3>
+          </td>
+          <td align="right">
+            <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d; white-space:nowrap;">⭐ 15 &nbsp;·&nbsp; TUI AI Agent</span>
+          </td>
+        </tr>
+      </table>
+      <p style="margin:0 0 10px; color:#6e7681; font-size:13px; line-height:1.5;">
+        本地优先的单二进制 TUI AI 编程代理 · Bun · TypeScript · 多智能体协作
+      </p>
+      <p style="margin:0 0 10px;">
+        <img src="https://img.shields.io/github/stars/Agions/vynth?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
+        <img src="https://img.shields.io/github/forks/Agions/vynth?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
+        <img src="https://img.shields.io/github/license/Agions/vynth?style=flat-square&label=License&color=BF5AF2" alt="License" />
+        <img src="https://img.shields.io/github/last-commit/Agions/vynth?style=flat-square&label=Updated&color=FFC107" alt="Last Commit" />
+      </p>
+      <p style="margin:0 0 12px; font-size:13px; color:#c9d1d9; line-height:1.6;">
+        🤖 多智能体协作 + 安全沙箱 + 插件可扩展架构，单二进制分发，类 Claude Code / Codex CLI 的本地优先 AI 编程终端。
+      </p>
+      <table width="100%" style="width:100%; border-collapse:collapse;">
+        <tr>
+          <td>
+            <code style="background:#161b22; color:#f5a623; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Bun</code>
+            <code style="background:#161b22; color:#3178c6; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TypeScript</code>
+            <code style="background:#161b22; color:#a371f7; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Multi-Agent</code>
+            <code style="background:#161b22; color:#58a6ff; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TUI</code>
+            <code style="background:#161b22; color:#00d4aa; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Sandbox</code>
+          </td>
+          <td align="right">
+            <a href="https://github.com/Agions/vynth" style="color:#58a6ff; font-size:13px; font-weight:500; text-decoration:none;">View Source →</a>
           </td>
         </tr>
       </table>
@@ -194,29 +233,24 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Agions&theme=react-dark&hide_border=true&bg_color=0d1117&color=0A84FF&line=30D158&point=BF5AF2&custom_title=Agions·Contribution+Graph" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Agions&theme=default&hide_border=true&bg_color=ffffff&color=0A84FF&line=30D158&point=BF5AF2&custom_title=Agions·Contribution+Graph" width="100%" alt="Contribution Graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Agions&theme=react-dark&hide_border=true&bg_color=0d1117&color=0A84FF&line=30D158&point=BF5AF2&custom_title=Agions+·+Contribution+Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Agions&theme=default&hide_border=true&bg_color=ffffff&color=0A84FF&line=30D158&point=BF5AF2&custom_title=Agions+·+Contribution+Graph" width="100%" alt="Contribution Graph" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Agions/Agions/main/output/snake.svg" />
-    <img src="https://raw.githubusercontent.com/Agions/Agions/main/output/snake.svg" alt="Contribution Snake Animation" />
+    <img src="https://raw.githubusercontent.com/Agions/Agions/main/output/snake.svg" alt="Contribution Snake" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Agions/Agions/stargazers"><img src="https://img.shields.io/github/stars/Agions/Agions?style=flat-square&color=FFC107&label=%E2%AD%90%20Stars" alt="Stars"/></a>
-  <a href="https://github.com/Agions/Agions/network/members"><img src="https://img.shields.io/github/forks/Agions/Agions?style=flat-square&color=30D158&label=%F0%9F%93%A1%20Forks" alt="Forks"/></a>
-  <a href="https://github.com/Agions/Agions/watchers"><img src="https://img.shields.io/github/watchers/Agions/Agions?style=flat-square&color=0A84FF&label=%F0%9F%91%81%20Watchers" alt="Watchers"/></a>
-  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/repo-size/Agions/Agions?style=flat-square&color=BF5AF2&label=%F0%9F%92%BE%20Size" alt="Repo Size"/></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Agions"><img src="https://img.shields.io/github/contributors/Agions/Agions?style=flat-square&color=0A84FF&label=%F0%9F%91%A5%20Contributors" alt="Contributors"/></a>
-  <a href="https://github.com/Agions/Agions/commits/main"><img src="https://img.shields.io/github/last-commit/Agions/Agions?style=flat-square&color=30D158&label=%F0%9F%94%84%20Last%20Commit" alt="Last Commit"/></a>
-  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/commit-activity/t/Agions/Agions?style=flat-square&color=FFC107&label=%F0%9F%93%8D%20Commits" alt="Commits"/></a>
+  <a href="https://github.com/Agions/Agions/stargazers"><img src="https://img.shields.io/github/stars/Agions/Agions?style=flat-square&color=FFC107&label=Stars" alt="Stars"/></a>
+  <a href="https://github.com/Agions/Agions/network/members"><img src="https://img.shields.io/github/forks/Agions/Agions?style=flat-square&color=30D158&label=Forks" alt="Forks"/></a>
+  <a href="https://github.com/Agions/Agions/watchers"><img src="https://img.shields.io/github/watchers/Agions/Agions?style=flat-square&color=0A84FF&label=Watchers" alt="Watchers"/></a>
+  <a href="https://github.com/Agions/Agions/commits/main"><img src="https://img.shields.io/github/last-commit/Agions/Agions?style=flat-square&color=30D158&label=Last+Commit" alt="Last Commit"/></a>
+  <a href="https://github.com/Agions/Agions"><img src="https://img.shields.io/github/commit-activity/t/Agions/Agions?style=flat-square&color=FFC107&label=Total+Commits" alt="Commits"/></a>
 </p>
 <!-- end:activity -->
 
@@ -226,13 +260,13 @@
 ## 📬 Let's Connect
 
 <p align="center">
-  <img src="assets/wechat-qrcode.png" width="120" alt="WeChat QR Code" style="border-radius:10px;"/>
+  <img src="assets/wechat-qrcode.png" width="120" alt="WeChat QR Code" style="border-radius:10px;" />
   <br/>
   <sub>📱 WeChat 公众号</sub>
 </p>
 
 <p align="center">
-  <sub>💬 反馈与建议 · 开源合作 · 项目交流</sub>
+  <sub>💬 开源合作 · 项目交流 · 反馈与建议</sub>
 </p>
 <!-- end:contact -->
 
@@ -240,10 +274,6 @@
 
 <!-- section:footer -->
 <p align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%8C%A8%20Made%20with%20%E2%9D%A4%EF%B8%8F%20and%20%E2%98%95-E8A838?style=flat-square" alt="Made with ❤️ and ☕"/>
-</p>
-
-<p align="center">
-  <sub>⚡ Agions · Building the next generation of video tools · Since 2017</sub>
+  <sub>⚡ Agions · Building the next generation of AI-native video & developer tools · Since 2017</sub>
 </p>
 <!-- end:footer -->
