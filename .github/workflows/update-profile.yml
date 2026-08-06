@@ -52,7 +52,7 @@ jobs:
 
       - name: Verify featured projects in README
         run: |
-          PROJECTS="vynaro mangav Distill vynth"
+          PROJECTS="vynaro mangav Distill"
           MISSING=0
           for proj in $PROJECTS; do
             if grep -q "$proj" README.md; then
@@ -159,7 +159,7 @@ jobs:
 
       - name: Verify GitHub project links
         run: |
-          PROJECTS="vynaro mangav Distill vynth Agions"
+          PROJECTS="vynaro mangav Distill Agions"
           FAILED=0
           for proj in $PROJECTS; do
             url="https://github.com/Agions/${proj}"

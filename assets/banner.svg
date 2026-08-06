@@ -223,52 +223,40 @@
     </rect>
   </g>
 
-  <!-- Stats row 2 — featured projects (vynaro, mangav, Distill, vynth) -->
+  <!-- Stats row 2 — featured projects (vynaro, mangav, Distill) -->
   <g>
-    <text x="540" y="130" text-anchor="middle"
+    <text x="560" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
           font-size="22" font-weight="800" fill="#FFFFFF">337</text>
-    <text x="540" y="144" text-anchor="middle"
+    <text x="560" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
           font-size="8" font-weight="700" letter-spacing="1.5" fill="#30D158">vynaro</text>
-      <circle cx="515" cy="137" r="2.5" fill="#30D158">
+      <circle cx="535" cy="137" r="2.5" fill="#30D158">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
       </circle>
   </g>
 
   <g>
-    <text x="630" y="130" text-anchor="middle"
+    <text x="675" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
           font-size="22" font-weight="800" fill="#FFFFFF">70</text>
-    <text x="630" y="144" text-anchor="middle"
+    <text x="675" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
           font-size="8" font-weight="700" letter-spacing="1.5" fill="#0A84FF">mangav</text>
-      <circle cx="608" cy="137" r="2.5" fill="#0A84FF">
+      <circle cx="650" cy="137" r="2.5" fill="#0A84FF">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
       </circle>
   </g>
 
   <g>
-    <text x="720" y="130" text-anchor="middle"
+    <text x="790" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
           font-size="22" font-weight="800" fill="#FFFFFF">21</text>
-    <text x="720" y="144" text-anchor="middle"
+    <text x="790" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
           font-size="8" font-weight="700" letter-spacing="1.5" fill="#00D4AA">Distill</text>
-      <circle cx="700" cy="137" r="2.5" fill="#00D4AA">
+      <circle cx="760" cy="137" r="2.5" fill="#00D4AA">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-      </circle>
-  </g>
-
-  <g>
-    <text x="810" y="130" text-anchor="middle"
-          font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">15</text>
-    <text x="810" y="144" text-anchor="middle"
-          font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="8" font-weight="700" letter-spacing="1.5" fill="#BF5AF2">vynth</text>
-      <circle cx="793" cy="137" r="2.5" fill="#BF5AF2">
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
       </circle>
   </g>
 

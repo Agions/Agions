@@ -169,51 +169,6 @@
   </tr>
 </table>
 
-<!-- Card 4: Vynth -->
-<table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:14px;">
-  <tr>
-    <td width="100%" style="width:100%; padding:18px 20px; background:#0d1117; border:1px solid #21262d; border-radius:12px; vertical-align:top;">
-      <table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:10px;">
-        <tr>
-          <td>
-            <h3 style="margin:0; font-size:16px;">
-              <img src="assets/vynth-icon.png" width="20" height="20" alt="" style="vertical-align:middle; border-radius:4px; margin-right:7px;" /><a href="https://github.com/Agions/vynth" style="color:#58a6ff; text-decoration:none;">Vynth</a> <span style="color:#8b949e; font-weight:400; font-size:14px;">Zeno AI</span>
-            </h3>
-          </td>
-          <td align="right">
-            <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d; white-space:nowrap;">⭐ 15 &nbsp;·&nbsp; TUI AI Agent</span>
-          </td>
-        </tr>
-      </table>
-      <p style="margin:0 0 10px; color:#6e7681; font-size:13px; line-height:1.5;">
-        本地优先的单二进制 TUI AI 编程代理 · Bun · TypeScript · 多智能体协作
-      </p>
-      <p style="margin:0 0 10px;">
-        <img src="https://img.shields.io/github/stars/Agions/vynth?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
-        <img src="https://img.shields.io/github/forks/Agions/vynth?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
-        <img src="https://img.shields.io/github/license/Agions/vynth?style=flat-square&label=License&color=BF5AF2" alt="License" />
-        <img src="https://img.shields.io/github/last-commit/Agions/vynth?style=flat-square&label=Updated&color=FFC107" alt="Last Commit" />
-      </p>
-      <p style="margin:0 0 12px; font-size:13px; color:#c9d1d9; line-height:1.6;">
-        🤖 多智能体协作 + 安全沙箱 + 插件可扩展架构，单二进制分发，类 Claude Code / Codex CLI 的本地优先 AI 编程终端。
-      </p>
-      <table width="100%" style="width:100%; border-collapse:collapse;">
-        <tr>
-          <td>
-            <code style="background:#161b22; color:#f5a623; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Bun</code>
-            <code style="background:#161b22; color:#3178c6; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TypeScript</code>
-            <code style="background:#161b22; color:#a371f7; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Multi-Agent</code>
-            <code style="background:#161b22; color:#58a6ff; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TUI</code>
-            <code style="background:#161b22; color:#00d4aa; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Sandbox</code>
-          </td>
-          <td align="right">
-            <a href="https://github.com/Agions/vynth" style="color:#58a6ff; font-size:13px; font-weight:500; text-decoration:none;">View Source →</a>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
 <!-- end:projects -->
 
 ---
