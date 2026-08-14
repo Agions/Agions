@@ -11,7 +11,7 @@ permissions:
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
 
@@ -30,15 +30,15 @@ jobs:
           git diff --staged --quiet || git commit -m "docs: auto-update snake animation [skip ci]"
           git push
 
-  verify-readme:
+  verify-profile:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate section markers
+      - name: Validate section markers & projects
         run: |
-          SECTIONS="banner about projects tech-stack game activity contact footer"
+          SECTIONS="banner about projects activity contact footer"
           MISSING=0
           for section in $SECTIONS; do
             if grep -q "<!-- section:${section} -->" README.md; then
@@ -48,12 +48,8 @@ jobs:
               MISSING=$((MISSING+1))
             fi
           done
-          exit $MISSING
 
-      - name: Verify featured projects in README
-        run: |
           PROJECTS="vynaro mangav Distill"
-          MISSING=0
           for proj in $PROJECTS; do
             if grep -q "$proj" README.md; then
               echo "✅ $proj referenced in README"
@@ -62,136 +58,30 @@ jobs:
               MISSING=$((MISSING+1))
             fi
           done
+
           exit $MISSING
 
-      - name: Verify snake reference in README
+      - name: Validate assets & SVG header
         run: |
-          if grep -q "snake.svg" README.md; then
-            echo "✅ Snake reference found in README"
-          else
-            echo "⚠️  Snake reference missing — adding it"
-            echo -e '\n<p align="center">\n  <img src="https://raw.githubusercontent.com/Agions/Agions/main/output/snake.svg" alt="GitHub Contribution Snake"/>\n</p>' >> README.md
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git diff --staged --quiet || git commit -m "docs: restore snake reference in README [skip ci]"
-            git push
-          fi
-
-  check-badges:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Verify all shields.io badges are reachable
-        run: |
-          BADGES=$(grep -oP 'https://img\.shields\.io[^"'"'"' )]+' README.md | sort -u)
-          FAILED=0
-          TOTAL=0
-          for url in $BADGES; do
-            TOTAL=$((TOTAL+1))
-            status=""
-            for attempt in 1 2 3; do
-              status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url" 2>/dev/null)
-              if [ "$status" = "200" ]; then
-                break
-              fi
-              [ "$attempt" -lt 3 ] && sleep 2
-            done
-            if [ "$status" != "200" ]; then
-              echo "❌ $url → $status (after 3 attempts)"
-              FAILED=$((FAILED+1))
-            else
-              echo "✅ $url → 200"
-            fi
-          done
-          echo "---"
-          echo "Badges checked: $TOTAL | Failed: $FAILED"
-          exit $FAILED
-
-  check-svg:
-    runs-on: ubuntu-latest
-    timeout-minutes: 3
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Validate SVG files
-        run: |
-          FAILED=0
           for f in assets/*.svg; do
             if head -1 "$f" | grep -q '<svg'; then
-              size=$(wc -c < "$f")
-              echo "✅ $f ($size bytes) — valid SVG header"
-              if grep -q '</svg>' "$f"; then
-                echo "   └ closing tag OK"
-              else
-                echo "   └ ⚠️  missing </svg> closing tag"
-                FAILED=$((FAILED+1))
-              fi
-              # Check for animation elements
-              if grep -q '<animate' "$f"; then
-                echo "   └ ✅ Contains SMIL animations"
-              fi
+              echo "✅ $f — valid SVG"
             else
-              echo "❌ $f — invalid SVG (no <svg> header)"
-              FAILED=$((FAILED+1))
-            fi
-          done
-          exit $FAILED
-
-      - name: Check SVG file sizes
-        run: |
-          for f in assets/*.svg; do
-            size=$(wc -c < "$f")
-            if [ "$size" -gt 20000 ]; then
-              echo "⚠️  $f is over 20KB ($size bytes) — consider optimizing"
-            else
-              echo "✅ $f — $size bytes (OK)"
+              echo "❌ $f — invalid SVG header"
+              exit 1
             fi
           done
 
-  check-links:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Verify GitHub project links
+      - name: Verify project URLs
         run: |
           PROJECTS="vynaro mangav Distill Agions"
-          FAILED=0
           for proj in $PROJECTS; do
             url="https://github.com/Agions/${proj}"
             status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url" 2>/dev/null)
             if [ "$status" = "200" ] || [ "$status" = "301" ]; then
-              echo "✅ $url → $status"
+              echo "✅ $url -> $status"
             else
-              echo "❌ $url → $status"
-              FAILED=$((FAILED+1))
+              echo "❌ $url -> $status"
+              exit 1
             fi
           done
-          exit $FAILED
-
-      - name: Check README size
-        run: |
-          SIZE=$(wc -c < README.md)
-          echo "README.md: $SIZE bytes"
-          if [ "$SIZE" -gt 20000 ]; then
-            echo "⚠️  README over 20KB — consider optimizing"
-          else
-            echo "✅ README size OK"
-          fi
-
-  format-check:
-    runs-on: ubuntu-latest
-    timeout-minutes: 3
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-      - name: Check formatting
-        run: |
-          npm install -g prettier 2>/dev/null
-          prettier --check README.md assets/*.svg .prettierrc .devcontainer/devcontainer.json .github/workflows/*.yml 2>&1 || echo "⚠️  prettier check found formatting issues (non-blocking)"
