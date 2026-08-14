@@ -223,11 +223,11 @@
     </rect>
   </g>
 
-  <!-- Stats row 2 — featured projects (vynaro, mangav, Distill) -->
+  <!-- Stats row 2 — featured projects (vynaro, novella, Distill) -->
   <g>
     <text x="560" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">337</text>
+          font-size="22" font-weight="800" fill="#FFFFFF">397</text>
     <text x="560" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
           font-size="8" font-weight="700" letter-spacing="1.5" fill="#30D158">vynaro</text>
@@ -239,10 +239,10 @@
   <g>
     <text x="675" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">70</text>
+          font-size="22" font-weight="800" fill="#FFFFFF">76</text>
     <text x="675" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="8" font-weight="700" letter-spacing="1.5" fill="#0A84FF">mangav</text>
+          font-size="8" font-weight="700" letter-spacing="1.5" fill="#0A84FF">novella</text>
       <circle cx="650" cy="137" r="2.5" fill="#0A84FF">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
       </circle>

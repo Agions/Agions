@@ -49,7 +49,7 @@ jobs:
             fi
           done
 
-          PROJECTS="vynaro mangav Distill"
+          PROJECTS="vynaro novella Distill"
           for proj in $PROJECTS; do
             if grep -q "$proj" README.md; then
               echo "✅ $proj referenced in README"
@@ -74,7 +74,7 @@ jobs:
 
       - name: Verify project URLs
         run: |
-          PROJECTS="vynaro mangav Distill Agions"
+          PROJECTS="vynaro novella Distill Agions"
           for proj in $PROJECTS; do
             url="https://github.com/Agions/${proj}"
             status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url" 2>/dev/null)
