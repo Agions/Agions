@@ -16,14 +16,26 @@
 <!-- section:about -->
 ## 👨‍💻 About Me
 
-> **Full-Stack Developer · Desktop & AI Video Toolchain Architect**
->
-> 专注跨平台桌面应用与音视频 AI 工具链的开源工程实践。核心技术栈：**Rust · TypeScript · Python**，覆盖 Tauri 2.0 桌面端、AI 推理与全栈工程化。
-> 维护 [Agions](https://github.com/Agions) 开源组织，致力于打造从 AI 影视解说、漫剧创作到字幕蒸馏提取的下一代开源工具矩阵。
-
-<p align="center">
-  <img src="assets/profile-card.svg" width="300" alt="Profile Card" style="border-radius:16px;" />
-</p>
+<table width="100%" style="width:100%; border-collapse:collapse; margin-top:12px;">
+  <tr>
+    <td style="padding:20px; background:#0d1117; border:1px solid #21262d; border-radius:12px;">
+      <p style="margin:0 0 10px; font-size:15px; font-weight:600; color:#58a6ff;">
+        ⚡ Full-Stack Developer & Desktop / Audio-Video AI Architect
+      </p>
+      <p style="margin:0 0 14px; color:#c9d1d9; font-size:13.5px; line-height:1.6;">
+        专注跨平台桌面应用与音视频 AI 工具链的开源工程实践。核心技术栈涵盖 <b>Rust · TypeScript · Python</b>，致力于 Tauri 2.0 桌面端、Multi-Agent 多智能体架构与音视频硬件加速。
+        维护 <a href="https://github.com/Agions" style="color:#58a6ff; text-decoration:none;">Agions</a> 开源组织，打造从 AI 影视解说、漫剧短剧创作到硬字幕蒸馏提取的下一代开源工具矩阵。
+      </p>
+      <div style="padding-top:12px; border-top:1px solid #21262d;">
+        <span style="font-size:12px; color:#8b949e; margin-right:8px;"><b>Core Domain:</b></span>
+        <code style="background:#161b22; color:#79c0ff; border:1px solid #30363d; padding:3px 9px; border-radius:5px; font-size:11px;">Tauri 2.0 & Rust</code>
+        <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:3px 9px; border-radius:5px; font-size:11px;">Audio/Video AI Pipeline</code>
+        <code style="background:#161b22; color:#a371f7; border:1px solid #30363d; padding:3px 9px; border-radius:5px; font-size:11px;">Multi-Agent Architecture</code>
+        <code style="background:#161b22; color:#00d4aa; border:1px solid #30363d; padding:3px 9px; border-radius:5px; font-size:11px;">FFmpeg Hardware Acceleration</code>
+      </div>
+    </td>
+  </tr>
+</table>
 <!-- end:about -->
 
 ---
