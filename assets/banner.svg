@@ -223,14 +223,14 @@
     </rect>
   </g>
 
-  <!-- Stats row 2 — featured projects (vynaro, novella, Distill) -->
+  <!-- Stats row 2 — featured projects (splicr, novella, Distill) -->
   <g>
     <text x="560" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">397</text>
+          font-size="22" font-weight="800" fill="#FFFFFF">408</text>
     <text x="560" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="8" font-weight="700" letter-spacing="1.5" fill="#30D158">vynaro</text>
+          font-size="8" font-weight="700" letter-spacing="1.5" fill="#30D158">splicr</text>
       <circle cx="535" cy="137" r="2.5" fill="#30D158">
         <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
       </circle>
@@ -239,7 +239,7 @@
   <g>
     <text x="675" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">76</text>
+          font-size="22" font-weight="800" fill="#FFFFFF">80</text>
     <text x="675" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
           font-size="8" font-weight="700" letter-spacing="1.5" fill="#0A84FF">novella</text>
@@ -251,7 +251,7 @@
   <g>
     <text x="790" y="130" text-anchor="middle"
           font-family="'SF Pro Display','Inter','Helvetica Neue',Arial,sans-serif"
-          font-size="22" font-weight="800" fill="#FFFFFF">21</text>
+          font-size="22" font-weight="800" fill="#FFFFFF">22</text>
     <text x="790" y="144" text-anchor="middle"
           font-family="'SF Pro Text','Inter','Helvetica Neue',Arial,sans-serif"
           font-size="8" font-weight="700" letter-spacing="1.5" fill="#00D4AA">Distill</text>

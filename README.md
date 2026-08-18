@@ -43,31 +43,37 @@
 <!-- section:projects -->
 ## 🚀 Featured Projects
 
-<!-- Card 1: Vynaro -->
+<!-- Card 1: Splicr -->
 <table width="100%" style="width:100%; border-collapse:collapse; margin-bottom:14px;">
   <tr>
     <td style="padding:18px 20px; background:#0d1117; border:1px solid #21262d; border-radius:12px;">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
         <h3 style="margin:0; font-size:16px;">
-          <img src="assets/vynaro-icon.png" width="20" height="20" alt="" style="vertical-align:middle; border-radius:4px; margin-right:7px;" /><a href="https://github.com/Agions/vynaro" style="color:#58a6ff; text-decoration:none;">Vynaro</a> <span style="color:#8b949e; font-weight:400; font-size:14px;">叙影 AI</span>
+          <img src="assets/splicr-icon.png" width="20" height="20" alt="" style="vertical-align:middle; border-radius:4px; margin-right:7px;" /><a href="https://github.com/Agions/splicr" style="color:#58a6ff; text-decoration:none;">Splicr</a> <span style="color:#8b949e; font-weight:400; font-size:14px;">叙影 AI (Vynaro)</span>
         </h3>
-        <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d;">⭐ 397 &nbsp;·&nbsp; #1 Flagship</span>
+        <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d;">⭐ 408 &nbsp;·&nbsp; #1 Flagship</span>
       </div>
       <p style="margin:0 0 8px; color:#6e7681; font-size:13px;">下一代 7 步全自动 AI 影视解说与第一人称视频创作工具 · Tauri 2 · Rust · React 19</p>
       <p style="margin:0 0 10px;">
-        <img src="https://img.shields.io/github/stars/Agions/vynaro?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
-        <img src="https://img.shields.io/github/forks/Agions/vynaro?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
-        <img src="https://img.shields.io/github/license/Agions/vynaro?style=flat-square&label=License&color=BF5AF2" alt="License" />
+        <img src="https://img.shields.io/github/stars/Agions/splicr?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
+        <img src="https://img.shields.io/github/forks/Agions/splicr?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
+        <img src="https://img.shields.io/github/license/Agions/splicr?style=flat-square&label=License&color=BF5AF2" alt="License" />
       </p>
       <p style="margin:0 0 12px; font-size:13px; color:#c9d1d9; line-height:1.6;">
         ⚡ 语音识别 → AI 剧本生成 → 多角色 TTS 语音合成 → 字幕精准对齐 → 4K 高清视频自动渲染，全流程本地端到端处理。
       </p>
-      <div>
-        <code style="background:#161b22; color:#79c0ff; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Tauri 2</code>
-        <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Rust</code>
-        <code style="background:#161b22; color:#61dafb; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">React 19</code>
-        <code style="background:#161b22; color:#ff9500; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Whisper</code>
-        <code style="background:#161b22; color:#00d4aa; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">FFmpeg</code>
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <code style="background:#161b22; color:#79c0ff; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Tauri 2</code>
+          <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Rust</code>
+          <code style="background:#161b22; color:#61dafb; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">React 19</code>
+          <code style="background:#161b22; color:#ff9500; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Whisper</code>
+          <code style="background:#161b22; color:#00d4aa; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">FFmpeg</code>
+        </div>
+        <div>
+          <a href="https://agions.github.io/splicr/" style="color:#58a6ff; text-decoration:none; font-size:12px; font-weight:500; margin-right:12px;">📖 官方文档</a>
+          <a href="https://github.com/Agions/splicr" style="color:#8b949e; text-decoration:none; font-size:12px; font-weight:500;">📂 源码仓库 →</a>
+        </div>
       </div>
     </td>
   </tr>
@@ -81,7 +87,7 @@
         <h3 style="margin:0; font-size:16px;">
           <img src="assets/novella-icon.png" width="20" height="20" alt="" style="vertical-align:middle; border-radius:4px; margin-right:7px;" /><a href="https://github.com/Agions/novella" style="color:#58a6ff; text-decoration:none;">Novella</a> <span style="color:#8b949e; font-weight:400; font-size:14px;">Novella AI</span>
         </h3>
-        <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d;">⭐ 76 &nbsp;·&nbsp; AI Manga & Anime</span>
+        <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d;">⭐ 80 &nbsp;·&nbsp; AI Manga & Anime</span>
       </div>
       <p style="margin:0 0 8px; color:#6e7681; font-size:13px;">🎬 端到端 AI 漫剧 / 动画短剧 Multi-Agent 多智能体协作创作平台 · Tauri · Rust</p>
       <p style="margin:0 0 10px;">
@@ -92,12 +98,18 @@
       <p style="margin:0 0 12px; font-size:13px; color:#c9d1d9; line-height:1.6;">
         🎨 基于 Hub-and-Spoke 智能体架构、ProjectBlackboard 共享黑板、Agent 扩展插件与角色 Consistency 锚定。
       </p>
-      <div>
-        <code style="background:#161b22; color:#3178c6; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TypeScript</code>
-        <code style="background:#161b22; color:#ffc131; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Tauri 2</code>
-        <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Rust</code>
-        <code style="background:#161b22; color:#a371f7; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Multi-Agent</code>
-        <code style="background:#161b22; color:#00d4aa; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">FFmpeg</code>
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <code style="background:#161b22; color:#3178c6; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TypeScript</code>
+          <code style="background:#161b22; color:#ffc131; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Tauri 2</code>
+          <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Rust</code>
+          <code style="background:#161b22; color:#a371f7; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Multi-Agent</code>
+          <code style="background:#161b22; color:#00d4aa; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">FFmpeg</code>
+        </div>
+        <div>
+          <a href="https://agions.github.io/novella/" style="color:#58a6ff; text-decoration:none; font-size:12px; font-weight:500; margin-right:12px;">📖 官方文档</a>
+          <a href="https://github.com/Agions/novella" style="color:#8b949e; text-decoration:none; font-size:12px; font-weight:500;">📂 源码仓库 →</a>
+        </div>
       </div>
     </td>
   </tr>
@@ -111,7 +123,7 @@
         <h3 style="margin:0; font-size:16px;">
           <img src="assets/distill-icon.png" width="20" height="20" alt="" style="vertical-align:middle; border-radius:4px; margin-right:7px;" /><a href="https://github.com/Agions/Distill" style="color:#58a6ff; text-decoration:none;">Distill</a> <span style="color:#8b949e; font-weight:400; font-size:14px;">字幕蒸馏</span>
         </h3>
-        <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d;">⭐ 21 &nbsp;·&nbsp; Subtitle OCR</span>
+        <span style="font-size:11px; color:#8b949e; background:#161b22; padding:3px 10px; border-radius:20px; border:1px solid #30363d;">⭐ 22 &nbsp;·&nbsp; Subtitle OCR</span>
       </div>
       <p style="margin:0 0 8px; color:#6e7681; font-size:13px;">专业视频硬字幕提取与蒸馏工具，支持离线与云端双模式 · Tauri · Vue 3 · Rust · PaddleOCR</p>
       <p style="margin:0 0 10px;">
@@ -122,12 +134,18 @@
       <p style="margin:0 0 12px; font-size:13px; color:#c9d1d9; line-height:1.6;">
         🔍 高性能桌面端硬字幕精准提取引擎，支持批量处理、多语言 OCR 识别（中/英/日/韩）与 SRT/ASS/VTT 多格式导出。
       </p>
-      <div>
-        <code style="background:#161b22; color:#ffc131; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Tauri</code>
-        <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Rust</code>
-        <code style="background:#161b22; color:#4fc08d; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Vue 3</code>
-        <code style="background:#161b22; color:#3178c6; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TypeScript</code>
-        <code style="background:#161b22; color:#f05138; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">PaddleOCR</code>
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <code style="background:#161b22; color:#ffc131; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Tauri</code>
+          <code style="background:#161b22; color:#e3b341; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Rust</code>
+          <code style="background:#161b22; color:#4fc08d; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">Vue 3</code>
+          <code style="background:#161b22; color:#3178c6; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">TypeScript</code>
+          <code style="background:#161b22; color:#f05138; border:1px solid #30363d; padding:2px 8px; border-radius:5px; font-size:11px;">PaddleOCR</code>
+        </div>
+        <div>
+          <a href="https://agions.github.io/Distill/" style="color:#58a6ff; text-decoration:none; font-size:12px; font-weight:500; margin-right:12px;">📖 官方文档</a>
+          <a href="https://github.com/Agions/Distill" style="color:#8b949e; text-decoration:none; font-size:12px; font-weight:500;">📂 源码仓库 →</a>
+        </div>
       </div>
     </td>
   </tr>
