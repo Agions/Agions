@@ -55,6 +55,7 @@
       </div>
       <p style="margin:0 0 8px; color:#6e7681; font-size:13px;">下一代 7 步全自动 AI 影视解说与第一人称视频创作工具 · Tauri 2 · Rust · React 19</p>
       <p style="margin:0 0 10px;">
+        <a href="https://agions.github.io/splicr/"><img src="https://img.shields.io/badge/Docs-Online-0A84FF?style=flat-square&logo=gitbook&logoColor=white" alt="Docs" /></a>
         <img src="https://img.shields.io/github/stars/Agions/splicr?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
         <img src="https://img.shields.io/github/forks/Agions/splicr?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
         <img src="https://img.shields.io/github/license/Agions/splicr?style=flat-square&label=License&color=BF5AF2" alt="License" />
@@ -91,6 +92,7 @@
       </div>
       <p style="margin:0 0 8px; color:#6e7681; font-size:13px;">🎬 端到端 AI 漫剧 / 动画短剧 Multi-Agent 多智能体协作创作平台 · Tauri · Rust</p>
       <p style="margin:0 0 10px;">
+        <a href="https://agions.github.io/novella/"><img src="https://img.shields.io/badge/Docs-Online-0A84FF?style=flat-square&logo=gitbook&logoColor=white" alt="Docs" /></a>
         <img src="https://img.shields.io/github/stars/Agions/novella?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
         <img src="https://img.shields.io/github/forks/Agions/novella?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
         <img src="https://img.shields.io/github/license/Agions/novella?style=flat-square&label=License&color=BF5AF2" alt="License" />
@@ -127,6 +129,7 @@
       </div>
       <p style="margin:0 0 8px; color:#6e7681; font-size:13px;">专业视频硬字幕提取与蒸馏工具，支持离线与云端双模式 · Tauri · Vue 3 · Rust · PaddleOCR</p>
       <p style="margin:0 0 10px;">
+        <a href="https://agions.github.io/Distill/"><img src="https://img.shields.io/badge/Docs-Online-0A84FF?style=flat-square&logo=gitbook&logoColor=white" alt="Docs" /></a>
         <img src="https://img.shields.io/github/stars/Agions/Distill?style=flat-square&logo=github&label=Stars&color=30D158" alt="Stars" />
         <img src="https://img.shields.io/github/forks/Agions/Distill?style=flat-square&logo=github&label=Forks&color=0A84FF" alt="Forks" />
         <img src="https://img.shields.io/github/license/Agions/Distill?style=flat-square&label=License&color=BF5AF2" alt="License" />
