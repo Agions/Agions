@@ -2,7 +2,7 @@ name: Update Profile
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -49,9 +49,9 @@ jobs:
             fi
           done
 
-          PROJECTS="splicr novella Distill"
+          PROJECTS="dramaxis kineo VidGlyph"
           for proj in $PROJECTS; do
-            if grep -q "$proj" README.md; then
+            if grep -qi "$proj" README.md; then
               echo "✅ $proj referenced in README"
             else
               echo "❌ $proj NOT found in README"
@@ -74,7 +74,7 @@ jobs:
 
       - name: Verify project URLs
         run: |
-          PROJECTS="splicr novella Distill Agions"
+          PROJECTS="dramaxis kineo VidGlyph Agions"
           for proj in $PROJECTS; do
             url="https://github.com/Agions/${proj}"
             status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url" 2>/dev/null)
